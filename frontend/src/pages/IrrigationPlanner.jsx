@@ -28,16 +28,25 @@ const IrrigationPlanner = () => {
   const loadHistory = async () => {
     try {
       setLoadingHistory(true);
-      const response = await irrigationService.getRuleBasedSchedules().catch(() => null);
-      let items = response?.data || response || [];
-      if (!Array.isArray(items) || items.length === 0) {
-        const rawLocal = localStorage.getItem('agrisathi_irrigation_history');
-        if (rawLocal) items = JSON.parse(rawLocal);
+      let items = [];
+      const rawLocal = localStorage.getItem('agrisathi_irrigation_history');
+      if (rawLocal) {
+        try { items = JSON.parse(rawLocal); } catch (_) {}
       }
-      if (Array.isArray(items)) {
-        setHistoryList(items);
-        localStorage.setItem('agrisathi_irrigation_history', JSON.stringify(items));
-      }
+      if (!Array.isArray(items)) items = [];
+
+      try {
+        const response = await irrigationService.getRuleBasedSchedules().catch(() => null);
+        const serverItems = response?.data || response || [];
+        if (Array.isArray(serverItems) && serverItems.length > 0) {
+          const existingIds = new Set(items.map(i => String(i._id)));
+          const serverFiltered = serverItems.filter(i => !existingIds.has(String(i._id)));
+          items = [...items, ...serverFiltered];
+        }
+      } catch (_) {}
+
+      setHistoryList(items);
+      localStorage.setItem('agrisathi_irrigation_history', JSON.stringify(items));
     } catch (err) {
       console.warn('Failed to load irrigation history:', err);
     } finally {
@@ -47,6 +56,9 @@ const IrrigationPlanner = () => {
 
   useEffect(() => {
     loadHistory();
+    const handleUpdate = () => loadHistory();
+    window.addEventListener('agrisathi_irrigation_updated', handleUpdate);
+    return () => window.removeEventListener('agrisathi_irrigation_updated', handleUpdate);
   }, [activeTab]);
 
   const handleScheduleReceived = (data) => {
