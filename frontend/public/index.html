@@ -37,49 +37,6 @@
     <title>Urban Farming Platform - Smart Agriculture Solutions</title>
     
     <style>
-      /* Loading screen styles */
-      #loading-screen {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: linear-gradient(135deg, #10b981 0%, #059669 100%);
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        z-index: 9999;
-        transition: opacity 0.5s ease-out;
-      }
-      
-      #loading-screen.fade-out {
-        opacity: 0;
-        pointer-events: none;
-      }
-      
-      .loader {
-        width: 50px;
-        height: 50px;
-        border: 5px solid rgba(255, 255, 255, 0.3);
-        border-top-color: #fff;
-        border-radius: 50%;
-        animation: spin 1s linear infinite;
-      }
-      
-      @keyframes spin {
-        to { transform: rotate(360deg); }
-      }
-      
-      .loading-text {
-        color: white;
-        font-family: 'Inter', sans-serif;
-        font-size: 18px;
-        margin-top: 20px;
-        font-weight: 500;
-      }
-      
-      /* Prevent flash of unstyled content */
       body {
         margin: 0;
         font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -87,6 +44,7 @@
           sans-serif;
         -webkit-font-smoothing: antialiased;
         -moz-osx-font-smoothing: grayscale;
+        background-color: #f9fafb;
       }
       
       code {
@@ -98,7 +56,6 @@
         min-height: 100vh;
       }
       
-      /* Disable selection on certain elements */
       .no-select {
         -webkit-user-select: none;
         -moz-user-select: none;
@@ -115,30 +72,9 @@
       </div>
     </noscript>
     
-    <!-- Loading Screen -->
-    <div id="loading-screen">
-      <div class="loader"></div>
-      <div class="loading-text">Loading Urban Farming Platform...</div>
-    </div>
-    
     <div id="root"></div>
     
     <script>
-      function hideLoadingScreen() {
-        const el = document.getElementById('loading-screen');
-        if (el) {
-          el.style.opacity = '0';
-          setTimeout(function() { if (el && el.parentNode) el.parentNode.removeChild(el); }, 400);
-        }
-      }
-      if (document.readyState === 'complete') {
-        setTimeout(hideLoadingScreen, 200);
-      } else {
-        window.addEventListener('load', function() { setTimeout(hideLoadingScreen, 200); });
-        setTimeout(hideLoadingScreen, 1200);
-      }
-    </script>
-      
       // Service Worker Registration (for PWA)
       if ('serviceWorker' in navigator) {
         window.addEventListener('load', function() {
