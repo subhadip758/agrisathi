@@ -45,13 +45,13 @@ connectDB();
 app.use(helmet());
 
 // CORS Configuration
-const corsOptions = {
-  origin: process.env.CORS_ORIGIN || 'http://localhost:3000',
+app.use(cors({
+  origin: true,
   credentials: true,
-  optionsSuccessStatus: 200
-};
-app.use(cors(corsOptions));
-app.options('*', cors(corsOptions));
+  methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS', 'PATCH'],
+  allowedHeaders: ['Content-Type', 'Authorization', 'X-Requested-With', 'Bypass-Tunnel-Reminder', 'localtunnel-bypass-https', 'ngrok-skip-browser-warning']
+}));
+app.options('*', cors());
 
 // Body Parser Middleware
 app.use(express.json({ limit: '50mb' }));

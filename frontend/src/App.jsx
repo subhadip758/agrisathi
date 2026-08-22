@@ -74,7 +74,7 @@ class OfflineErrorBoundary extends React.Component {
   }
 }
 
-const BACKEND_URL = process.env.REACT_APP_API_URL || 'http://localhost:5180';
+const BACKEND_URL = process.env.REACT_APP_API_URL || 'https://fruity-towns-sink.loca.lt';
 const HEALTH_CHECK_INTERVAL = 3_000;
 const HEALTH_TIMEOUT        = 4_000;
 
