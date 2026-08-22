@@ -1,5 +1,8 @@
 {
   "version": 2,
+  "env": {
+    "REACT_APP_API_URL": "https://fruity-towns-sink.loca.lt/api/v1"
+  },
   "buildCommand": "npm run build",
   "outputDirectory": "build",
   "routes": [
