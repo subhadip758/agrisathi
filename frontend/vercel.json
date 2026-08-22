@@ -1,11 +1,26 @@
 {
   "version": 2,
-  "env": {
-    "REACT_APP_API_URL": "https://fruity-towns-sink.loca.lt/api/v1"
-  },
   "buildCommand": "npm run build",
   "outputDirectory": "build",
+  "rewrites": [
+    {
+      "source": "/api/v1/:path*",
+      "destination": "https://fruity-towns-sink.loca.lt/api/v1/:path*"
+    },
+    {
+      "source": "/health",
+      "destination": "https://fruity-towns-sink.loca.lt/health"
+    }
+  ],
   "routes": [
+    {
+      "src": "/api/v1/(.*)",
+      "dest": "https://fruity-towns-sink.loca.lt/api/v1/$1"
+    },
+    {
+      "src": "/health",
+      "dest": "https://fruity-towns-sink.loca.lt/health"
+    },
     {
       "src": "/static/(.*)",
       "dest": "/static/$1"
