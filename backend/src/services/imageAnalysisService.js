@@ -107,7 +107,6 @@ Respond strictly in raw valid JSON format matching this schema:
     let yellowPixels = 0;
     let darkNecrosisPixels = 0;
     let whiteMildewPixels = 0;
-    let skinPixels = 0;
     let totalSamples = 0;
 
     for (let i = 100; i < buffer.length - 3; i += 16) {
@@ -118,10 +117,7 @@ Respond strictly in raw valid JSON format matching this schema:
       if (total === 0) continue;
 
       totalSamples++;
-      if (r > 80 && g > 50 && b > 35 && r > g && g > b && (r - b) > 20 && g < r * 0.95) {
-        skinPixels++;
-      }
-      if (g > r * 1.10 && g > b * 1.10 && g > 50) {
+      if (g > r * 1.12 && g > b * 1.12 && g > 55) {
         greenPixels++;
       } else if (r > 120 && g > 100 && b < 110 && r > b * 1.3) {
         yellowPixels++;
@@ -136,9 +132,8 @@ Respond strictly in raw valid JSON format matching this schema:
     const yellowRatio = totalSamples ? (yellowPixels / totalSamples) : 0.15;
     const necrosisRatio = totalSamples ? (darkNecrosisPixels / totalSamples) : 0.15;
     const mildewRatio = totalSamples ? (whiteMildewPixels / totalSamples) : 0.05;
-    const skinRatio = totalSamples ? (skinPixels / totalSamples) : 0;
 
-    return { greenRatio, yellowRatio, necrosisRatio, mildewRatio, skinRatio, totalSamples };
+    return { greenRatio, yellowRatio, necrosisRatio, mildewRatio, totalSamples };
   }
 
   determineAffectedPart(cropType, userPart, fileName, metrics) {
@@ -207,11 +202,11 @@ Respond strictly in raw valid JSON format matching this schema:
   evaluatePlantEvidence(buffer, fileName = '', cropDetails = {}, metrics = {}) {
     const fn = String(fileName || '').toLowerCase();
     
-    // Check non-plant markers and human skin tone ratio
+    // Check non-plant markers
     if (fn.includes('non_plant') || fn.includes('person') || fn.includes('human') || 
         fn.includes('vehicle') || fn.includes('car') || fn.includes('building') || 
         fn.includes('soil_only') || fn.includes('sky_only') || fn.includes('animal') || 
-        fn.includes('blurry') || cropDetails.is_non_plant || (metrics.skinRatio > 0.35 && metrics.greenRatio < 0.20)) {
+        fn.includes('blurry') || cropDetails.is_non_plant) {
       return {
         status: 'INVALID',
         plant_confidence: 0,

@@ -74,9 +74,18 @@ class OfflineErrorBoundary extends React.Component {
   }
 }
 
-const HEALTH_CHECK_INTERVAL = 3000;
-const HEALTH_TIMEOUT = 4000;
-const HEALTH_URL = process.env.REACT_APP_API_URL ? `${process.env.REACT_APP_API_URL.replace(/\/api\/v1\/?$/, '')}/health` : '/health';
+const BACKEND_URL = process.env.REACT_APP_API_URL || 'http://localhost:5180';
+const HEALTH_CHECK_INTERVAL = 3_000;
+const HEALTH_TIMEOUT        = 4_000;
+
+const HEALTH_URL = (() => {
+  try {
+    const u = new URL(BACKEND_URL);
+    return `${u.protocol}//${u.host}/health`;
+  } catch {
+    return 'http://localhost:5180/health';
+  }
+})();
 
 async function pingBackend() {
   if (typeof navigator !== 'undefined' && navigator.onLine === false) {
@@ -87,24 +96,18 @@ async function pingBackend() {
     const timer = setTimeout(() => controller.abort(), HEALTH_TIMEOUT);
     const res = await fetch(HEALTH_URL, {
       method: 'GET',
-      headers: {
-        'Bypass-Tunnel-Reminder': 'true',
-        'ngrok-skip-browser-warning': 'true',
-        'localtunnel-bypass-https': 'true'
-      },
       signal: controller.signal,
       cache: 'no-store'
     });
     clearTimeout(timer);
-    if (res.ok) return true;
+    return res.ok;
   } catch {
-    // Fallthrough to navigator.onLine check
+    return false;
   }
-  return typeof navigator !== 'undefined' ? navigator.onLine : true;
 }
 
 function App() {
-  const [isOnline, setIsOnline]     = useState(typeof navigator !== 'undefined' ? navigator.onLine : true);
+  const [isOnline, setIsOnline]     = useState(null);
   const [isRetrying, setIsRetrying] = useState(false);
   const [backOnline, setBackOnline] = useState(false);
 

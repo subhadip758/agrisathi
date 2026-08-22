@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useLanguage } from '../context/LanguageContext';
 import { ShieldAlert, MapPin, CheckCircle, Activity } from 'lucide-react';
 
-const API_BASE = process.env.REACT_APP_API_URL || '/api/v1';
+const API_BASE = process.env.REACT_APP_API_URL || 'http://localhost:5180/api/v1';
 
 const RISK_BADGES = {
   'VERY HIGH': {
@@ -104,47 +104,25 @@ const CropAlerts = () => {
 
   const fetchAlerts = async () => {
     setLoading(true);
-    let loadedAlerts = [];
     try {
-      const token = localStorage.getItem('token') || localStorage.getItem('agrisathi_token');
+      const token = localStorage.getItem('token');
       const res = await fetch(`${API_BASE}/disease-alerts?district=${encodeURIComponent(selectedDistrict)}`, {
         headers: {
           'Content-Type': 'application/json',
-          'Bypass-Tunnel-Reminder': 'true',
-          'localtunnel-bypass-https': 'true',
           ...(token ? { 'Authorization': `Bearer ${token}` } : {})
         }
       });
       const data = await res.json();
-      if (data.success && Array.isArray(data.data) && data.data.length > 0) {
-        loadedAlerts = data.data;
+      if (data.success && Array.isArray(data.data)) {
+        setAlerts(data.data);
+      } else {
+        setAlerts([]);
       }
-    } catch (_) {}
-
-    if (loadedAlerts.length === 0) {
-      try {
-        const rawHistory = localStorage.getItem('agrisathi_disease_history');
-        if (rawHistory) {
-          const parsed = JSON.parse(rawHistory);
-          if (Array.isArray(parsed) && parsed.length > 0) {
-            loadedAlerts = parsed.map(item => ({
-              _id: item._id || String(Date.now()),
-              cropType: item.cropDetails?.cropType || item.cropType || 'wheat',
-              diseaseName: item.topDiagnosis?.disease || item.diseaseName || 'Leaf Rust',
-              riskLevel: (item.topDiagnosis?.severity === 'High' || item.topDiagnosis?.severity === 'Critical') ? 'HIGH' : 'MODERATE',
-              district: selectedDistrict,
-              confidenceScore: item.topDiagnosis?.confidence || 92,
-              summary: item.topDiagnosis?.description || 'Active disease outbreak alert based on farmer field diagnostics.',
-              preventiveActions: ['Apply 5ml/L Neem Oil bio-shield', 'Ensure early morning irrigation'],
-              createdAt: item.createdAt || new Date().toISOString()
-            }));
-          }
-        }
-      } catch (_) {}
+    } catch (_) {
+      setAlerts([]);
+    } finally {
+      setLoading(false);
     }
-
-    setAlerts(loadedAlerts);
-    setLoading(false);
   };
 
   useEffect(() => {

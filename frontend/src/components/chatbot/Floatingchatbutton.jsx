@@ -1,18 +1,10 @@
 import React, { useState, useEffect, useRef } from 'react';
-import ChatWindow from './ChatWindow';
-import { stopSpeech } from '../../services/ttsService';
+import ChatWindow from './ChatWindow'; // adjust path as needed
 
 const FloatingChatButton = () => {
   const [isOpen, setIsOpen] = useState(false);
   const fabRef = useRef(null);
   const panelRef = useRef(null);
-
-  // Stop speech when chat is closed
-  useEffect(() => {
-    if (!isOpen) {
-      stopSpeech();
-    }
-  }, [isOpen]);
 
   // Close on outside click — check both FAB wrapper and chat panel
   useEffect(() => {

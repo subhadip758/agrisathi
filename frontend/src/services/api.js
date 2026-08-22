@@ -3,13 +3,10 @@ import { toast } from 'react-toastify';
 
 // Create axios instance for backend API
 const api = axios.create({
-  baseURL: process.env.REACT_APP_API_URL || '/api/v1',
+  baseURL: process.env.REACT_APP_API_URL || 'http://localhost:5180/api/v1',
   timeout: 120000, 
   headers: {
     'Content-Type': 'application/json',
-    'Bypass-Tunnel-Reminder': 'true',
-    'localtunnel-bypass-https': 'true',
-    'ngrok-skip-browser-warning': 'true'
   },
 });
 
@@ -25,7 +22,7 @@ export const mlApi = axios.create({
 // Request interceptor to add token
 api.interceptors.request.use(
   (config) => {
-    const token = localStorage.getItem('token') || localStorage.getItem('agrisathi_token');
+    const token = localStorage.getItem('token');
     if (token) {
       config.headers.Authorization = `Bearer ${token}`;
     }
@@ -45,11 +42,13 @@ api.interceptors.response.use(
     if (error.response) {
       const { status, data } = error.response;
 
+      // Handle specific error codes
       switch (status) {
         case 401:
-          // Unauthorized - clean expired token without hard breaking UI
+          // Unauthorized - token expired or invalid
           localStorage.removeItem('token');
-          localStorage.removeItem('agrisathi_token');
+          window.location.href = '/login';
+          toast.error('Session expired. Please login again.');
           break;
 
         case 403:

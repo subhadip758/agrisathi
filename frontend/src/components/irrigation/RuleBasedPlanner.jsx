@@ -39,24 +39,6 @@ const RuleBasedPlanner = () => {
 
   const handleSaveSchedule = async () => {
     try {
-      if (schedule) {
-        const rawHistory = localStorage.getItem('agrisathi_irrigation_history');
-        let list = [];
-        if (rawHistory) {
-          try { list = JSON.parse(rawHistory); } catch (_) {}
-        }
-        if (!Array.isArray(list)) list = [];
-        const newItem = {
-          _id: schedule._id || `irrig_${Date.now()}`,
-          farmDetails: schedule.farmDetails || { cropType: schedule.cropType || 'Wheat', areaSize: 1, irrigationMethod: 'Drip' },
-          irrigationSchedule: schedule.irrigationSchedule || schedule,
-          waterRequirement: schedule.waterRequirement || { totalWaterLiters: 1500 },
-          createdAt: new Date().toISOString()
-        };
-        list.unshift(newItem);
-        localStorage.setItem('agrisathi_irrigation_history', JSON.stringify(list));
-        window.dispatchEvent(new CustomEvent('agrisathi_irrigation_updated', { detail: list }));
-      }
       setSuccess(t.saveSuccess);
       setTimeout(() => setSuccess(null), 5000);
     } catch {

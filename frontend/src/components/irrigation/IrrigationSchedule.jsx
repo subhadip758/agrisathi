@@ -114,35 +114,16 @@ const IrrigationSchedule = ({ schedule: data }) => {
 
   const handleSave = async () => {
     const scheduleId = data?.schedule?._id;
+    if (!scheduleId) { showToast(t.toast.alreadySaved, 'info'); return; }
     try {
       setIsSaving(true);
-      if (scheduleId) {
-        await api.put(`/irrigation/schedules/${scheduleId}`, {
-          scheduleName:       schedule.scheduleName,
-          status:             schedule.status             || 'active',
-          notes:              schedule.notes              || '',
-          weatherAdjustments: schedule.weatherAdjustments || {},
-          notifications:      schedule.notifications      || {},
-        }).catch(() => {});
-      }
-
-      const rawHistory = localStorage.getItem('agrisathi_irrigation_history');
-      let list = [];
-      if (rawHistory) {
-        try { list = JSON.parse(rawHistory); } catch (_) {}
-      }
-      if (!Array.isArray(list)) list = [];
-      const newItem = {
-        _id: scheduleId || `irrig_${Date.now()}`,
-        farmDetails: schedule?.cropDetails || { cropType: 'Wheat', areaSize: 1, irrigationMethod: 'Drip' },
-        irrigationSchedule: schedule || data,
-        waterRequirement: data.estimatedWaterUsage || { totalWaterLiters: 1500 },
-        createdAt: new Date().toISOString()
-      };
-      list = [newItem, ...list.filter(i => String(i._id) !== String(newItem._id))];
-      localStorage.setItem('agrisathi_irrigation_history', JSON.stringify(list));
-      window.dispatchEvent(new CustomEvent('agrisathi_irrigation_updated', { detail: list }));
-
+      await api.put(`/irrigation/schedules/${scheduleId}`, {
+        scheduleName:       schedule.scheduleName,
+        status:             schedule.status             || 'active',
+        notes:              schedule.notes              || '',
+        weatherAdjustments: schedule.weatherAdjustments || {},
+        notifications:      schedule.notifications      || {},
+      });
       showToast(t.toast.saveSuccess, 'success');
     } catch (err) {
       showToast(`❌ ${err.response?.data?.message || err.message || 'Failed to save'}`, 'error');

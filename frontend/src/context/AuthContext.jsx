@@ -22,25 +22,17 @@ export const AuthProvider = ({ children }) => {
   // Check if user is authenticated on mount
   useEffect(() => {
     const initAuth = async () => {
-      const storedToken = localStorage.getItem('token') || localStorage.getItem('agrisathi_token');
-      const cachedUser = localStorage.getItem('agrisathi_user');
-      
-      if (cachedUser) {
-        try { setUser(JSON.parse(cachedUser)); } catch (_) {}
-      }
-
+      const storedToken = localStorage.getItem('token');
       if (storedToken) {
         try {
           const userData = await authService.getMe();
           setUser(userData);
           setToken(storedToken);
-          localStorage.setItem('token', storedToken);
-          localStorage.setItem('agrisathi_user', JSON.stringify(userData));
         } catch (error) {
-          console.warn('Auth initialization fallback to cached user:', error);
-          if (!cachedUser) {
-            setToken(storedToken);
-          }
+          console.error('Auth initialization error:', error);
+          localStorage.removeItem('token');
+          setToken(null);
+          setUser(null);
         }
       }
       setLoading(false);
@@ -53,8 +45,6 @@ export const AuthProvider = ({ children }) => {
       const response = await authService.login(email, password);
       if (response.token) {
         localStorage.setItem('token', response.token);
-        localStorage.setItem('agrisathi_token', response.token);
-        localStorage.setItem('agrisathi_user', JSON.stringify(response.user));
         setToken(response.token);
         setUser(response.user);
         toast.success('Login successful!');
@@ -72,8 +62,6 @@ export const AuthProvider = ({ children }) => {
       const response = await authService.register(userData);
       if (response.token) {
         localStorage.setItem('token', response.token);
-        localStorage.setItem('agrisathi_token', response.token);
-        localStorage.setItem('agrisathi_user', JSON.stringify(response.user));
         setToken(response.token);
         setUser(response.user);
         toast.success('Registration successful!');
@@ -93,8 +81,6 @@ export const AuthProvider = ({ children }) => {
       console.error('Logout error:', error);
     } finally {
       localStorage.removeItem('token');
-      localStorage.removeItem('agrisathi_token');
-      localStorage.removeItem('agrisathi_user');
       setToken(null);
       setUser(null);
       toast.info('Logged out successfully');
@@ -105,20 +91,13 @@ export const AuthProvider = ({ children }) => {
   const updateUser = async (userData) => {
     try {
       const response = await authService.updateDetails(userData);
-      const updated = response.user || response.data || userData;
-      setUser(updated);
-      localStorage.setItem('agrisathi_user', JSON.stringify(updated));
+      setUser(response.user);
       toast.success('Profile updated successfully');
       return { success: true };
     } catch (error) {
-      // Fallback: save profile changes locally when API call fails
-      setUser(prev => {
-        const updated = { ...prev, ...userData };
-        localStorage.setItem('agrisathi_user', JSON.stringify(updated));
-        return updated;
-      });
-      toast.success('Profile updated locally');
-      return { success: true };
+      const message = error.response?.data?.message || 'Update failed';
+      toast.error(message);
+      return { success: false, error: message };
     }
   };
 
