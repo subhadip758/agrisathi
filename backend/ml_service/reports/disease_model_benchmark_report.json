@@ -1,0 +1,372 @@
+{
+  "benchmark_results": [
+    {
+      "crop": "rice",
+      "model_name": "Baseline SVM",
+      "accuracy": 0.9524,
+      "macro_f1": 0.641,
+      "weighted_f1": 0.9304,
+      "precision": 0.619,
+      "recall": 0.6667,
+      "latency_ms": 0.01,
+      "size_mb": 0.15,
+      "status": "PASSED"
+    },
+    {
+      "crop": "rice",
+      "model_name": "Baseline Random Forest",
+      "accuracy": 0.9524,
+      "macro_f1": 0.641,
+      "weighted_f1": 0.9304,
+      "precision": 0.619,
+      "recall": 0.6667,
+      "latency_ms": 0.18,
+      "size_mb": 0.85,
+      "status": "PASSED"
+    },
+    {
+      "crop": "rice",
+      "model_name": "MobileNetV2",
+      "accuracy": 0.9524,
+      "macro_f1": 0.641,
+      "weighted_f1": 0.9304,
+      "precision": 0.619,
+      "recall": 0.6667,
+      "latency_ms": 36.39,
+      "size_mb": 8.5,
+      "status": "PASSED"
+    },
+    {
+      "crop": "rice",
+      "model_name": "MobileNetV3",
+      "accuracy": 0.6667,
+      "macro_f1": 0.2667,
+      "weighted_f1": 0.5333,
+      "precision": 0.2222,
+      "recall": 0.3333,
+      "latency_ms": 35.37,
+      "size_mb": 8.5,
+      "status": "PASSED"
+    },
+    {
+      "crop": "rice",
+      "model_name": "EfficientNet-B0",
+      "accuracy": 0.2857,
+      "macro_f1": 0.1481,
+      "weighted_f1": 0.127,
+      "precision": 0.0952,
+      "recall": 0.3333,
+      "latency_ms": 87.09,
+      "size_mb": 16.2,
+      "status": "PASSED"
+    },
+    {
+      "crop": "wheat",
+      "model_name": "Baseline SVM",
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "weighted_f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "latency_ms": 0.02,
+      "size_mb": 0.15,
+      "status": "PASSED"
+    },
+    {
+      "crop": "wheat",
+      "model_name": "Baseline Random Forest",
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "weighted_f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "latency_ms": 0.05,
+      "size_mb": 0.85,
+      "status": "PASSED"
+    },
+    {
+      "crop": "wheat",
+      "model_name": "MobileNetV2",
+      "accuracy": 0.8611,
+      "macro_f1": 0.8364,
+      "weighted_f1": 0.8434,
+      "precision": 0.9167,
+      "recall": 0.8438,
+      "latency_ms": 43.42,
+      "size_mb": 8.5,
+      "status": "PASSED"
+    },
+    {
+      "crop": "wheat",
+      "model_name": "MobileNetV3",
+      "accuracy": 0.2778,
+      "macro_f1": 0.1087,
+      "weighted_f1": 0.1208,
+      "precision": 0.0694,
+      "recall": 0.25,
+      "latency_ms": 39.84,
+      "size_mb": 8.5,
+      "status": "PASSED"
+    },
+    {
+      "crop": "wheat",
+      "model_name": "EfficientNet-B0",
+      "accuracy": 0.2778,
+      "macro_f1": 0.1087,
+      "weighted_f1": 0.1208,
+      "precision": 0.0694,
+      "recall": 0.25,
+      "latency_ms": 79.45,
+      "size_mb": 16.2,
+      "status": "PASSED"
+    },
+    {
+      "crop": "tomato",
+      "model_name": "Baseline SVM",
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "weighted_f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "latency_ms": 0.01,
+      "size_mb": 0.15,
+      "status": "PASSED"
+    },
+    {
+      "crop": "tomato",
+      "model_name": "Baseline Random Forest",
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "weighted_f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "latency_ms": 0.26,
+      "size_mb": 0.85,
+      "status": "PASSED"
+    },
+    {
+      "crop": "tomato",
+      "model_name": "MobileNetV2",
+      "accuracy": 0.9286,
+      "macro_f1": 0.9333,
+      "weighted_f1": 0.9286,
+      "precision": 0.9394,
+      "recall": 0.9394,
+      "latency_ms": 94.8,
+      "size_mb": 8.5,
+      "status": "PASSED"
+    },
+    {
+      "crop": "tomato",
+      "model_name": "MobileNetV3",
+      "accuracy": 0.3214,
+      "macro_f1": 0.1622,
+      "weighted_f1": 0.1564,
+      "precision": 0.1071,
+      "recall": 0.3333,
+      "latency_ms": 95.94,
+      "size_mb": 8.5,
+      "status": "PASSED"
+    },
+    {
+      "crop": "tomato",
+      "model_name": "EfficientNet-B0",
+      "accuracy": 0.2857,
+      "macro_f1": 0.1481,
+      "weighted_f1": 0.127,
+      "precision": 0.0952,
+      "recall": 0.3333,
+      "latency_ms": 186.84,
+      "size_mb": 16.2,
+      "status": "PASSED"
+    },
+    {
+      "crop": "other",
+      "model_name": "Baseline SVM",
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "weighted_f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "latency_ms": 0.01,
+      "size_mb": 0.15,
+      "status": "PASSED"
+    },
+    {
+      "crop": "other",
+      "model_name": "Baseline Random Forest",
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "weighted_f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "latency_ms": 0.25,
+      "size_mb": 0.85,
+      "status": "PASSED"
+    },
+    {
+      "crop": "other",
+      "model_name": "MobileNetV2",
+      "accuracy": 1.0,
+      "macro_f1": 1.0,
+      "weighted_f1": 1.0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "latency_ms": 71.93,
+      "size_mb": 8.5,
+      "status": "PASSED"
+    },
+    {
+      "crop": "other",
+      "model_name": "MobileNetV3",
+      "accuracy": 0.2759,
+      "macro_f1": 0.1441,
+      "weighted_f1": 0.1193,
+      "precision": 0.092,
+      "recall": 0.3333,
+      "latency_ms": 67.15,
+      "size_mb": 8.5,
+      "status": "PASSED"
+    },
+    {
+      "crop": "other",
+      "model_name": "EfficientNet-B0",
+      "accuracy": 0.2759,
+      "macro_f1": 0.1441,
+      "weighted_f1": 0.1193,
+      "precision": 0.092,
+      "recall": 0.3333,
+      "latency_ms": 57.84,
+      "size_mb": 16.2,
+      "status": "PASSED"
+    }
+  ],
+  "selected_models": {
+    "rice": {
+      "crop": "rice",
+      "dataset_name": "AgriSathi Rice Leaf Disease Dataset",
+      "selected_model": "MobileNetV2",
+      "classes": [
+        "Bacterial Leaf Blight",
+        "Brown Spot",
+        "Rice Blast",
+        "Healthy Rice"
+      ],
+      "confidence_threshold": 0.65,
+      "quantized_sizes": {
+        "fp32_mb": 9.08,
+        "fp16_mb": 4.57,
+        "int8_mb": 2.55
+      },
+      "metrics": {
+        "crop": "rice",
+        "model_name": "Baseline SVM",
+        "accuracy": 0.9524,
+        "macro_f1": 0.641,
+        "weighted_f1": 0.9304,
+        "precision": 0.619,
+        "recall": 0.6667,
+        "latency_ms": 0.01,
+        "size_mb": 0.15,
+        "status": "PASSED"
+      },
+      "model_version": "rice-v1.0.0",
+      "timestamp": "2026-08-22T16:29:24Z"
+    },
+    "wheat": {
+      "crop": "wheat",
+      "dataset_name": "AgriSathi Wheat Disease Dataset",
+      "selected_model": "MobileNetV2",
+      "classes": [
+        "Common Bunt",
+        "Loose Smut",
+        "Septoria Blight",
+        "Wheat Rust",
+        "Healthy Wheat"
+      ],
+      "confidence_threshold": 0.65,
+      "quantized_sizes": {
+        "fp32_mb": 9.08,
+        "fp16_mb": 4.57,
+        "int8_mb": 2.55
+      },
+      "metrics": {
+        "crop": "wheat",
+        "model_name": "Baseline SVM",
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "latency_ms": 0.02,
+        "size_mb": 0.15,
+        "status": "PASSED"
+      },
+      "model_version": "wheat-v1.0.0",
+      "timestamp": "2026-08-22T16:30:55Z"
+    },
+    "tomato": {
+      "crop": "tomato",
+      "dataset_name": "AgriSathi Tomato Leaf Disease Dataset",
+      "selected_model": "MobileNetV2",
+      "classes": [
+        "Early Blight",
+        "Late Blight",
+        "Septoria Spot",
+        "Yellow Leaf Curl",
+        "Healthy Tomato"
+      ],
+      "confidence_threshold": 0.65,
+      "quantized_sizes": {
+        "fp32_mb": 9.08,
+        "fp16_mb": 4.57,
+        "int8_mb": 2.55
+      },
+      "metrics": {
+        "crop": "tomato",
+        "model_name": "Baseline SVM",
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "latency_ms": 0.01,
+        "size_mb": 0.15,
+        "status": "PASSED"
+      },
+      "model_version": "tomato-v1.0.0",
+      "timestamp": "2026-08-22T16:33:24Z"
+    },
+    "other": {
+      "crop": "other",
+      "dataset_name": "AgriSathi General Crop Disease Dataset",
+      "selected_model": "MobileNetV2",
+      "classes": [
+        "Powdery Mildew",
+        "Leaf Rust",
+        "Foliar Spot",
+        "Healthy Plant"
+      ],
+      "confidence_threshold": 0.6,
+      "quantized_sizes": {
+        "fp32_mb": 9.08,
+        "fp16_mb": 4.57,
+        "int8_mb": 2.55
+      },
+      "metrics": {
+        "crop": "other",
+        "model_name": "Baseline SVM",
+        "accuracy": 1.0,
+        "macro_f1": 1.0,
+        "weighted_f1": 1.0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "latency_ms": 0.01,
+        "size_mb": 0.15,
+        "status": "PASSED"
+      },
+      "model_version": "other-v1.0.0",
+      "timestamp": "2026-08-22T16:35:29Z"
+    }
+  }
+}

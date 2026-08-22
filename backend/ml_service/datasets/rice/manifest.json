@@ -1,0 +1,669 @@
+{
+  "train": [
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_056.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "87e50c9756b37b2b6dd93c39df1b45d7"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_041.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "c00f37dac3a4cadd8e388290a88fefc3"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_020.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "3a75a175bab2c56f5b2747ae2c38db9c"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_032.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "52da56c09e43d6765b3e76f5a1e901bd"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_045.jpg",
+      "label": "Healthy Rice",
+      "hash": "a3d826a5acfd01541293f996f7177a43"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_057.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "91603beb9b56e5121127b32d59bb3a0e"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Brown_Spot\\rice_brown_spot_010.jpg",
+      "label": "Brown Spot",
+      "hash": "66141f9534757fe15c3bf561cc20bc46"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_035.jpg",
+      "label": "Healthy Rice",
+      "hash": "964118d51716f32c8b53cb46094bbc2e"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_011.jpg",
+      "label": "Healthy Rice",
+      "hash": "54cb3c7fc6319a64f74eef32457c5ec2"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_027.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "771eaf1e261231b8fac6f82066a0072e"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_025.jpg",
+      "label": "Healthy Rice",
+      "hash": "f27114d693282aa8ed562ce74b71d6ac"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_028.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "9faadbd3991c8bb5836715881857cd9c"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Brown_Spot\\rice_brown_spot_005.jpg",
+      "label": "Brown Spot",
+      "hash": "35bc371c6eca98df6e2786c52ef08eaf"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_005.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "758013a4692639cac910c3b1bbd9d226"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_027.jpg",
+      "label": "Healthy Rice",
+      "hash": "fbcf6523f7e751bfdc71f6b2931662b5"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_030.jpg",
+      "label": "Healthy Rice",
+      "hash": "6dac4fb0a48a99d377e6df0d4c7c5c5a"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_037.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "296a1a11dd1f02ea8f4153e3c8129edf"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_010.jpg",
+      "label": "Healthy Rice",
+      "hash": "3abca2a9fda29c462d9244084d540ea2"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_023.jpg",
+      "label": "Healthy Rice",
+      "hash": "1061ce38eb1785dc46506c467155b867"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_014.jpg",
+      "label": "Healthy Rice",
+      "hash": "53c3350d58567c48bdea1cebe3f0206b"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_019.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "2487b9a3be9d0073f4c5bd6a995a5dd8"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_011.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "16614f5c548ef2a023eb612433b96759"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_052.jpg",
+      "label": "Healthy Rice",
+      "hash": "6b955f3e7f4353dffe2f2db9bf9ab298"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_012.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "0d632e85980da34fdcaedfa40fcd1c36"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_057.jpg",
+      "label": "Healthy Rice",
+      "hash": "d96285f54dd7459aca45b825b4c56789"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_046.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "8bfec450a8548988d40a6c0b94953395"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Brown_Spot\\rice_brown_spot_011.jpg",
+      "label": "Brown Spot",
+      "hash": "4d88c49232293e6743f86c07fb302811"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_008.jpg",
+      "label": "Healthy Rice",
+      "hash": "1db90eb5d6d2832f48b59790c0dbbeb1"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_048.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "4b36951c78eb76cec40a2998e4f98f78"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_001.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "e9da4db5d7af4cd1d3bc13387e05c728"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_013.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "22c415f37640f3c8064f1713b66b7d05"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_043.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "1294a9cbba0af30804bb0807db24ad0a"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_052.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "e1b630a0590dc665ed16f7174ba6a514"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_025.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "aa95f267faf919dcb8209fbed96ad1dd"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Brown_Spot\\rice_brown_spot_008.jpg",
+      "label": "Brown Spot",
+      "hash": "fb724b860fe3ce11cd4b022ec3143dd5"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_043.jpg",
+      "label": "Healthy Rice",
+      "hash": "c66afa1668b6a478cf533d789f46ec7d"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_019.jpg",
+      "label": "Healthy Rice",
+      "hash": "8333d8e8b1fac230b078a2fe53a7b017"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_016.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "7affd3a664c15fc5c6357eda206cb1d7"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_007.jpg",
+      "label": "Healthy Rice",
+      "hash": "7402b4985c79427499afbdb55291f3f2"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_023.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "c97ca5f927d8cb4a06641b1eb05ec330"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_045.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "5927d88aaa2dd01b104c7872065592c6"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Brown_Spot\\rice_brown_spot_006.jpg",
+      "label": "Brown Spot",
+      "hash": "ce2b3a92bd688dd4fa760c4be372a8aa"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_026.jpg",
+      "label": "Healthy Rice",
+      "hash": "eddddab3d3bb3383236e76d9f9eef780"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_031.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "a3e9c0815bbda8e105fe7ad88e865b64"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Brown_Spot\\rice_brown_spot_003.jpg",
+      "label": "Brown Spot",
+      "hash": "458d9054cf49175c7879939715064c77"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_055.jpg",
+      "label": "Healthy Rice",
+      "hash": "797c26ea1e74afd3f622639e36a705e8"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_010.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "519f17f6fe350371ad657098c76abcad"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_034.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "029812fc5efd2919e733d78342f6310e"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Brown_Spot\\rice_brown_spot_007.jpg",
+      "label": "Brown Spot",
+      "hash": "e0cdea613c8932aab014303b851ed462"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_026.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "c379cc83be8ac46a03b4479cc4e8ea21"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_048.jpg",
+      "label": "Healthy Rice",
+      "hash": "5afc2ccd9bbc7ea65964e9f985084f26"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_029.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "c2b2a4126fd050e0568aa567657f8004"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_028.jpg",
+      "label": "Healthy Rice",
+      "hash": "d82061e7205f6e7942f6d7d706a49b17"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_059.jpg",
+      "label": "Healthy Rice",
+      "hash": "b4baa1aabec405b8eaf1e740ecf1209f"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_054.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "0727478797abf87ef86e641a5d139a9b"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_006.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "126f7e20ecb9b166c8664d29aacacdfb"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Brown_Spot\\rice_brown_spot_009.jpg",
+      "label": "Brown Spot",
+      "hash": "463d60c08d9a58bbc9214ca7f52b6950"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_003.jpg",
+      "label": "Healthy Rice",
+      "hash": "98ec8b150a2b6152b940d2e4262df55f"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_040.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "7cffc835f4764c16b98656d7e8ed3941"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_050.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "d8ed8c9453ff1006e17af36db85d057c"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_036.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "e10aa9359cafd4981eab877faa16e397"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_017.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "3387e26ac5ef0d333721cb46a3dfaed6"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_056.jpg",
+      "label": "Healthy Rice",
+      "hash": "3ced9761548f064f760b420679f821d6"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_035.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "eb0efc0dba674a220904b7b46af263c0"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_015.jpg",
+      "label": "Healthy Rice",
+      "hash": "c780b0566437bef1a75881454cd4492d"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_008.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "e06cf53c14ebcbcbf7b1c4951b09b699"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_044.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "d83a2b5d1c011ee358c832dfb149cd5f"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_006.jpg",
+      "label": "Healthy Rice",
+      "hash": "8de4fb5bee7ac89ee0a3e66cafa125b2"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_034.jpg",
+      "label": "Healthy Rice",
+      "hash": "84b1ec31ed1ffecf5d0f0a38007b7e59"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_040.jpg",
+      "label": "Healthy Rice",
+      "hash": "a1386a26586cbb94631e5a7a8f2a0f06"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_009.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "571347eae582e51c0dafb67418be4667"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_014.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "1296e49b423d4b7abd3896a922fadb1c"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_024.jpg",
+      "label": "Healthy Rice",
+      "hash": "e0bd64ad6f966e2949cf34649594b4a4"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_004.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "60b83c21eb41a34c915b169fc6f0f7aa"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_018.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "04e5b98ce52f901fb196d9257be0dad6"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_039.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "68496ad219be945421dd2ed02fd25fee"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_002.jpg",
+      "label": "Healthy Rice",
+      "hash": "c0ccebcc66ba7164ac12878c54296e50"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_031.jpg",
+      "label": "Healthy Rice",
+      "hash": "01e0595560f71af6405f2234e35d54ae"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_007.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "aaab6ca4b186a6b9fc1998e2bb40347e"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_013.jpg",
+      "label": "Healthy Rice",
+      "hash": "995c7e83712468247ef04e13bfef9dcc"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_042.jpg",
+      "label": "Healthy Rice",
+      "hash": "59fa52a509b55aa15ddf49f1c3920f94"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_044.jpg",
+      "label": "Healthy Rice",
+      "hash": "5950bc15e4189bdffbdc320b8749daed"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_055.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "c2c7864fed0f3a35309836cb64d21423"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_051.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "c8d6aa0da819fa3ca684701af94eaab9"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_050.jpg",
+      "label": "Healthy Rice",
+      "hash": "8dcd3033c1917e0b6e68e1a07d90b19a"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_047.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "0781e32ca185c89f30f426c1a33ad787"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_038.jpg",
+      "label": "Healthy Rice",
+      "hash": "5c776220042337dd6308419e8b2a1604"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Brown_Spot\\rice_brown_spot_002.jpg",
+      "label": "Brown Spot",
+      "hash": "b9b87935064c26ebb19d08338ceb4e5f"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_058.jpg",
+      "label": "Healthy Rice",
+      "hash": "0e1b70318ae545fbf3413a224af32144"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_009.jpg",
+      "label": "Healthy Rice",
+      "hash": "1178e70be882b8eb7c38a8e9c5e87d62"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_053.jpg",
+      "label": "Healthy Rice",
+      "hash": "5b770242750a65e35f945407e8e54587"
+    }
+  ],
+  "val": [
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_021.jpg",
+      "label": "Healthy Rice",
+      "hash": "472a2e73030243dab4fb494263c79a44"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_042.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "0af867b83ce93dc05e68bcde0fbc112f"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_059.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "2269d55cf1d0b3d505b56e8e7a70cfb0"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_020.jpg",
+      "label": "Healthy Rice",
+      "hash": "be7000d4e2c3f2310eb5476d1564b69e"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_049.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "02b76028010570e8467b27da3f669e7d"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_018.jpg",
+      "label": "Healthy Rice",
+      "hash": "42339e3929dccb837d045199af8e9f61"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_041.jpg",
+      "label": "Healthy Rice",
+      "hash": "2480f731abcec0fba6073da2632a643f"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_058.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "c8691b4fc8ce011ec05398a9ce158148"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_005.jpg",
+      "label": "Healthy Rice",
+      "hash": "eb4202127c900c7c888209fe0b9af9e6"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_033.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "88bc8b4438b6469930799a90f1c8837c"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_054.jpg",
+      "label": "Healthy Rice",
+      "hash": "caec174e5b7700e27d562a784fff5fd9"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_060.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "b8b0d49f7ff74d825c92ff006e5bc980"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Brown_Spot\\rice_brown_spot_004.jpg",
+      "label": "Brown Spot",
+      "hash": "f3ff656043451eff8ae1418a9bcb74da"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_039.jpg",
+      "label": "Healthy Rice",
+      "hash": "2cc474ca8b18f95643318606a1396e51"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_038.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "ce50a0585be9a60b24e763ecc53a0324"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_030.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "79dc65a38cd91df75820cf78888f8493"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_037.jpg",
+      "label": "Healthy Rice",
+      "hash": "ae1f6d4c31b12c8b374b9804cf724807"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_047.jpg",
+      "label": "Healthy Rice",
+      "hash": "244abb7fb4a61b70ab9ac59463d4b46d"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_002.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "0a8fcfddadcc6cabb838e6a5f9f0d5b4"
+    }
+  ],
+  "test": [
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_053.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "65fe6386e576eb4c6f40d1640fb53560"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_022.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "fe8ad2f39aec3ab1fbf016fe4b4544ac"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_003.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "764c1721fe121c7c8fa36549b98e3bc7"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_024.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "ce0418d743b96fa3a59f2614f6b312c7"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_033.jpg",
+      "label": "Healthy Rice",
+      "hash": "f14a386136512bac09d1e09b481801cd"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_029.jpg",
+      "label": "Healthy Rice",
+      "hash": "cab5318375ecd01ecef042601d7f693f"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_046.jpg",
+      "label": "Healthy Rice",
+      "hash": "c62cb8f2d1fa8e98817a093ff8a1852e"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_017.jpg",
+      "label": "Healthy Rice",
+      "hash": "9a59581b47ca77d42413292618d63e96"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_049.jpg",
+      "label": "Healthy Rice",
+      "hash": "ddda536e4ca4738c201bb69e763d5ce0"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_004.jpg",
+      "label": "Healthy Rice",
+      "hash": "3171c3bdd9fc57c0a12f3d6b942b6867"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_016.jpg",
+      "label": "Healthy Rice",
+      "hash": "920f2893832661e825ff41dee635d89f"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_012.jpg",
+      "label": "Healthy Rice",
+      "hash": "4c1f137c17ce4c688d487af6527e99b9"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_051.jpg",
+      "label": "Healthy Rice",
+      "hash": "50dcc6b6dfd586e8eeed41a6c21cf7fe"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_060.jpg",
+      "label": "Healthy Rice",
+      "hash": "cc43c9f9e42a6142c5bf96cc18e94ea1"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_021.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "5c75dc492d9e18f4f552553d8bda86c3"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Brown_Spot\\rice_brown_spot_001.jpg",
+      "label": "Brown Spot",
+      "hash": "be5bc7c06c8f287357c182986ec42726"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_001.jpg",
+      "label": "Healthy Rice",
+      "hash": "7f04933116102dc224588b4c1093b794"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_036.jpg",
+      "label": "Healthy Rice",
+      "hash": "bab9deff85e0cf0db36463a540ae8c8f"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Bacterial_Leaf_Blight\\rice_bacterial_leaf_blight_015.jpg",
+      "label": "Bacterial Leaf Blight",
+      "hash": "100e94f99496cb8df1cf4e46d2114619"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_022.jpg",
+      "label": "Healthy Rice",
+      "hash": "406d0c9d9e33fa06fec8f61d99d975ea"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\rice\\Healthy_Rice\\rice_healthy_rice_032.jpg",
+      "label": "Healthy Rice",
+      "hash": "c0bbd49f02948b75057a629b56315cb6"
+    }
+  ],
+  "classes": [
+    "Bacterial Leaf Blight",
+    "Brown Spot",
+    "Rice Blast",
+    "Healthy Rice"
+  ]
+}

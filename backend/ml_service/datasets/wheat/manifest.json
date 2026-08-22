@@ -1,0 +1,1215 @@
+{
+  "train": [
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_025.jpg",
+      "label": "Common Bunt",
+      "hash": "9bef06d8980f61d89c621821d08d20a4"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_007.jpg",
+      "label": "Common Bunt",
+      "hash": "3b0957e91415e48d386fc6fd0d8ea55a"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_034.jpg",
+      "label": "Loose Smut",
+      "hash": "90e26b7efb58f606b813e4a65cac355a"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_050.jpg",
+      "label": "Loose Smut",
+      "hash": "5858f516091caaecbeb1b19fabdafa62"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_045.jpg",
+      "label": "Loose Smut",
+      "hash": "8920f9667e6a8d29c2bd679a30011a47"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_053.jpg",
+      "label": "Septoria Blight",
+      "hash": "0781e32ca185c89f30f426c1a33ad787"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_054.jpg",
+      "label": "Healthy Wheat",
+      "hash": "797c26ea1e74afd3f622639e36a705e8"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_027.jpg",
+      "label": "Loose Smut",
+      "hash": "5868329211321bcce7869b3312bde4eb"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_010.jpg",
+      "label": "Common Bunt",
+      "hash": "c1b8db3ecccdea1a5bd79fc80ae01f6c"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_024.jpg",
+      "label": "Septoria Blight",
+      "hash": "04e5b98ce52f901fb196d9257be0dad6"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_046.jpg",
+      "label": "Common Bunt",
+      "hash": "0063b337e90c2058d33ca6b3af9984a4"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_027.jpg",
+      "label": "Healthy Wheat",
+      "hash": "d82061e7205f6e7942f6d7d706a49b17"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_055.jpg",
+      "label": "Loose Smut",
+      "hash": "db5f35a38b90adb21c061d3c502eb15d"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_049.jpg",
+      "label": "Septoria Blight",
+      "hash": "1294a9cbba0af30804bb0807db24ad0a"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_054.jpg",
+      "label": "Loose Smut",
+      "hash": "8d776cbb81a36721f0633ad94a363684"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_051.jpg",
+      "label": "Healthy Wheat",
+      "hash": "6b955f3e7f4353dffe2f2db9bf9ab298"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_006.jpg",
+      "label": "Healthy Wheat",
+      "hash": "7402b4985c79427499afbdb55291f3f2"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_016.jpg",
+      "label": "Common Bunt",
+      "hash": "3a5da6dda89a86d3afa6799a13550935"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_033.jpg",
+      "label": "Septoria Blight",
+      "hash": "771eaf1e261231b8fac6f82066a0072e"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_006.jpg",
+      "label": "Septoria Blight",
+      "hash": "4d88c49232293e6743f86c07fb302811"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_008.jpg",
+      "label": "Septoria Blight",
+      "hash": "0a8fcfddadcc6cabb838e6a5f9f0d5b4"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_020.jpg",
+      "label": "Common Bunt",
+      "hash": "55a2c2d134e9778b2367f857e13fbe79"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_056.jpg",
+      "label": "Healthy Wheat",
+      "hash": "d96285f54dd7459aca45b825b4c56789"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_031.jpg",
+      "label": "Common Bunt",
+      "hash": "d9d8c43091512afdd11bffce378a7359"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_057.jpg",
+      "label": "Septoria Blight",
+      "hash": "c8d6aa0da819fa3ca684701af94eaab9"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_031.jpg",
+      "label": "Septoria Blight",
+      "hash": "aa95f267faf919dcb8209fbed96ad1dd"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_011.jpg",
+      "label": "Common Bunt",
+      "hash": "d97d30d0d1c318c14a5114f8725c959f"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_022.jpg",
+      "label": "Healthy Wheat",
+      "hash": "1061ce38eb1785dc46506c467155b867"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_058.jpg",
+      "label": "Healthy Wheat",
+      "hash": "b4baa1aabec405b8eaf1e740ecf1209f"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_034.jpg",
+      "label": "Septoria Blight",
+      "hash": "9faadbd3991c8bb5836715881857cd9c"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_037.jpg",
+      "label": "Loose Smut",
+      "hash": "55638b19768f9b347934d1f588d9352b"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_049.jpg",
+      "label": "Healthy Wheat",
+      "hash": "8dcd3033c1917e0b6e68e1a07d90b19a"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_026.jpg",
+      "label": "Common Bunt",
+      "hash": "c82e200af0e726941415da0a388559f6"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_003.jpg",
+      "label": "Healthy Wheat",
+      "hash": "3171c3bdd9fc57c0a12f3d6b942b6867"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_019.jpg",
+      "label": "Common Bunt",
+      "hash": "f5045caf3b5e28d4b3a308382fe132d5"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_010.jpg",
+      "label": "Loose Smut",
+      "hash": "86e39e263338beafeb6f8f8003974b17"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_013.jpg",
+      "label": "Healthy Wheat",
+      "hash": "53c3350d58567c48bdea1cebe3f0206b"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_056.jpg",
+      "label": "Common Bunt",
+      "hash": "7b81d351e158ee73497d7150759049e8"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_020.jpg",
+      "label": "Loose Smut",
+      "hash": "d4ca3b16cec12d073498ebfdfd06bd56"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_056.jpg",
+      "label": "Septoria Blight",
+      "hash": "d8ed8c9453ff1006e17af36db85d057c"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_048.jpg",
+      "label": "Healthy Wheat",
+      "hash": "ddda536e4ca4738c201bb69e763d5ce0"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_053.jpg",
+      "label": "Loose Smut",
+      "hash": "bd21a28265d0f73b53e8da7c77c77124"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_042.jpg",
+      "label": "Healthy Wheat",
+      "hash": "c66afa1668b6a478cf533d789f46ec7d"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_017.jpg",
+      "label": "Common Bunt",
+      "hash": "068c19ed6c048a50a5803c2ee9fee128"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_037.jpg",
+      "label": "Septoria Blight",
+      "hash": "a3e9c0815bbda8e105fe7ad88e865b64"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_007.jpg",
+      "label": "Loose Smut",
+      "hash": "3c798a17b7724c11abe95a4f3a42e8a4"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_046.jpg",
+      "label": "Septoria Blight",
+      "hash": "7cffc835f4764c16b98656d7e8ed3941"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_039.jpg",
+      "label": "Common Bunt",
+      "hash": "f068df317f7bea99c74ffea8ee9ed9e9"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_020.jpg",
+      "label": "Septoria Blight",
+      "hash": "1296e49b423d4b7abd3896a922fadb1c"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_001.jpg",
+      "label": "Loose Smut",
+      "hash": "87c05ac2fec13476e2f2fa28c97347ce"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_025.jpg",
+      "label": "Healthy Wheat",
+      "hash": "eddddab3d3bb3383236e76d9f9eef780"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_007.jpg",
+      "label": "Healthy Wheat",
+      "hash": "1db90eb5d6d2832f48b59790c0dbbeb1"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_028.jpg",
+      "label": "Healthy Wheat",
+      "hash": "cab5318375ecd01ecef042601d7f693f"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_014.jpg",
+      "label": "Healthy Wheat",
+      "hash": "c780b0566437bef1a75881454cd4492d"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_045.jpg",
+      "label": "Healthy Wheat",
+      "hash": "c62cb8f2d1fa8e98817a093ff8a1852e"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_030.jpg",
+      "label": "Healthy Wheat",
+      "hash": "01e0595560f71af6405f2234e35d54ae"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_056.jpg",
+      "label": "Loose Smut",
+      "hash": "75282ac0964b405848039edec43c2afd"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_040.jpg",
+      "label": "Healthy Wheat",
+      "hash": "2480f731abcec0fba6073da2632a643f"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_014.jpg",
+      "label": "Loose Smut",
+      "hash": "304a3ad563feaa6a6e3343f81afcbd3e"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_017.jpg",
+      "label": "Septoria Blight",
+      "hash": "16614f5c548ef2a023eb612433b96759"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_036.jpg",
+      "label": "Loose Smut",
+      "hash": "ee11ea30ff39ad39f2f73e8529c33b52"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_007.jpg",
+      "label": "Septoria Blight",
+      "hash": "e9da4db5d7af4cd1d3bc13387e05c728"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_001.jpg",
+      "label": "Septoria Blight",
+      "hash": "ce2b3a92bd688dd4fa760c4be372a8aa"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_008.jpg",
+      "label": "Loose Smut",
+      "hash": "ed7473d0f7991b2f86a14fa24ec4e3f9"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_042.jpg",
+      "label": "Loose Smut",
+      "hash": "78d6059b48739fa78b57a30e90182e6b"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_009.jpg",
+      "label": "Loose Smut",
+      "hash": "d90e80d13f3b9dbe52dc34c6639e0780"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_049.jpg",
+      "label": "Loose Smut",
+      "hash": "c4708407088b054368159c4d2348f843"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_025.jpg",
+      "label": "Loose Smut",
+      "hash": "21d9ed3f2cf5846d52765123f0980d21"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_058.jpg",
+      "label": "Loose Smut",
+      "hash": "82faa1f973a475471e53e81cd7c053d4"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_015.jpg",
+      "label": "Healthy Wheat",
+      "hash": "920f2893832661e825ff41dee635d89f"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_058.jpg",
+      "label": "Septoria Blight",
+      "hash": "e1b630a0590dc665ed16f7174ba6a514"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_052.jpg",
+      "label": "Loose Smut",
+      "hash": "2306003f79f4f7676d3ef09285b4a5a0"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_030.jpg",
+      "label": "Common Bunt",
+      "hash": "220f322bd7b091c908509f50f6295331"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_005.jpg",
+      "label": "Septoria Blight",
+      "hash": "66141f9534757fe15c3bf561cc20bc46"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_016.jpg",
+      "label": "Loose Smut",
+      "hash": "4d0b8d32d2ca1ba397876500f06e2317"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_023.jpg",
+      "label": "Loose Smut",
+      "hash": "ee5a32bc402517dc0951300cdb8f2a11"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_006.jpg",
+      "label": "Common Bunt",
+      "hash": "10b8a5ce914accd62891a909e8e469ca"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_057.jpg",
+      "label": "Common Bunt",
+      "hash": "ffb5709a7c312a2997bf0ba82cb8ca47"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_045.jpg",
+      "label": "Septoria Blight",
+      "hash": "68496ad219be945421dd2ed02fd25fee"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_040.jpg",
+      "label": "Septoria Blight",
+      "hash": "029812fc5efd2919e733d78342f6310e"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_038.jpg",
+      "label": "Loose Smut",
+      "hash": "36f7a14a941866ddb5ed3e27a9b89023"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_006.jpg",
+      "label": "Loose Smut",
+      "hash": "ff9e5fb4316654ce63f240e9dd4667db"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_033.jpg",
+      "label": "Healthy Wheat",
+      "hash": "84b1ec31ed1ffecf5d0f0a38007b7e59"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_029.jpg",
+      "label": "Healthy Wheat",
+      "hash": "6dac4fb0a48a99d377e6df0d4c7c5c5a"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_023.jpg",
+      "label": "Septoria Blight",
+      "hash": "3387e26ac5ef0d333721cb46a3dfaed6"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_032.jpg",
+      "label": "Common Bunt",
+      "hash": "4092ca51afeaedeabbecbde28ae93542"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_013.jpg",
+      "label": "Common Bunt",
+      "hash": "adffab31f9c115eb57a625b6730b2142"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_036.jpg",
+      "label": "Common Bunt",
+      "hash": "a383aedd9a0c826d78721ab4e605d0ad"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_029.jpg",
+      "label": "Common Bunt",
+      "hash": "f91bd4c22ff71c31aa050cedb60df2b3"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_043.jpg",
+      "label": "Common Bunt",
+      "hash": "6a5c3d792a1821b76ef8aca2021f8f20"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_044.jpg",
+      "label": "Healthy Wheat",
+      "hash": "a3d826a5acfd01541293f996f7177a43"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_029.jpg",
+      "label": "Septoria Blight",
+      "hash": "c97ca5f927d8cb4a06641b1eb05ec330"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_042.jpg",
+      "label": "Septoria Blight",
+      "hash": "e10aa9359cafd4981eab877faa16e397"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_052.jpg",
+      "label": "Common Bunt",
+      "hash": "f1a58bb7dccf6c10822acba7cc958a7a"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_018.jpg",
+      "label": "Septoria Blight",
+      "hash": "0d632e85980da34fdcaedfa40fcd1c36"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_011.jpg",
+      "label": "Healthy Wheat",
+      "hash": "4c1f137c17ce4c688d487af6527e99b9"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_017.jpg",
+      "label": "Loose Smut",
+      "hash": "2d448871a5e754077f9595edd66a3e39"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_042.jpg",
+      "label": "Common Bunt",
+      "hash": "c2b20b3d2a34c9564f121b82e7d9bfb9"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_043.jpg",
+      "label": "Septoria Blight",
+      "hash": "296a1a11dd1f02ea8f4153e3c8129edf"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_027.jpg",
+      "label": "Septoria Blight",
+      "hash": "5c75dc492d9e18f4f552553d8bda86c3"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_019.jpg",
+      "label": "Loose Smut",
+      "hash": "7e32bc03b3c74f671ad3a665a560559e"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_022.jpg",
+      "label": "Septoria Blight",
+      "hash": "7affd3a664c15fc5c6357eda206cb1d7"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_027.jpg",
+      "label": "Common Bunt",
+      "hash": "f8945dd9f2d3615ea2fe1dc93ad02cfb"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_052.jpg",
+      "label": "Healthy Wheat",
+      "hash": "5b770242750a65e35f945407e8e54587"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_036.jpg",
+      "label": "Healthy Wheat",
+      "hash": "ae1f6d4c31b12c8b374b9804cf724807"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_059.jpg",
+      "label": "Healthy Wheat",
+      "hash": "cc43c9f9e42a6142c5bf96cc18e94ea1"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_013.jpg",
+      "label": "Septoria Blight",
+      "hash": "aaab6ca4b186a6b9fc1998e2bb40347e"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_001.jpg",
+      "label": "Common Bunt",
+      "hash": "32bafd7f50ea29e62842221362e9040b"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_003.jpg",
+      "label": "Common Bunt",
+      "hash": "a856843c0fa4ba414e01ac532561d8f8"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_018.jpg",
+      "label": "Loose Smut",
+      "hash": "f69a4c0993b21d9332cb9c115ea691f1"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_047.jpg",
+      "label": "Common Bunt",
+      "hash": "fede5cb6517e4f12386609c6bbdef61e"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_041.jpg",
+      "label": "Loose Smut",
+      "hash": "bb642fdaaad7ac8e6fbc364ab32de6e7"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_060.jpg",
+      "label": "Loose Smut",
+      "hash": "7f6e92a650549e549f8f77d190885fd3"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_025.jpg",
+      "label": "Septoria Blight",
+      "hash": "2487b9a3be9d0073f4c5bd6a995a5dd8"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_054.jpg",
+      "label": "Septoria Blight",
+      "hash": "4b36951c78eb76cec40a2998e4f98f78"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_031.jpg",
+      "label": "Loose Smut",
+      "hash": "eefe373e06f227c942f14d214237937e"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_026.jpg",
+      "label": "Loose Smut",
+      "hash": "3993d658792acf726b94d25511020beb"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_048.jpg",
+      "label": "Septoria Blight",
+      "hash": "0af867b83ce93dc05e68bcde0fbc112f"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_039.jpg",
+      "label": "Septoria Blight",
+      "hash": "88bc8b4438b6469930799a90f1c8837c"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_039.jpg",
+      "label": "Loose Smut",
+      "hash": "6eeae57e55629d0564301890badb7d5d"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_037.jpg",
+      "label": "Common Bunt",
+      "hash": "d0f79ebe8acc9ff9668e02acab6546b6"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_021.jpg",
+      "label": "Septoria Blight",
+      "hash": "100e94f99496cb8df1cf4e46d2114619"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_002.jpg",
+      "label": "Loose Smut",
+      "hash": "12670223b677ef30ed9392685e4ab1e9"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_023.jpg",
+      "label": "Common Bunt",
+      "hash": "81acd8c2d60e8b12e0d13a4f311e2222"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_059.jpg",
+      "label": "Loose Smut",
+      "hash": "667d58ea279cddfedf5b6dd852158d0d"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_036.jpg",
+      "label": "Septoria Blight",
+      "hash": "79dc65a38cd91df75820cf78888f8493"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_017.jpg",
+      "label": "Healthy Wheat",
+      "hash": "42339e3929dccb837d045199af8e9f61"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_034.jpg",
+      "label": "Common Bunt",
+      "hash": "60f933f95016a7bd359b8aa9072d710b"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_012.jpg",
+      "label": "Common Bunt",
+      "hash": "6379a24ffeadb7c59e5197e90cf36eae"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_055.jpg",
+      "label": "Healthy Wheat",
+      "hash": "3ced9761548f064f760b420679f821d6"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_028.jpg",
+      "label": "Common Bunt",
+      "hash": "0fa0738883ee9d652687cf40e8da5456"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_028.jpg",
+      "label": "Septoria Blight",
+      "hash": "fe8ad2f39aec3ab1fbf016fe4b4544ac"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_005.jpg",
+      "label": "Common Bunt",
+      "hash": "8b0aa365c174d70fcc3e98c6227b5e15"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_003.jpg",
+      "label": "Septoria Blight",
+      "hash": "fb724b860fe3ce11cd4b022ec3143dd5"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_033.jpg",
+      "label": "Common Bunt",
+      "hash": "c154668b6c7f540bd523675dc8e4128f"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_019.jpg",
+      "label": "Septoria Blight",
+      "hash": "22c415f37640f3c8064f1713b66b7d05"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_051.jpg",
+      "label": "Septoria Blight",
+      "hash": "5927d88aaa2dd01b104c7872065592c6"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_003.jpg",
+      "label": "Loose Smut",
+      "hash": "62a0a46e5bf58b3e7bd4d0720e4af486"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_016.jpg",
+      "label": "Septoria Blight",
+      "hash": "519f17f6fe350371ad657098c76abcad"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_009.jpg",
+      "label": "Septoria Blight",
+      "hash": "764c1721fe121c7c8fa36549b98e3bc7"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_037.jpg",
+      "label": "Healthy Wheat",
+      "hash": "5c776220042337dd6308419e8b2a1604"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_001.jpg",
+      "label": "Healthy Wheat",
+      "hash": "c0ccebcc66ba7164ac12878c54296e50"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_011.jpg",
+      "label": "Loose Smut",
+      "hash": "0be540f2ef5d389c788cb295b0110c85"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_004.jpg",
+      "label": "Healthy Wheat",
+      "hash": "eb4202127c900c7c888209fe0b9af9e6"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_005.jpg",
+      "label": "Loose Smut",
+      "hash": "f6f5310367e05b3f3da19b3054517376"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_045.jpg",
+      "label": "Common Bunt",
+      "hash": "98270daaa107c5f9ef88e2f986ed4c63"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_035.jpg",
+      "label": "Septoria Blight",
+      "hash": "c2b2a4126fd050e0568aa567657f8004"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_041.jpg",
+      "label": "Common Bunt",
+      "hash": "39260f39f0ecdba96e78e165958222ae"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_004.jpg",
+      "label": "Septoria Blight",
+      "hash": "463d60c08d9a58bbc9214ca7f52b6950"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_024.jpg",
+      "label": "Common Bunt",
+      "hash": "582d534e4d42b0e3d305d2e69c244a71"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_059.jpg",
+      "label": "Septoria Blight",
+      "hash": "65fe6386e576eb4c6f40d1640fb53560"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_018.jpg",
+      "label": "Healthy Wheat",
+      "hash": "8333d8e8b1fac230b078a2fe53a7b017"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_022.jpg",
+      "label": "Loose Smut",
+      "hash": "6b8b23d61502841264174b6f9751777c"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_040.jpg",
+      "label": "Common Bunt",
+      "hash": "574c3e7d4b4ebc7522f23fab75113cf1"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_021.jpg",
+      "label": "Healthy Wheat",
+      "hash": "406d0c9d9e33fa06fec8f61d99d975ea"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_048.jpg",
+      "label": "Common Bunt",
+      "hash": "313fbeedc3fe00a6918f5295eca0eee3"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_035.jpg",
+      "label": "Loose Smut",
+      "hash": "81083037768b2fefb3c1e9ac21fa82f6"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_002.jpg",
+      "label": "Healthy Wheat",
+      "hash": "98ec8b150a2b6152b940d2e4262df55f"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_044.jpg",
+      "label": "Common Bunt",
+      "hash": "cc873b8bc2a4857472cf52c851ec3417"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_026.jpg",
+      "label": "Septoria Blight",
+      "hash": "3a75a175bab2c56f5b2747ae2c38db9c"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_047.jpg",
+      "label": "Healthy Wheat",
+      "hash": "5afc2ccd9bbc7ea65964e9f985084f26"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_004.jpg",
+      "label": "Common Bunt",
+      "hash": "21158dff12987c09a6feddd2a9a84963"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_046.jpg",
+      "label": "Loose Smut",
+      "hash": "e24c5bfacc9c239203142cbf61735050"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_054.jpg",
+      "label": "Common Bunt",
+      "hash": "5dd2887734530948ced1dad13a005a31"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_014.jpg",
+      "label": "Septoria Blight",
+      "hash": "e06cf53c14ebcbcbf7b1c4951b09b699"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_038.jpg",
+      "label": "Healthy Wheat",
+      "hash": "2cc474ca8b18f95643318606a1396e51"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_005.jpg",
+      "label": "Healthy Wheat",
+      "hash": "8de4fb5bee7ac89ee0a3e66cafa125b2"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_043.jpg",
+      "label": "Healthy Wheat",
+      "hash": "5950bc15e4189bdffbdc320b8749daed"
+    }
+  ],
+  "val": [
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_050.jpg",
+      "label": "Common Bunt",
+      "hash": "40244a9b919efbcee71b842868520fcd"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_044.jpg",
+      "label": "Septoria Blight",
+      "hash": "ce50a0585be9a60b24e763ecc53a0324"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_021.jpg",
+      "label": "Loose Smut",
+      "hash": "2e6dde9b53f3dfd1781655f465e40121"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_035.jpg",
+      "label": "Common Bunt",
+      "hash": "df3ff45f4da7f81995307e02c83908d4"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_008.jpg",
+      "label": "Common Bunt",
+      "hash": "3b41e9926c8ea6b39eb4810e2ae569e5"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_052.jpg",
+      "label": "Septoria Blight",
+      "hash": "8bfec450a8548988d40a6c0b94953395"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_051.jpg",
+      "label": "Loose Smut",
+      "hash": "e0d4d74bd50d58a1e5cb0b4a9c9e9850"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_032.jpg",
+      "label": "Loose Smut",
+      "hash": "e9ad3041ef198b696813b189468f74ac"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_024.jpg",
+      "label": "Loose Smut",
+      "hash": "4dd210e6ad84105e69e7d24f7cba7eeb"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_034.jpg",
+      "label": "Healthy Wheat",
+      "hash": "964118d51716f32c8b53cb46094bbc2e"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_039.jpg",
+      "label": "Healthy Wheat",
+      "hash": "a1386a26586cbb94631e5a7a8f2a0f06"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_030.jpg",
+      "label": "Loose Smut",
+      "hash": "c0ce25e1cb88bd8d22c188f84a060139"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_009.jpg",
+      "label": "Common Bunt",
+      "hash": "1517e7a560d9765a638b22e620cc4a1a"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_014.jpg",
+      "label": "Common Bunt",
+      "hash": "d3a9e52d55f99cf0232c7671f1e3f1d2"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_060.jpg",
+      "label": "Common Bunt",
+      "hash": "b473795ed451a8ecd93967426b052bbd"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_026.jpg",
+      "label": "Healthy Wheat",
+      "hash": "fbcf6523f7e751bfdc71f6b2931662b5"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_012.jpg",
+      "label": "Septoria Blight",
+      "hash": "126f7e20ecb9b166c8664d29aacacdfb"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_018.jpg",
+      "label": "Common Bunt",
+      "hash": "cf015676a81821ab2bab9c8b67314291"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_047.jpg",
+      "label": "Septoria Blight",
+      "hash": "c00f37dac3a4cadd8e388290a88fefc3"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_013.jpg",
+      "label": "Loose Smut",
+      "hash": "9f5d0355f15a8ba0ed079ed412e7c67d"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_050.jpg",
+      "label": "Healthy Wheat",
+      "hash": "50dcc6b6dfd586e8eeed41a6c21cf7fe"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_015.jpg",
+      "label": "Septoria Blight",
+      "hash": "571347eae582e51c0dafb67418be4667"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_016.jpg",
+      "label": "Healthy Wheat",
+      "hash": "9a59581b47ca77d42413292618d63e96"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_041.jpg",
+      "label": "Healthy Wheat",
+      "hash": "59fa52a509b55aa15ddf49f1c3920f94"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_004.jpg",
+      "label": "Loose Smut",
+      "hash": "7973cb330e571ff1b2ed43b476db98ec"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_055.jpg",
+      "label": "Common Bunt",
+      "hash": "997e0c9f81ece17da3057a35df1e19a4"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_048.jpg",
+      "label": "Loose Smut",
+      "hash": "db46a1ceccf817ed920dd34e61f3e6be"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_051.jpg",
+      "label": "Common Bunt",
+      "hash": "068991f613c96121e391ed7f63ec9fff"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_019.jpg",
+      "label": "Healthy Wheat",
+      "hash": "be7000d4e2c3f2310eb5476d1564b69e"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_055.jpg",
+      "label": "Septoria Blight",
+      "hash": "02b76028010570e8467b27da3f669e7d"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_020.jpg",
+      "label": "Healthy Wheat",
+      "hash": "472a2e73030243dab4fb494263c79a44"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_010.jpg",
+      "label": "Healthy Wheat",
+      "hash": "54cb3c7fc6319a64f74eef32457c5ec2"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_057.jpg",
+      "label": "Healthy Wheat",
+      "hash": "0e1b70318ae545fbf3413a224af32144"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_032.jpg",
+      "label": "Healthy Wheat",
+      "hash": "f14a386136512bac09d1e09b481801cd"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_050.jpg",
+      "label": "Septoria Blight",
+      "hash": "d83a2b5d1c011ee358c832dfb149cd5f"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_059.jpg",
+      "label": "Common Bunt",
+      "hash": "ccfea696b7593d567b01779d6d1cbf48"
+    }
+  ],
+  "test": [
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_049.jpg",
+      "label": "Common Bunt",
+      "hash": "e75c4af2901c4b1029dde40200cfef7a"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_029.jpg",
+      "label": "Loose Smut",
+      "hash": "292abc1e1237c4c706daf9ac94f2ff59"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_022.jpg",
+      "label": "Common Bunt",
+      "hash": "5c7d50d6f1ad653c1bdde05da6246ba4"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_058.jpg",
+      "label": "Common Bunt",
+      "hash": "3787adde90ae227093fe2833ec8f19e9"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_024.jpg",
+      "label": "Healthy Wheat",
+      "hash": "f27114d693282aa8ed562ce74b71d6ac"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_041.jpg",
+      "label": "Septoria Blight",
+      "hash": "eb0efc0dba674a220904b7b46af263c0"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_053.jpg",
+      "label": "Healthy Wheat",
+      "hash": "caec174e5b7700e27d562a784fff5fd9"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_008.jpg",
+      "label": "Healthy Wheat",
+      "hash": "1178e70be882b8eb7c38a8e9c5e87d62"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_012.jpg",
+      "label": "Healthy Wheat",
+      "hash": "995c7e83712468247ef04e13bfef9dcc"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_010.jpg",
+      "label": "Septoria Blight",
+      "hash": "60b83c21eb41a34c915b169fc6f0f7aa"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_038.jpg",
+      "label": "Common Bunt",
+      "hash": "6044fb495876626b076acec5648952f1"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_038.jpg",
+      "label": "Septoria Blight",
+      "hash": "52da56c09e43d6765b3e76f5a1e901bd"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_046.jpg",
+      "label": "Healthy Wheat",
+      "hash": "244abb7fb4a61b70ab9ac59463d4b46d"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_002.jpg",
+      "label": "Common Bunt",
+      "hash": "d5762fb1320dc74da86dce51aa970200"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_053.jpg",
+      "label": "Common Bunt",
+      "hash": "8105ba4a120b29e0dc6d2c0489861b78"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_030.jpg",
+      "label": "Septoria Blight",
+      "hash": "ce0418d743b96fa3a59f2614f6b312c7"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_011.jpg",
+      "label": "Septoria Blight",
+      "hash": "758013a4692639cac910c3b1bbd9d226"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_032.jpg",
+      "label": "Septoria Blight",
+      "hash": "c379cc83be8ac46a03b4479cc4e8ea21"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_044.jpg",
+      "label": "Loose Smut",
+      "hash": "f47d4386f96dd3e2f6223c6486ad184e"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_040.jpg",
+      "label": "Loose Smut",
+      "hash": "c8b2e5fbc1de87241a2cb8083db1113f"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_057.jpg",
+      "label": "Loose Smut",
+      "hash": "2974cbd80a80dcad1caa19341c3844d7"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_028.jpg",
+      "label": "Loose Smut",
+      "hash": "26c6821834ec7b9b1771ea8631cea3d7"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_023.jpg",
+      "label": "Healthy Wheat",
+      "hash": "e0bd64ad6f966e2949cf34649594b4a4"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_015.jpg",
+      "label": "Loose Smut",
+      "hash": "763e7377cdf783880658206e5dc2e5bf"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_035.jpg",
+      "label": "Healthy Wheat",
+      "hash": "bab9deff85e0cf0db36463a540ae8c8f"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_031.jpg",
+      "label": "Healthy Wheat",
+      "hash": "c0bbd49f02948b75057a629b56315cb6"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_002.jpg",
+      "label": "Septoria Blight",
+      "hash": "e0cdea613c8932aab014303b851ed462"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_060.jpg",
+      "label": "Healthy Wheat",
+      "hash": "2bb9b733cf14e78dbe23cb29e9866597"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_021.jpg",
+      "label": "Common Bunt",
+      "hash": "65495187adc5b9d810c395e45a3ebb36"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Healthy_Wheat\\wheat_healthy_wheat_009.jpg",
+      "label": "Healthy Wheat",
+      "hash": "3abca2a9fda29c462d9244084d540ea2"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_012.jpg",
+      "label": "Loose Smut",
+      "hash": "256eef437df8b2f1c730806bb6c8f753"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_047.jpg",
+      "label": "Loose Smut",
+      "hash": "c9f049df110e4d8e71f259160216fe55"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Common_Bunt\\wheat_common_bunt_015.jpg",
+      "label": "Common Bunt",
+      "hash": "83a3b9642a4d680ad0ab7225eee2e238"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_033.jpg",
+      "label": "Loose Smut",
+      "hash": "e2767833143840b92bf7844f443b5c35"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Septoria_Blight\\wheat_septoria_blight_060.jpg",
+      "label": "Septoria Blight",
+      "hash": "0727478797abf87ef86e641a5d139a9b"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\wheat\\Loose_Smut\\wheat_loose_smut_043.jpg",
+      "label": "Loose Smut",
+      "hash": "19925b8ee2988a0bdc21a58fd539cdf0"
+    }
+  ],
+  "classes": [
+    "Common Bunt",
+    "Loose Smut",
+    "Septoria Blight",
+    "Wheat Rust",
+    "Healthy Wheat"
+  ]
+}

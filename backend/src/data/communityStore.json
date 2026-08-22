@@ -1,0 +1,23 @@
+[
+  {
+    "_id": "6a88b11277210ddb15d84b02",
+    "author": "650000000000000000000001",
+    "authorName": "AgriSathi Farmer",
+    "authorRole": "👨‍🌾 AgriSathi Demo Farm",
+    "authorAvatar": "",
+    "authorLocation": "Siliguri",
+    "title": "",
+    "content": "Hi everyone",
+    "postType": "text",
+    "images": [],
+    "voiceUrl": "",
+    "cropTag": "General Agriculture",
+    "likesCount": 2,
+    "dislikesCount": 0,
+    "commentsCount": 2,
+    "status": "active",
+    "createdAt": "2026-08-21T20:12:02.884Z",
+    "updatedAt": "2026-08-21T20:12:02.884Z",
+    "userReaction": null
+  }
+]

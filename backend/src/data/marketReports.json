@@ -1,0 +1,24 @@
+[
+  {
+    "_id": "6a8858aab3955157c6b30aea",
+    "listing": "6a885856b3955157c6b30ae7",
+    "reportedSeller": "650000000000000000000001",
+    "reporter": "650000000000000000000001",
+    "reason": "Suspected Fraud",
+    "details": "Not good",
+    "images": [],
+    "status": "Report Submitted",
+    "createdAt": "2026-08-21T13:54:50.409Z"
+  },
+  {
+    "_id": "6a885856b3955157c6b30ae8",
+    "listing": "6a885856b3955157c6b30ae7",
+    "reportedSeller": "650000000000000000000001",
+    "reporter": "650000000000000000000002",
+    "reason": "Misleading Information",
+    "details": "Seller listing states organic paddy, but grain quality differs.",
+    "images": [],
+    "status": "Report Submitted",
+    "createdAt": "2026-08-21T13:53:26.419Z"
+  }
+]

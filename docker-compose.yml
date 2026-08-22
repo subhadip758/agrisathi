@@ -1,0 +1,121 @@
+version: '3.8'
+
+services:
+  # MongoDB Database
+  mongodb:
+    image: mongo:6.0
+    container_name: urban-farming-mongodb
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: admin
+      MONGO_INITDB_ROOT_PASSWORD: admin123
+      MONGO_INITDB_DATABASE: urban_farming
+    volumes:
+      - mongodb_data:/data/db
+      - mongodb_config:/data/configdb
+    networks:
+      - urban-farming-network
+
+  # Backend Node.js API
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: urban-farming-backend
+    restart: unless-stopped
+    ports:
+      - "5000:5000"
+    environment:
+      NODE_ENV: development
+      PORT: 5000
+      MONGODB_URI: mongodb://admin:admin123@mongodb:27017/urban_farming?authSource=admin
+      JWT_SECRET: your_super_secret_jwt_key_change_in_production
+      JWT_EXPIRE: 7d
+      WEATHER_API_KEY: ${WEATHER_API_KEY}
+      ML_SERVICE_URL: http://ml-services:8000
+      CORS_ORIGIN: http://localhost:3000
+    volumes:
+      - ./backend:/usr/src/app
+      - /usr/src/app/node_modules
+      - ./backend/uploads:/usr/src/app/uploads
+    depends_on:
+      - mongodb
+      - ml-services
+    networks:
+      - urban-farming-network
+    command: npm run dev
+
+  # ML Services (Python Flask)
+  ml-services:
+    build:
+      context: ./ml-services
+      dockerfile: Dockerfile
+    container_name: urban-farming-ml-services
+    restart: unless-stopped
+    ports:
+      - "8000:8000"
+    environment:
+      FLASK_ENV: development
+      FLASK_PORT: 8000
+      MODEL_PATH: /app/models
+      OPENAI_API_KEY: ${OPENAI_API_KEY}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY}
+    volumes:
+      - ./ml-services:/app
+      - ml_models:/app/models
+    networks:
+      - urban-farming-network
+    command: python api/app.py
+
+  # Frontend React Application
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: urban-farming-frontend
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      REACT_APP_API_URL: http://localhost:5000/api
+      REACT_APP_ML_API_URL: http://localhost:8000/api
+      REACT_APP_WEATHER_API_KEY: ${WEATHER_API_KEY}
+    volumes:
+      - ./frontend:/usr/src/app
+      - /usr/src/app/node_modules
+    depends_on:
+      - backend
+    networks:
+      - urban-farming-network
+    stdin_open: true
+    tty: true
+    command: npm start
+
+  # Redis Cache (Optional - for future use)
+  redis:
+    image: redis:7-alpine
+    container_name: urban-farming-redis
+    restart: unless-stopped
+    ports:
+      - "6379:6379"
+    volumes:
+      - redis_data:/data
+    networks:
+      - urban-farming-network
+    command: redis-server --appendonly yes
+
+networks:
+  urban-farming-network:
+    driver: bridge
+
+volumes:
+  mongodb_data:
+    driver: local
+  mongodb_config:
+    driver: local
+  ml_models:
+    driver: local
+  redis_data:
+    driver: local

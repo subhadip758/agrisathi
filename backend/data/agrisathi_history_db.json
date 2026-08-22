@@ -1,0 +1,3073 @@
+{
+  "users": [],
+  "soilAnalyses": [],
+  "waterSources": [],
+  "waterAdvisories": [],
+  "irrigationSchedules": [
+    {
+      "_id": "IRR-1787279556054",
+      "createdAt": "2026-08-21T02:32:36.054Z",
+      "userId": "650000000000000000000001",
+      "farmDetails": {
+        "farmSize": 1,
+        "cropType": "Rice",
+        "soilType": "Clay",
+        "cropStage": "Seedling",
+        "season": "Summer"
+      },
+      "environmentalConditions": {
+        "currentSoilMoisture": 25,
+        "targetSoilMoisture": 80,
+        "moistureDeficit": 55,
+        "temperature": 28,
+        "humidity": 66
+      },
+      "irrigationSchedule": {
+        "urgency": "Critical",
+        "recommendedAction": "Immediate heavy irrigation required to prevent severe drought stress.",
+        "waterQuantity": 4680,
+        "waterUnit": "liters",
+        "frequency": "Daily (Twice a day)",
+        "duration": 117,
+        "durationUnit": "minutes",
+        "bestIrrigationTimes": [
+          "6:00 AM - 8:00 AM",
+          "6:00 PM - 8:00 PM"
+        ],
+        "weeklyWaterNeed": 65520,
+        "nextIrrigationDate": "2026-08-21T06:32:36.054Z"
+      },
+      "ruleEngineCalculations": {
+        "baseWaterNeed": {
+          "low": 3000,
+          "medium": 4500,
+          "high": 6000
+        },
+        "stageFactor": 1,
+        "soilFactor": 0.8,
+        "seasonFactor": 1.3,
+        "adjustmentFactor": 1.04,
+        "rawCalculatedNeed": 88
+      },
+      "isActive": true
+    },
+    {
+      "_id": "IRR-1787279437570",
+      "createdAt": "2026-08-21T02:30:37.570Z",
+      "userId": "650000000000000000000001",
+      "farmDetails": {
+        "farmSize": 1,
+        "cropType": "Rice",
+        "soilType": "Clay",
+        "cropStage": "Seedling",
+        "season": "Summer"
+      },
+      "environmentalConditions": {
+        "currentSoilMoisture": 25,
+        "targetSoilMoisture": 80,
+        "moistureDeficit": 55,
+        "temperature": 28,
+        "humidity": 66
+      },
+      "irrigationSchedule": {
+        "urgency": "Critical",
+        "recommendedAction": "Immediate heavy irrigation required to prevent severe drought stress.",
+        "waterQuantity": 4680,
+        "waterUnit": "liters",
+        "frequency": "Daily (Twice a day)",
+        "duration": 117,
+        "durationUnit": "minutes",
+        "bestIrrigationTimes": [
+          "6:00 AM - 8:00 AM",
+          "6:00 PM - 8:00 PM"
+        ],
+        "weeklyWaterNeed": 65520,
+        "nextIrrigationDate": "2026-08-21T06:30:37.570Z"
+      },
+      "ruleEngineCalculations": {
+        "baseWaterNeed": {
+          "low": 3000,
+          "medium": 4500,
+          "high": 6000
+        },
+        "stageFactor": 1,
+        "soilFactor": 0.8,
+        "seasonFactor": 1.3,
+        "adjustmentFactor": 1.04,
+        "rawCalculatedNeed": 88
+      },
+      "isActive": true
+    }
+  ],
+  "diseaseDetections": [],
+  "chatSessions": [
+    {
+      "sessionId": "SESSION-TEST-IMG",
+      "user": "user123",
+      "messages": [
+        {
+          "role": "user",
+          "content": "এই পাতায় কি সমস্যা?",
+          "metadata": {
+            "hasImage": true
+          },
+          "timestamp": "2026-08-22T10:21:05.885Z"
+        },
+        {
+          "role": "assistant",
+          "content": "ছবিটিতে ধানের পাতার ব্লাইট রোগের লক্ষণ দেখা যাচ্ছে। কপার অক্সিক্লোরাইড ২.৫ গ্রাম/লিটার জলে গুলে স্প্রে করুন।",
+          "metadata": {
+            "tokens": 32,
+            "model": "agrisathi-vision-agent",
+            "processingTime": 281,
+            "hasImage": true,
+            "executedTools": [],
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-22T10:21:05.887Z"
+        },
+        {
+          "role": "user",
+          "content": "এই পাতায় কি সমস্যা?",
+          "metadata": {
+            "hasImage": true
+          },
+          "timestamp": "2026-08-22T10:23:57.089Z"
+        },
+        {
+          "role": "assistant",
+          "content": "ছবিটিতে ধানের পাতার ব্লাইট রোগের লক্ষণ দেখা যাচ্ছে। কপার অক্সিক্লোরাইড ২.৫ গ্রাম/লিটার জলে গুলে স্প্রে করুন।",
+          "metadata": {
+            "tokens": 32,
+            "model": "agrisathi-vision-agent",
+            "processingTime": 310,
+            "hasImage": true,
+            "executedTools": [],
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-22T10:23:57.090Z"
+        }
+      ],
+      "createdAt": "2026-08-22T10:21:05.885Z",
+      "updatedAt": "2026-08-22T10:23:57.090Z"
+    },
+    {
+      "sessionId": "SESSION-SOIL",
+      "user": "user123",
+      "messages": [
+        {
+          "role": "user",
+          "content": "মাটিতে ইউরিয়া সার কতটুকু দেব?",
+          "metadata": {},
+          "timestamp": "2026-08-22T10:21:05.598Z"
+        },
+        {
+          "role": "assistant",
+          "content": "আপনার সংরক্ষিত মৃত্তিকা পরীক্ষার রিয়েল-টাইম রিপোর্ট:\n\n১. মাটির pH মান: 6.5 (সুষম/Neutral)\n২. প্রধান পুষ্টি উপাদান (NPK):\n   - নাইট্রোজেন (N): MEDIUM\n   - ফসফরাস (P): MEDIUM\n   - পটাসিয়াম (K): MEDIUM\n৩. মাটির বুনট ও জৈব পদার্থ: Loam মাটি, জৈব কার্বন MEDIUM\n৪. পরামর্শ: মাটিতে সারের ভারসাম্য বজায় রাখতে রাসায়নিক সারের পাশাপাশি কম্পোস্ট ব্যবহার করুন।",
+          "metadata": {
+            "model": "agrisathi-grounded-engine",
+            "executedTools": [
+              "getSoilAnalysis"
+            ]
+          },
+          "timestamp": "2026-08-22T10:21:05.601Z"
+        },
+        {
+          "role": "user",
+          "content": "মাটিতে ইউরিয়া সার কতটুকু দেব?",
+          "metadata": {},
+          "timestamp": "2026-08-22T10:23:56.774Z"
+        },
+        {
+          "role": "assistant",
+          "content": "আপনার সংরক্ষিত মৃত্তিকা পরীক্ষার রিয়েল-টাইম রিপোর্ট:\n\n১. মাটির pH মান: 6.5 (সুষম/Neutral)\n২. প্রধান পুষ্টি উপাদান (NPK):\n   - নাইট্রোজেন (N): MEDIUM\n   - ফসফরাস (P): MEDIUM\n   - পটাসিয়াম (K): MEDIUM\n৩. মাটির বুনট ও জৈব পদার্থ: Loam মাটি, জৈব কার্বন MEDIUM\n৪. পরামর্শ: মাটিতে সারের ভারসাম্য বজায় রাখতে রাসায়নিক সারের পাশাপাশি কম্পোস্ট ব্যবহার করুন।",
+          "metadata": {
+            "model": "agrisathi-grounded-engine",
+            "executedTools": [
+              "getSoilAnalysis"
+            ]
+          },
+          "timestamp": "2026-08-22T10:23:56.776Z"
+        }
+      ],
+      "createdAt": "2026-08-22T10:21:05.598Z",
+      "updatedAt": "2026-08-22T10:23:56.776Z"
+    },
+    {
+      "sessionId": "SESSION-WEATHER-BN",
+      "user": "user123",
+      "messages": [
+        {
+          "role": "user",
+          "content": "বারাসাতের আজকের আবহাওয়া কেমন?",
+          "metadata": {},
+          "timestamp": "2026-08-22T10:21:05.310Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat অঞ্চলের আবহাওয়ার রিয়েল-টাইম পূর্বাভাস:\n\n১. আগামীকালের তাপমাত্রা: সর্বোচ্চ 32°C এবং সর্বনিম্ন 27°C।\n২. বৃষ্টিপাতের সম্ভাবনা: 65% (বৃষ্টির পূর্বাভাস: বিকেলের দিকে হালকা বৃষ্টি)।\n৩. পরামর্শ: বৃষ্টির সম্ভাবনা থাকলে খোলা জমিতে কাটা ফসল রাখবেন না।",
+          "metadata": {
+            "model": "agrisathi-grounded-engine",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast"
+            ]
+          },
+          "timestamp": "2026-08-22T10:21:05.312Z"
+        },
+        {
+          "role": "user",
+          "content": "বারাসাতের আজকের আবহাওয়া কেমন?",
+          "metadata": {},
+          "timestamp": "2026-08-22T10:23:56.508Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat অঞ্চলের আবহাওয়ার রিয়েল-টাইম পূর্বাভাস:\n\n১. আগামীকালের তাপমাত্রা: সর্বোচ্চ 32°C এবং সর্বনিম্ন 27°C।\n২. বৃষ্টিপাতের সম্ভাবনা: 65% (বৃষ্টির পূর্বাভাস: বিকেলের দিকে হালকা বৃষ্টি)।\n৩. পরামর্শ: বৃষ্টির সম্ভাবনা থাকলে খোলা জমিতে কাটা ফসল রাখবেন না।",
+          "metadata": {
+            "model": "agrisathi-grounded-engine",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast"
+            ]
+          },
+          "timestamp": "2026-08-22T10:23:56.509Z"
+        }
+      ],
+      "createdAt": "2026-08-22T10:21:05.310Z",
+      "updatedAt": "2026-08-22T10:23:56.509Z"
+    },
+    {
+      "sessionId": "SESSION-WEATHER-EN",
+      "user": "user123",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is the weather of Barasat?",
+          "metadata": {},
+          "timestamp": "2026-08-22T10:21:03.473Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Weather Forecast for Barasat:\n\n1. Tomorrow: Max 32°C / Min 27°C\n2. Rain Chance: 65% (Showers)\n3. Note: Keep harvested crops covered.",
+          "metadata": {
+            "model": "agrisathi-grounded-engine",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast"
+            ]
+          },
+          "timestamp": "2026-08-22T10:21:03.474Z"
+        }
+      ],
+      "createdAt": "2026-08-22T10:21:03.473Z",
+      "updatedAt": "2026-08-22T10:21:03.475Z"
+    },
+    {
+      "sessionId": "S-WITH-SYMPTOMS",
+      "user": "user123",
+      "messages": [
+        {
+          "role": "user",
+          "content": "আমার ধানের পাতায় বাদামী ছোপ পঁচন দেখা যাচ্ছে, কী করব?",
+          "metadata": {},
+          "timestamp": "2026-08-22T10:21:01.855Z"
+        },
+        {
+          "role": "assistant",
+          "content": "North 24 Parganas এলাকায় এগ্রিসাথী লাইভ বাজারে কৃষকদের লভ্য সাম্প্রতিক আলুর দাম ও লিস্টিং:\n\n1. Fresh Paddy Rice — ₹35/kg (বিক্রয়ের জন্য লভ্য: 100 kg)\n2. Organic wheat — ₹55/kg (বিক্রয়ের জন্য লভ্য: 200 kg)\n3. Fresh Organic Minikit Paddy — ₹35/kg (বিক্রয়ের জন্য লভ্য: 100 kg)\n4. abcd — ₹31/kg (বিক্রয়ের জন্য লভ্য: 55 kg)",
+          "metadata": {
+            "model": "agrisathi-grounded-engine",
+            "executedTools": [
+              "getCurrentLocation",
+              "getMarketListings"
+            ]
+          },
+          "timestamp": "2026-08-22T10:21:01.857Z"
+        },
+        {
+          "role": "user",
+          "content": "আমার ধানের পাতায় বাদামী ছোপ পঁচন দেখা যাচ্ছে, কী করব?",
+          "metadata": {},
+          "timestamp": "2026-08-22T10:23:57.077Z"
+        },
+        {
+          "role": "assistant",
+          "content": "North 24 Parganas এলাকায় এগ্রিসাথী লাইভ বাজারে কৃষকদের লভ্য সাম্প্রতিক আলুর দাম ও লিস্টিং:\n\n1. Fresh Paddy Rice — ₹35/kg (বিক্রয়ের জন্য লভ্য: 100 kg)\n2. Fresh Paddy Rice — ₹35/kg (বিক্রয়ের জন্য লভ্য: 100 kg)\n3. Organic wheat — ₹55/kg (বিক্রয়ের জন্য লভ্য: 200 kg)\n4. Fresh Organic Minikit Paddy — ₹35/kg (বিক্রয়ের জন্য লভ্য: 100 kg)",
+          "metadata": {
+            "model": "agrisathi-grounded-engine",
+            "executedTools": [
+              "getCurrentLocation",
+              "getMarketListings"
+            ]
+          },
+          "timestamp": "2026-08-22T10:23:57.078Z"
+        }
+      ],
+      "createdAt": "2026-08-22T10:21:01.855Z",
+      "updatedAt": "2026-08-22T10:23:57.078Z"
+    },
+    {
+      "sessionId": "S-NO-PHOTO",
+      "user": "user123",
+      "messages": [
+        {
+          "role": "user",
+          "content": "গাছের রোগ চিহ্নিত করুন",
+          "metadata": {},
+          "timestamp": "2026-08-22T10:21:00.601Z"
+        },
+        {
+          "role": "assistant",
+          "content": "আপনার গাছের রোগ সঠিকভাবে চিহ্নিত করার জন্য আক্রান্ত ফসলের নাম এবং গাছে দেখা যাওয়া লক্ষণগুলো (যেমন: পাতায় বাদামী বা কালচে দাগ, পাতা হলুদ হওয়া, কাণ্ড পচা, শুকিয়ে যাওয়া বা পোকার উপস্থিতি) বিস্তারিত জানান।\n\nউত্তর ২৪ পরগনা (বারাসাত) এলাকার বর্তমান কৃষি সতর্কতা অনুযায়ী নিম্নলিখিত রোগগুলোর প্রাদুর্ভাব দেখা যাচ্ছে:\n\n১. ধান: ধানের ব্লাইট বা ব্লাস্ট রোগ (Rice Blast / Leaf Blight) - উচ্চ ঝুঁকিপূর্ণ।\n২. আলু: আলুর নাবি ধসা রোগ (Late Blight) - মাঝারি ঝুঁকিপূর্ণ।\n\nআপনার ফসলে কী কী নির্দিষ্ট লক্ষণ দেখা যাচ্ছে তা জানালে সঠিক রোগ নির্ণয়, সম্ভাব্য কারণ এবং প্রতিরোধের উপায় জানিয়ে দেওয়া হবে। রোগের প্রকোপ মারাত্মক হলে স্থানীয় ব্লক কৃষি কর্মকর্তা (ADA) বা কৃষি বিজ্ঞান কেন্দ্রের (KVK) পরামর্শ গ্রহণ করুন।",
+          "metadata": {
+            "tokens": 181,
+            "model": "agrisathi-ai-agent",
+            "processingTime": 15384,
+            "roundsCount": 3,
+            "executedTools": [
+              "getFarmerProfile",
+              "getCurrentLocation",
+              "getDiseaseAlerts"
+            ],
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-22T10:21:00.604Z"
+        }
+      ],
+      "createdAt": "2026-08-22T10:21:00.601Z",
+      "updatedAt": "2026-08-22T10:21:00.604Z"
+    },
+    {
+      "sessionId": "CHAT-1787390056083-m6ikzda0r",
+      "user": "650000000000000000000001",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Weather in Barasat",
+          "metadata": {},
+          "timestamp": "2026-08-22T09:14:27.070Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Current Weather in Barasat (Barasat - I, West Bengal):\n- Condition: Thunderstorm\n- Temperature: 31°C\n- Humidity: 80%\n- Rainfall: 8.1 mm\n- Wind Speed: 11 km/h\n\n3-Day Forecast:\n- Today (Aug 22): Thunderstorm with hail, High 33°C / Low 28°C, 8.1 mm rain (93% probability)\n- Tomorrow (Aug 23): Thunderstorm with hail, High 32°C / Low 27°C, 13.1 mm rain (93% probability)\n- Day After (Aug 24): Thunderstorm with hail, High 31°C / Low 26°C, 6.2 mm rain (100% probability)\n\nAgricultural Advisory:\n- Stop all irrigation as heavy rainfall and excessive moisture are expected.\n- Open field drainage channels immediately to reduce the high risk of waterlogging.\n- Postpone chemical spraying, fertilizer application, and harvesting activities until conditions stabilize.\n- High humidity and temperature create favorable conditions for fungal diseases; inspect crops regularly for signs of infection.",
+          "metadata": {
+            "tokens": 227,
+            "model": "agrisathi-ai-agent",
+            "processingTime": 10986,
+            "roundsCount": 2,
+            "executedTools": [
+              "getWeather",
+              "getWeatherForecast"
+            ],
+            "detectedLanguage": "english"
+          },
+          "timestamp": "2026-08-22T09:14:27.076Z"
+        },
+        {
+          "role": "user",
+          "content": "বারাসাতের আবহাওয়া",
+          "metadata": {},
+          "timestamp": "2026-08-22T09:15:49.599Z"
+        },
+        {
+          "role": "assistant",
+          "content": "বারাসাতের বর্তমান আবহাওয়া এবং আগামী ৩ দিনের আবহাওয়ার পূর্বাভাস নিচে দেওয়া হলো:\n\nবর্তমান আবহাওয়া:\nস্থান: বারাসাত, উত্তর ২৪ পরগনা\nবর্তমান পরিস্থিতি: বজ্রবিদ্যুৎসহ বৃষ্টি\nতাপমাত্রা: ৩১° সেলসিয়াস\nবাতাসের আর্দ্রতা: ৮০%\nবৃষ্টিপাত: ৮.১ মিমি\nবাতাসের গতি: ১১ কিমি/ঘণ্টা\n\nআগামী ৩ দিনের পূর্বাভাস:\n২২ আগস্ট: সর্বোচ্চ ৩৩° সেলসিয়াস, সর্বনিম্ন ২৮° সেলসিয়াস। বজ্রবিদ্যুৎসহ বৃষ্টির সম্ভাবনা (বৃষ্টিপাত ৮.১ মিমি, সম্ভাবনা ৯৩%)।\n২৩ আগস্ট: সর্বোচ্চ ৩২° সেলসিয়াস, সর্বনিম্ন ২৭° সেলসিয়াস। ভারী বজ্রবিদ্যুৎসহ বৃষ্টির সম্ভাবনা (বৃষ্টিপাত ১৩.১ মিমি, সম্ভাবনা ৯৩%)।\n২৪ আগস্ট: সর্বোচ্চ ৩১° সেলসিয়াস, সর্বনিম্ন ২৬° সেলসিয়াস। বজ্রবিদ্যুৎসহ বৃষ্টির সম্ভাবনা (বৃষ্টিপাত ৬.২ মিমি, সম্ভাবনা ১০০%)।\n\nকৃষিকাজের ক্ষেত্রে বিশেষ সতর্কতা:\nজমিতে জল জমে যাওয়ার সম্ভাবনা রয়েছে, তাই নিকাশি ব্যবস্থা পরিষ্কার রাখুন।\nবৃষ্টির কারণে জমিতে এখন সার বা কীটনাশক স্প্রে করা থেকে বিরত থাকুন এবং সেচ দেওয়া বন্ধ রাখুন।\nবাতাসে অতিরিক্ত আর্দ্রতার কারণে ফসলে ছত্রাকজাতীয় রোগের ঝুঁকি বাড়তে পারে, তাই গাছের নিচ অংশের পাতা নিয়মিত নজরদারিতে রাখুন।",
+          "metadata": {
+            "tokens": 256,
+            "model": "agrisathi-ai-agent",
+            "processingTime": 14043,
+            "roundsCount": 2,
+            "executedTools": [
+              "getWeather",
+              "getWeatherForecast"
+            ],
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-22T09:15:49.603Z"
+        },
+        {
+          "role": "user",
+          "content": "disease",
+          "metadata": {
+            "hasImage": true
+          },
+          "timestamp": "2026-08-22T09:16:46.378Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Based on visual inspection of the tomato foliage, the crop is affected by Early Blight caused by the fungus Alternaria solani. \n\nDiagnosis Confidence: High (85% to 90%)\n\nKey Symptoms Observed:\n- Large, dark brown to black irregular lesions on leaflets.\n- Characteristic concentric ring pattern (target board effect) inside the necrotic spots.\n- Yellow chlorotic halos surrounding the brown patches.\n- Leaf browning, curling, and premature drying starting from lower mature foliage.\n\nChemical and Curative Control Options:\n- Fungicide Application: Spray Mancozeb 75% WP at 2 to 2.5 grams per liter of water, or Copper Oxychloride 50% WP at 2.5 grams per liter of water.\n- Systemic Options for Moderate to High Infection: Apply Azoxystrobin 23% SC at 1 ml per liter of water, or Difenoconazole 25% EC at 0.5 to 1 ml per liter of water.\n- Repeat spray interval: Repeat treatment after 10 to 14 days if wet weather or infection continues. Ensure complete coverage of both upper and lower leaf surfaces.\n\nPreventive and Cultural Management:\n- Remove and destroy severely infected lower leaves to reduce fungal spore load in the canopy.\n- Avoid overhead irrigation or sprinkler watering to prevent leaves from remaining wet for long periods.\n- Ensure proper plant spacing and staking to improve air circulation and sunlight exposure within the crop canopy.\n- Practice crop rotation with non-solanaceous crops (such as legumes or cereals) for at least 2 to 3 seasons.\n- Apply balanced nutrition, avoiding excessive nitrogen fertilizers which promote dense canopy humidity.\n\nAdvisory:\nIf the infection continues to spread rapidly across the field or affects stem and fruit tissues, collect a fresh plant sample and consult your local Krishi Vigyan Kendra (KVK) or Block Agricultural Officer (BAO) for targeted field diagnosis and local fungicide recommendations.",
+          "metadata": {
+            "tokens": 466,
+            "model": "agrisathi-vision-agent",
+            "processingTime": 21463,
+            "hasImage": true,
+            "executedTools": [
+              "detectCropDisease"
+            ],
+            "detectedLanguage": "english"
+          },
+          "timestamp": "2026-08-22T09:16:46.382Z"
+        }
+      ],
+      "createdAt": "2026-08-22T09:14:27.070Z",
+      "updatedAt": "2026-08-22T09:16:46.382Z"
+    },
+    {
+      "sessionId": "CHAT-1787386395305-l2wl825gn",
+      "user": "650000000000000000000001",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Government schemes",
+          "metadata": {},
+          "timestamp": "2026-08-22T08:13:26.285Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Here are the key agricultural government schemes available for farmers, along with their benefits and official portals:\n\nPM-Kisan Samman Nidhi\n- Benefit: Financial assistance of ₹6,000 per year directly transferred to the registered bank account in three equal installments.\n- Eligibility: All small and marginal landholder farmers.\n- Official Portal: https://pmkisan.gov.in\n\nKrishak Bandhu Scheme\n- Benefit: Financial grant up to ₹10,000 per acre per year for West Bengal agricultural landholders, alongside death benefit coverage.\n- Eligibility: All registered agricultural landowners in West Bengal.\n- Official Portal: https://krishakbandhu.wb.gov.in\n\nPradhan Mantri Fasal Bima Yojana (PMFBY)\n- Benefit: Comprehensive crop insurance coverage against yield losses caused by floods, droughts, pest attacks, and unseasonal storms.\n- Eligibility: All farmers growing notified crops in notified districts.\n- Official Portal: https://pmfby.gov.in\n\nKisan Credit Card Scheme (KCC)\n- Benefit: Subsidized agricultural credit and short-term loans up to ₹3,00,000 at a concessional interest rate (as low as 4% with prompt repayment).\n- Eligibility: Owner farmers, tenant farmers, and sharecroppers.\n- Official Portal: https://pmkisan.gov.in\n\nEligibility Assessment for Your Profile:\nBased on your registered profile details (4.5 acres landholding in West Bengal with Aadhaar-linked bank verification), you are Likely Eligible for PM-Kisan Samman Nidhi and Krishak Bandhu Scheme based on land and crop records, subject to final verification and document submission to local government authorities or your local Block Development Agricultural Officer.",
+          "metadata": {
+            "tokens": 415,
+            "model": "agrisathi-ai-agent",
+            "processingTime": 10979,
+            "roundsCount": 2,
+            "executedTools": [
+              "getGovernmentSchemes",
+              "checkSchemeEligibility"
+            ],
+            "detectedLanguage": "english"
+          },
+          "timestamp": "2026-08-22T08:13:26.292Z"
+        }
+      ],
+      "createdAt": "2026-08-22T08:13:26.285Z",
+      "updatedAt": "2026-08-22T08:13:26.292Z"
+    },
+    {
+      "sessionId": "CHAT-1787337261776-xsp0chc2n",
+      "user": "650000000000000000000001",
+      "messages": [
+        {
+          "role": "user",
+          "content": "বারাসাতের বর্তমান ওয়েদার",
+          "metadata": {},
+          "timestamp": "2026-08-21T18:34:22.910Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat অঞ্চলে আপনার প্রশ্নের রিয়েল-টাইম কৃষি নির্দেশাবলী:\n\n১. আগামী ৩ দিনের আবহাওয়া: সর্বোচ্চ তাপমাত্রা 33°C।\n২. পরিচর্যা পরামর্শ: জমিতে সেচ ও সারের ভারসাম্য বজায় রাখুন এবং নিয়মিত ফসল পরীক্ষা করুন।",
+          "metadata": {
+            "model": "agrisathi-grounded-engine",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast"
+            ]
+          },
+          "timestamp": "2026-08-21T18:34:22.914Z"
+        },
+        {
+          "role": "user",
+          "content": "আমার মাটির অবস্থা কিরকম আছে",
+          "metadata": {},
+          "timestamp": "2026-08-21T18:34:33.279Z"
+        },
+        {
+          "role": "assistant",
+          "content": "আপনার সংরক্ষিত মৃত্তিকা পরীক্ষার রিয়েল-টাইম রিপোর্ট:\n\n১. মাটির pH মান: 6.5 (সুষম/Neutral)\n২. প্রধান পুষ্টি উপাদান (NPK):\n   - নাইট্রোজেন (N): MEDIUM\n   - ফসফরাস (P): MEDIUM\n   - পটাসিয়াম (K): MEDIUM\n৩. মাটির বুনট ও জৈব পদার্থ: Loam মাটি, জৈব কার্বন MEDIUM\n৪. পরামর্শ: মাটিতে সারের ভারসাম্য বজায় রাখতে রাসায়নিক সারের পাশাপাশি কম্পোস্ট ব্যবহার করুন।",
+          "metadata": {
+            "model": "agrisathi-grounded-engine",
+            "executedTools": [
+              "getSoilAnalysis"
+            ]
+          },
+          "timestamp": "2026-08-21T18:34:33.284Z"
+        },
+        {
+          "role": "user",
+          "content": "এখন কি ধরনের ফসল চাষ করবো",
+          "metadata": {},
+          "timestamp": "2026-08-21T18:34:44.320Z"
+        },
+        {
+          "role": "assistant",
+          "content": "North 24 Parganas অঞ্চলের মাটির অবস্থা (pH 6.5) ও আবহাওয়ার পূর্বাভাসের ভিত্তিতে ফসল চাষের সুপারিশ:\n\n১. উপযোগী ফসলসমূহ: ধান (Rice), পাট (Jute), সরিষা (Mustard), এবং বিভিন্ন তাজা সবজি (বেগুন, আলু, টমেটো)।\n২. মাটির সুসংগত বুনট: Loam (দোআঁশ) মাটি হওয়ায় জলধারণ ক্ষমতা ও নিষ্কাশন ব্যবস্থা ভারসাম্যপূর্ণ।\n৩. পরামর্শ: বপনের পূর্বে বীজ শোধন করুন এবং মাটির টেস্ট রিপোর্ট অনুযায়ী সুষম NPK সার প্রয়োগ করুন।",
+          "metadata": {
+            "model": "agrisathi-grounded-engine",
+            "executedTools": [
+              "getCurrentLocation",
+              "getSoilAnalysis",
+              "getWeatherForecast",
+              "getCropRecommendation"
+            ]
+          },
+          "timestamp": "2026-08-21T18:34:44.324Z"
+        },
+        {
+          "role": "user",
+          "content": "আমার জমিতে কি এখন জল দিতে হবে",
+          "metadata": {},
+          "timestamp": "2026-08-21T18:34:56.628Z"
+        },
+        {
+          "role": "assistant",
+          "content": "North 24 Parganas অঞ্চলে ধানের জমিতে সেচ প্রদান সংক্রান্ত সিদ্ধান্ত নির্দেশিকা:\n\n১. মাটির বর্তমান আর্দ্রতা: 52% (OPTIMAL)\n২. বৃষ্টির পূর্বাভাস: আগামী ২ দিনে বৃষ্টিপাতের সম্ভাবনা 65%\n৩. সেচ সিদ্ধান্ত: মাটিতে পর্যাপ্ত আর্দ্রতা থাকায় এবং বৃষ্টির সম্ভাবনা থাকায় আজ সেচ না দেওয়া শ্রেয়।",
+          "metadata": {
+            "model": "agrisathi-grounded-engine",
+            "executedTools": [
+              "getCurrentLocation",
+              "getSoilMoisture",
+              "getWeatherForecast",
+              "getIrrigationStatus"
+            ]
+          },
+          "timestamp": "2026-08-21T18:34:56.631Z"
+        },
+        {
+          "role": "user",
+          "content": "ধান চাষের জন্য অনুকূল পরিবেশ কি",
+          "metadata": {},
+          "timestamp": "2026-08-21T20:20:05.509Z"
+        },
+        {
+          "role": "assistant",
+          "content": "North 24 Parganas অঞ্চলে আপনার প্রশ্নের রিয়েল-টাইম কৃষি নির্দেশাবলী:\n\n১. আগামী ৩ দিনের আবহাওয়া: সর্বোচ্চ তাপমাত্রা 33°C।\n২. পরিচর্যা পরামর্শ: জমিতে সেচ ও সারের ভারসাম্য বজায় রাখুন এবং নিয়মিত ফসল পরীক্ষা করুন।",
+          "metadata": {
+            "model": "agrisathi-grounded-engine",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast"
+            ]
+          },
+          "timestamp": "2026-08-21T20:20:05.516Z"
+        },
+        {
+          "role": "user",
+          "content": "এখন কি ফসল চাষ করা উচিত",
+          "metadata": {},
+          "timestamp": "2026-08-21T20:20:32.679Z"
+        },
+        {
+          "role": "assistant",
+          "content": "North 24 Parganas অঞ্চলের মাটির অবস্থা (pH 6.5) ও আবহাওয়ার পূর্বাভাসের ভিত্তিতে ফসল চাষের সুপারিশ:\n\n১. উপযোগী ফসলসমূহ: ধান (Rice), পাট (Jute), সরিষা (Mustard), এবং বিভিন্ন তাজা সবজি (বেগুন, আলু, টমেটো)।\n২. মাটির সুসংগত বুনট: Loam (দোআঁশ) মাটি হওয়ায় জলধারণ ক্ষমতা ও নিষ্কাশন ব্যবস্থা ভারসাম্যপূর্ণ।\n৩. পরামর্শ: বপনের পূর্বে বীজ শোধন করুন এবং মাটির টেস্ট রিপোর্ট অনুযায়ী সুষম NPK সার প্রয়োগ করুন।",
+          "metadata": {
+            "model": "agrisathi-grounded-engine",
+            "executedTools": [
+              "getCurrentLocation",
+              "getSoilAnalysis",
+              "getWeatherForecast",
+              "getCropRecommendation"
+            ]
+          },
+          "timestamp": "2026-08-21T20:20:32.687Z"
+        }
+      ],
+      "createdAt": "2026-08-21T18:34:22.910Z",
+      "updatedAt": "2026-08-21T20:20:32.687Z"
+    },
+    {
+      "sessionId": "LIVE-UI-SESSION-1787337203575",
+      "user": "650000000000000000000001",
+      "messages": [
+        {
+          "role": "user",
+          "content": "আমার মাটির অবস্থা কেমন?",
+          "metadata": {},
+          "timestamp": "2026-08-21T18:33:24.454Z"
+        },
+        {
+          "role": "assistant",
+          "content": "আপনার সংরক্ষিত মৃত্তিকা পরীক্ষার রিয়েল-টাইম রিপোর্ট:\n\n১. মাটির pH মান: 6.5 (সুষম/Neutral)\n২. প্রধান পুষ্টি উপাদান (NPK):\n   - নাইট্রোজেন (N): MEDIUM\n   - ফসফরাস (P): MEDIUM\n   - পটাসিয়াম (K): MEDIUM\n৩. মাটির বুনট ও জৈব পদার্থ: Loam মাটি, জৈব কার্বন MEDIUM\n৪. পরামর্শ: মাটিতে সারের ভারসাম্য বজায় রাখতে রাসায়নিক সারের পাশাপাশি কম্পোস্ট ব্যবহার করুন।",
+          "metadata": {
+            "model": "agrisathi-grounded-engine",
+            "executedTools": [
+              "getSoilAnalysis"
+            ]
+          },
+          "timestamp": "2026-08-21T18:33:24.455Z"
+        },
+        {
+          "role": "user",
+          "content": "আগামীকাল বৃষ্টি হবে?",
+          "metadata": {},
+          "timestamp": "2026-08-21T18:33:25.513Z"
+        },
+        {
+          "role": "assistant",
+          "content": "North 24 Parganas অঞ্চলের আবহাওয়ার রিয়েল-টাইম পূর্বাভাস:\n\n১. আগামীকালের তাপমাত্রা: সর্বোচ্চ 32°C এবং সর্বনিম্ন 27°C।\n২. বৃষ্টিপাতের সম্ভাবনা: 65% (বৃষ্টির পূর্বাভাস: বিকেলের দিকে হালকা বৃষ্টি)।\n৩. পরামর্শ: বৃষ্টির সম্ভাবনা থাকলে খোলা জমিতে কাটা ফসল রাখবেন না।",
+          "metadata": {
+            "model": "agrisathi-grounded-engine",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast"
+            ]
+          },
+          "timestamp": "2026-08-21T18:33:25.515Z"
+        },
+        {
+          "role": "user",
+          "content": "সরকারি ভর্তুকি কী আছে?",
+          "metadata": {},
+          "timestamp": "2026-08-21T18:33:25.737Z"
+        },
+        {
+          "role": "assistant",
+          "content": "আপনার 4.5 acres জমির প্রোফাইল অনুযায়ী উপলব্ধ সরকারি অনুদান ও প্রকল্পসমূহ:\n\n1. PM-Kisan Samman Nidhi (পিএম কিসান সম্মান নিধি / पीएम-किसान सम्मान निधि) (₹6,000 per year transferred directly to bank account in 3 installments)\n   - আবেদনের অফিশিয়াল পোর্টাল: https://pmkisan.gov.in\n2. Krishak Bandhu Scheme (কৃষক বন্ধু প্রকল্প) (Financial grant up to ₹10,000 per acre per year for West Bengal farmers)\n   - আবেদনের অফিশিয়াল পোর্টাল: https://krishakbandhu.wb.gov.in\n3. Pradhan Mantri Fasal Bima Yojana (PMFBY / फसल बीमा) (Comprehensive crop insurance protection against flood, drought & storm)\n   - আবেদনের অফিশিয়াল পোর্টাল: https://pmfby.gov.in\n4. Kisan Credit Card Scheme (KCC / किसान क्रेडिट कार्ड) (Subsidized short-term credit loan up to ₹3,00,000 at 4% interest rate)\n   - আবেদনের অফিশিয়াল পোর্টাল: https://pmkisan.gov.in\n\n*যোগ্যতা সংক্রান্ত বিজ্ঞপ্তি: আপনি প্রাথমিক তথ্যানুযায়ী এই প্রকল্পগুলোর জন্য সম্ভাব্য যোগ্য (Likely Eligible)। আবেদন ও বায়োমেট্রিক নথি যাচাইকরণের মাধ্যমে চূড়ান্ত অনুদান অনুমোদিত হয়।",
+          "metadata": {
+            "model": "agrisathi-grounded-engine",
+            "executedTools": [
+              "getFarmerProfile",
+              "getGovernmentSchemes",
+              "checkSchemeEligibility"
+            ]
+          },
+          "timestamp": "2026-08-21T18:33:25.739Z"
+        },
+        {
+          "role": "user",
+          "content": "আমার এলাকায় আলুর দাম কত?",
+          "metadata": {},
+          "timestamp": "2026-08-21T18:33:25.985Z"
+        },
+        {
+          "role": "assistant",
+          "content": "North 24 Parganas এলাকায় এগ্রিসাথী লাইভ বাজারে কৃষকদের লভ্য সাম্প্রতিক আলুর দাম ও লিস্টিং:\n\n1. Stored Jyoti Potato — ₹18/kg (বিক্রয়ের জন্য লভ্য: 500 kg)",
+          "metadata": {
+            "model": "agrisathi-grounded-engine",
+            "executedTools": [
+              "getCurrentLocation",
+              "getMarketListings"
+            ]
+          },
+          "timestamp": "2026-08-21T18:33:25.987Z"
+        },
+        {
+          "role": "user",
+          "content": "ধানের পাতায় রোগ হয়েছে কী করব?",
+          "metadata": {},
+          "timestamp": "2026-08-21T18:33:26.200Z"
+        },
+        {
+          "role": "assistant",
+          "content": "North 24 Parganas অঞ্চলে ধানের পাতায় রোগ ও নিরাপত্তা নির্দেশাবলী:\n\n১. সক্রিয় রোগের ঝুঁকি: Rice Blast / Leaf Blight (ধানের ব্লাইট রোগ / धान का झुलसा) (ঝুঁকির মাত্রা: HIGH)\n২. প্রাথমিক চিকিৎসাকরণ: ধানের পাতায় বাদামী ছোপ দেখা দিলে কপার অক্সিক্লোরাইড (Copper Oxychloride 50% WP) ২.৫ গ্রাম প্রতি লিটার জলে গুলে স্প্রে করুন।\n৩. বিশেষজ্ঞ পরামর্শ: লক্ষণ বৃদ্ধি পেলে ব্লকের কৃষি সম্প্রসারণ কর্মকর্তার পরামর্শ নিন।",
+          "metadata": {
+            "model": "agrisathi-grounded-engine",
+            "executedTools": [
+              "getCurrentLocation",
+              "getDiseaseAlerts"
+            ]
+          },
+          "timestamp": "2026-08-21T18:33:26.203Z"
+        },
+        {
+          "role": "user",
+          "content": "আমার জমিতে কোন ফসল চাষ করা ভালো?",
+          "metadata": {},
+          "timestamp": "2026-08-21T18:33:26.428Z"
+        },
+        {
+          "role": "assistant",
+          "content": "North 24 Parganas অঞ্চলের মাটির অবস্থা (pH 6.5) ও আবহাওয়ার পূর্বাভাসের ভিত্তিতে ফসল চাষের সুপারিশ:\n\n১. উপযোগী ফসলসমূহ: ধান (Rice), পাট (Jute), সরিষা (Mustard), এবং বিভিন্ন তাজা সবজি (বেগুন, আলু, টমেটো)।\n২. মাটির সুসংগত বুনট: Loam (দোআঁশ) মাটি হওয়ায় জলধারণ ক্ষমতা ও নিষ্কাশন ব্যবস্থা ভারসাম্যপূর্ণ।\n৩. পরামর্শ: বপনের পূর্বে বীজ শোধন করুন এবং মাটির টেস্ট রিপোর্ট অনুযায়ী সুষম NPK সার প্রয়োগ করুন।",
+          "metadata": {
+            "model": "agrisathi-grounded-engine",
+            "executedTools": [
+              "getCurrentLocation",
+              "getSoilAnalysis",
+              "getWeatherForecast",
+              "getCropRecommendation"
+            ]
+          },
+          "timestamp": "2026-08-21T18:33:26.430Z"
+        }
+      ],
+      "createdAt": "2026-08-21T18:33:24.454Z",
+      "updatedAt": "2026-08-21T18:33:26.430Z"
+    },
+    {
+      "sessionId": "CHAT-1787334927993-rgef1sa28",
+      "user": "650000000000000000000001",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Amar matir avastha ki Rakho mache",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:55:28.619Z"
+        },
+        {
+          "role": "assistant",
+          "content": "North 24 Parganas অঞ্চলে আপনার প্রশ্নের রিয়েল-টাইম কৃষি নির্দেশাবলী:\n\n১. আগামী ৩ দিনের আবহাওয়া: সর্বোচ্চ তাপমাত্রা 33°C।\n২. পরিচর্যা পরামর্শ: জমিতে সেচ ও সারের ভারসাম্য বজায় রাখুন এবং নিয়মিত ফসল পরীক্ষা করুন।",
+          "metadata": {
+            "model": "agrisathi-grounded-engine",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast"
+            ]
+          },
+          "timestamp": "2026-08-21T17:55:28.624Z"
+        },
+        {
+          "role": "user",
+          "content": "আগামীকাল কি বৃষ্টিপাত হবে",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:55:41.095Z"
+        },
+        {
+          "role": "assistant",
+          "content": "North 24 Parganas অঞ্চলের আবহাওয়ার রিয়েল-টাইম পূর্বাভাস:\n\n১. আগামীকালের তাপমাত্রা: সর্বোচ্চ 32°C এবং সর্বনিম্ন 27°C।\n২. বৃষ্টিপাতের সম্ভাবনা: 65% (বৃষ্টির পূর্বাভাস: বিকেলের দিকে হালকা বৃষ্টি)।\n৩. পরামর্শ: বৃষ্টির সম্ভাবনা থাকলে খোলা জমিতে কাটা ফসল রাখবেন না।",
+          "metadata": {
+            "model": "agrisathi-grounded-engine",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast"
+            ]
+          },
+          "timestamp": "2026-08-21T17:55:41.100Z"
+        },
+        {
+          "role": "user",
+          "content": "আমার মাটির অবস্থা কিরকম আছে",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:55:54.603Z"
+        },
+        {
+          "role": "assistant",
+          "content": "আপনার সংরক্ষিত মৃত্তিকা পরীক্ষার রিয়েল-টাইম রিপোর্ট:\n\n১. মাটির pH মান: 6.5 (সুষম/Neutral)\n২. প্রধান পুষ্টি উপাদান (NPK):\n   - নাইট্রোজেন (N): MEDIUM\n   - ফসফরাস (P): MEDIUM\n   - পটাসিয়াম (K): MEDIUM\n৩. মাটির বুনট ও জৈব পদার্থ: Loam মাটি, জৈব কার্বন MEDIUM\n৪. পরামর্শ: মাটিতে সারের ভারসাম্য বজায় রাখতে রাসায়নিক সারের পাশাপাশি কম্পোস্ট ব্যবহার করুন।",
+          "metadata": {
+            "model": "agrisathi-grounded-engine",
+            "executedTools": [
+              "getSoilAnalysis"
+            ]
+          },
+          "timestamp": "2026-08-21T17:55:54.605Z"
+        },
+        {
+          "role": "user",
+          "content": "সরকারি ভর্তুকি",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:56:04.864Z"
+        },
+        {
+          "role": "assistant",
+          "content": "আপনার 4.5 acres জমির প্রোফাইল অনুযায়ী উপলব্ধ সরকারি অনুদান ও প্রকল্পসমূহ:\n\n1. PM-Kisan Samman Nidhi (পিএম কিসান সম্মান নিধি / पीएम-किसान सम्मान निधि) (₹6,000 per year transferred directly to bank account in 3 installments)\n   - আবেদনের অফিশিয়াল পোর্টাল: https://pmkisan.gov.in\n2. Krishak Bandhu Scheme (কৃষক বন্ধু প্রকল্প) (Financial grant up to ₹10,000 per acre per year for West Bengal farmers)\n   - আবেদনের অফিশিয়াল পোর্টাল: https://krishakbandhu.wb.gov.in\n3. Pradhan Mantri Fasal Bima Yojana (PMFBY / फसल बीमा) (Comprehensive crop insurance protection against flood, drought & storm)\n   - আবেদনের অফিশিয়াল পোর্টাল: https://pmfby.gov.in\n4. Kisan Credit Card Scheme (KCC / किसान क्रेडिट कार्ड) (Subsidized short-term credit loan up to ₹3,00,000 at 4% interest rate)\n   - আবেদনের অফিশিয়াল পোর্টাল: https://pmkisan.gov.in\n\n*যোগ্যতা সংক্রান্ত বিজ্ঞপ্তি: আপনি প্রাথমিক তথ্যানুযায়ী এই প্রকল্পগুলোর জন্য সম্ভাব্য যোগ্য (Likely Eligible)। আবেদন ও বায়োমেট্রিক নথি যাচাইকরণের মাধ্যমে চূড়ান্ত অনুদান অনুমোদিত হয়।",
+          "metadata": {
+            "model": "agrisathi-grounded-engine",
+            "executedTools": [
+              "getFarmerProfile",
+              "getGovernmentSchemes",
+              "checkSchemeEligibility"
+            ]
+          },
+          "timestamp": "2026-08-21T17:56:04.866Z"
+        },
+        {
+          "role": "user",
+          "content": "এখানে কি ফসল চাষ করা উচিত",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:56:38.623Z"
+        },
+        {
+          "role": "assistant",
+          "content": "North 24 Parganas অঞ্চলে আপনার প্রশ্নের রিয়েল-টাইম কৃষি নির্দেশাবলী:\n\n১. আগামী ৩ দিনের আবহাওয়া: সর্বোচ্চ তাপমাত্রা 33°C।\n২. পরিচর্যা পরামর্শ: জমিতে সেচ ও সারের ভারসাম্য বজায় রাখুন এবং নিয়মিত ফসল পরীক্ষা করুন।",
+          "metadata": {
+            "model": "agrisathi-grounded-engine",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast"
+            ]
+          },
+          "timestamp": "2026-08-21T17:56:38.628Z"
+        },
+        {
+          "role": "user",
+          "content": "অচল",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:56:54.744Z"
+        },
+        {
+          "role": "assistant",
+          "content": "North 24 Parganas অঞ্চলে আপনার প্রশ্নের রিয়েল-টাইম কৃষি নির্দেশাবলী:\n\n১. আগামী ৩ দিনের আবহাওয়া: সর্বোচ্চ তাপমাত্রা 33°C।\n২. পরিচর্যা পরামর্শ: জমিতে সেচ ও সারের ভারসাম্য বজায় রাখুন এবং নিয়মিত ফসল পরীক্ষা করুন।",
+          "metadata": {
+            "model": "agrisathi-grounded-engine",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast"
+            ]
+          },
+          "timestamp": "2026-08-21T17:56:54.749Z"
+        },
+        {
+          "role": "user",
+          "content": "কীটনাশক",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:57:02.675Z"
+        },
+        {
+          "role": "assistant",
+          "content": "North 24 Parganas অঞ্চলে আপনার প্রশ্নের রিয়েল-টাইম কৃষি নির্দেশাবলী:\n\n১. আগামী ৩ দিনের আবহাওয়া: সর্বোচ্চ তাপমাত্রা 33°C।\n২. পরিচর্যা পরামর্শ: জমিতে সেচ ও সারের ভারসাম্য বজায় রাখুন এবং নিয়মিত ফসল পরীক্ষা করুন।",
+          "metadata": {
+            "model": "agrisathi-grounded-engine",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast"
+            ]
+          },
+          "timestamp": "2026-08-21T17:57:02.681Z"
+        },
+        {
+          "role": "user",
+          "content": "weather in Barasat",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:57:26.321Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Agricultural Advice for Barasat:\n\n1. Weather: Max temp 33°C.\n2. Field Action: Maintain optimal field drainage and inspect crops daily.",
+          "metadata": {
+            "model": "agrisathi-grounded-engine",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast"
+            ]
+          },
+          "timestamp": "2026-08-21T17:57:26.325Z"
+        }
+      ],
+      "createdAt": "2026-08-21T17:55:28.619Z",
+      "updatedAt": "2026-08-21T17:57:26.325Z"
+    },
+    {
+      "sessionId": "SAME-CHAT-SESSION-1787334838502",
+      "user": "650000000000000000000001",
+      "messages": [
+        {
+          "role": "user",
+          "content": "সরকারি ভর্তুকি",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:53:59.423Z"
+        },
+        {
+          "role": "assistant",
+          "content": "আপনার 4.5 acres জমির প্রোফাইল অনুযায়ী উপলব্ধ সরকারি অনুদান ও প্রকল্পসমূহ:\n\n1. PM-Kisan Samman Nidhi (পিএম কিসান সম্মান নিধি / पीएम-किसान सम्मान निधि) (₹6,000 per year transferred directly to bank account in 3 installments)\n   - আবেদনের অফিশিয়াল পোর্টাল: https://pmkisan.gov.in\n2. Krishak Bandhu Scheme (কৃষক বন্ধু প্রকল্প) (Financial grant up to ₹10,000 per acre per year for West Bengal farmers)\n   - আবেদনের অফিশিয়াল পোর্টাল: https://krishakbandhu.wb.gov.in\n3. Pradhan Mantri Fasal Bima Yojana (PMFBY / फसल बीमा) (Comprehensive crop insurance protection against flood, drought & storm)\n   - আবেদনের অফিশিয়াল পোর্টাল: https://pmfby.gov.in\n4. Kisan Credit Card Scheme (KCC / किसान क्रेडिट कार्ड) (Subsidized short-term credit loan up to ₹3,00,000 at 4% interest rate)\n   - আবেদনের অফিশিয়াল পোর্টাল: https://pmkisan.gov.in\n\n*যোগ্যতা সংক্রান্ত বিজ্ঞপ্তি: আপনি প্রাথমিক তথ্যানুযায়ী এই প্রকল্পগুলোর জন্য সম্ভাব্য যোগ্য (Likely Eligible)। আবেদন ও বায়োমেট্রিক নথি যাচাইকরণের মাধ্যমে চূড়ান্ত অনুদান অনুমোদিত হয়।",
+          "metadata": {
+            "model": "agrisathi-grounded-engine",
+            "executedTools": [
+              "getFarmerProfile",
+              "getGovernmentSchemes",
+              "checkSchemeEligibility"
+            ]
+          },
+          "timestamp": "2026-08-21T17:53:59.425Z"
+        },
+        {
+          "role": "user",
+          "content": "আগামীকাল বৃষ্টি হবে?",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:54:00.399Z"
+        },
+        {
+          "role": "assistant",
+          "content": "North 24 Parganas অঞ্চলের আবহাওয়ার রিয়েল-টাইম পূর্বাভাস:\n\n১. আগামীকালের তাপমাত্রা: সর্বোচ্চ 32°C এবং সর্বনিম্ন 27°C।\n২. বৃষ্টিপাতের সম্ভাবনা: 65% (বৃষ্টির পূর্বাভাস: বিকেলের দিকে হালকা বৃষ্টি)।\n৩. পরামর্শ: বৃষ্টির সম্ভাবনা থাকলে খোলা জমিতে কাটা ফসল রাখবেন না।",
+          "metadata": {
+            "model": "agrisathi-grounded-engine",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast"
+            ]
+          },
+          "timestamp": "2026-08-21T17:54:00.400Z"
+        },
+        {
+          "role": "user",
+          "content": "আমার মাটির অবস্থা কেমন?",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:54:00.840Z"
+        },
+        {
+          "role": "assistant",
+          "content": "আপনার সংরক্ষিত মৃত্তিকা পরীক্ষার রিয়েল-টাইম রিপোর্ট:\n\n১. মাটির pH মান: 6.5 (সুষম/Neutral)\n২. প্রধান পুষ্টি উপাদান (NPK):\n   - নাইট্রোজেন (N): MEDIUM\n   - ফসফরাস (P): MEDIUM\n   - পটাসিয়াম (K): MEDIUM\n৩. মাটির বুনট ও জৈব পদার্থ: Loam মাটি, জৈব কার্বন MEDIUM\n৪. পরামর্শ: মাটিতে সারের ভারসাম্য বজায় রাখতে রাসায়নিক সারের পাশাপাশি কম্পোস্ট ব্যবহার করুন।",
+          "metadata": {
+            "model": "agrisathi-grounded-engine",
+            "executedTools": [
+              "getSoilAnalysis"
+            ]
+          },
+          "timestamp": "2026-08-21T17:54:00.842Z"
+        },
+        {
+          "role": "user",
+          "content": "সেচ কখন দেব?",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:54:01.227Z"
+        },
+        {
+          "role": "assistant",
+          "content": "North 24 Parganas অঞ্চলে ধানের জমিতে সেচ প্রদান সংক্রান্ত সিদ্ধান্ত নির্দেশিকা:\n\n১. মাটির বর্তমান আর্দ্রতা: 52% (OPTIMAL)\n২. বৃষ্টির পূর্বাভাস: আগামী ২ দিনে বৃষ্টিপাতের সম্ভাবনা 65%\n৩. সেচ সিদ্ধান্ত: মাটিতে পর্যাপ্ত আর্দ্রতা থাকায় এবং বৃষ্টির সম্ভাবনা থাকায় আজ সেচ না দেওয়া শ্রেয়।",
+          "metadata": {
+            "model": "agrisathi-grounded-engine",
+            "executedTools": [
+              "getCurrentLocation",
+              "getSoilMoisture",
+              "getWeatherForecast",
+              "getIrrigationStatus"
+            ]
+          },
+          "timestamp": "2026-08-21T17:54:01.228Z"
+        },
+        {
+          "role": "user",
+          "content": "আমার এলাকায় আলুর দাম কত?",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:54:01.444Z"
+        },
+        {
+          "role": "assistant",
+          "content": "North 24 Parganas এলাকায় এগ্রিসাথী লাইভ বাজারে কৃষকদের লভ্য সাম্প্রতিক আলুর দাম ও লিস্টিং:\n\n1. Stored Jyoti Potato — ₹18/kg (বিক্রয়ের জন্য লভ্য: 500 kg)",
+          "metadata": {
+            "model": "agrisathi-grounded-engine",
+            "executedTools": [
+              "getCurrentLocation",
+              "getMarketListings"
+            ]
+          },
+          "timestamp": "2026-08-21T17:54:01.446Z"
+        }
+      ],
+      "createdAt": "2026-08-21T17:53:59.423Z",
+      "updatedAt": "2026-08-21T17:54:01.446Z"
+    },
+    {
+      "sessionId": "CHAT-1787334653130-7jqgwei0w",
+      "user": "650000000000000000000001",
+      "messages": [
+        {
+          "role": "user",
+          "content": "আমার এলাকায় এখন জ্যোতি আলুর দাম কত চলছে?",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:50:53.337Z"
+        },
+        {
+          "role": "assistant",
+          "content": "North 24 Parganas অঞ্চলে এগ্রিসাথী লাইভ বাজারে কৃষকদের লভ্য সাম্প্রতিক শস্য ও আলুর দাম:\n\n1. Stored Jyoti Potato — ₹18/kg (পরিমাণ: 500 kg)",
+          "metadata": {
+            "model": "agrisathi-grounded-engine",
+            "executedTools": [
+              "getCurrentLocation",
+              "getMarketListings"
+            ]
+          },
+          "timestamp": "2026-08-21T17:50:53.340Z"
+        }
+      ],
+      "createdAt": "2026-08-21T17:50:53.337Z",
+      "updatedAt": "2026-08-21T17:50:53.340Z"
+    },
+    {
+      "sessionId": "CHAT-1787334652910-wkwmviyy5",
+      "user": "650000000000000000000001",
+      "messages": [
+        {
+          "role": "user",
+          "content": "ধানের পাতায় হলুদ বা বাদামী ছোপ হলে কী স্প্রে করব?",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:50:53.121Z"
+        },
+        {
+          "role": "assistant",
+          "content": "North 24 Parganas অঞ্চলে ধানের পাতায় হলুদ বা বাদামী ছোপ রোগের কারণ ও প্রতিকার ব্যবস্থা:\n\n১. রোগের কারণ: এটি মূলত ধানের ব্রাউন স্পট (Brown Spot) বা ব্লাইট রোগের লক্ষণ। অতিরিক্ত আর্দ্রতা ও নাইট্রোজেনের ঘাটতিতে এই রোগ বাড়ে।\n২. কীটনাশক/ছত্রাকনাশক প্রয়োগ: কপার অক্সিক্লোরাইড (Copper Oxychloride 50% WP) ২.৫ গ্রাম প্রতি লিটার জলে গুলে অথবা ম্যানকোজেব স্প্রে করুন।\n৩. সতর্কতা: জমিতে সুষম পটাশ সার প্রয়োগ করুন এবং অতিরিক্ত প্রাদুর্ভাব হলে স্থানীয় কৃষি প্রযুক্তি কেন্দ্রের কর্মকর্তাদের পরামর্শ নিন।",
+          "metadata": {
+            "model": "agrisathi-grounded-engine",
+            "executedTools": [
+              "getCurrentLocation",
+              "getDiseaseAlerts"
+            ]
+          },
+          "timestamp": "2026-08-21T17:50:53.123Z"
+        }
+      ],
+      "createdAt": "2026-08-21T17:50:53.121Z",
+      "updatedAt": "2026-08-21T17:50:53.123Z"
+    },
+    {
+      "sessionId": "CHAT-1787334651481-oh9kp6t26",
+      "user": "650000000000000000000001",
+      "messages": [
+        {
+          "role": "user",
+          "content": "আমার জমিতে এই মুহূর্তে কী কী সমস্যা হতে পারে এবং আগামী ৭ দিনে আমাকে কী কী করতে হবে?",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:50:52.900Z"
+        },
+        {
+          "role": "assistant",
+          "content": "North 24 Parganas অঞ্চলের রিয়েল-টাইম তথ্য অনুযায়ী আপনার জমির সেচ ও আবহাওয়া সংক্রান্ত নির্দেশাবলী:\n\n১. আগামী ৭ দিনের আবহাওয়া: সর্বোচ্চ তাপমাত্রা 33°C এবং আর্দ্রতা স্বাভাবিক রয়েছে। বৃষ্টির সম্ভাবনা থাকলে অতিরিক্ত সেচ বন্ধ রাখুন।\n২. মাটির অবস্থা: বর্তমান মাটি pH 6.5 (সুষম)।\n৩. সেচ ও পরিচর্যা: জমির নিকাশি নালা পরিষ্কার রাখুন এবং ফসলের গোড়ায় জল জমতে দেবেন না।",
+          "metadata": {
+            "model": "agrisathi-grounded-engine",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast",
+              "getSoilAnalysis",
+              "getIrrigationStatus"
+            ]
+          },
+          "timestamp": "2026-08-21T17:50:52.901Z"
+        }
+      ],
+      "createdAt": "2026-08-21T17:50:52.900Z",
+      "updatedAt": "2026-08-21T17:50:52.901Z"
+    },
+    {
+      "sessionId": "CHAT-1787334557279-evw78ardt",
+      "user": "650000000000000000000001",
+      "messages": [
+        {
+          "role": "user",
+          "content": "আমার এলাকায় এখন জ্যোতি আলুর দাম কত চলছে?",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:49:17.475Z"
+        },
+        {
+          "role": "assistant",
+          "content": "North 24 Parganas অঞ্চলে এই মুহূর্তে নতুন কোনো তাজা সবজি বিক্রির লিস্টিং নিবন্ধিত নেই।",
+          "metadata": {
+            "model": "agrisathi-grounded-engine",
+            "executedTools": [
+              "getCurrentLocation",
+              "getFreshMarketListings"
+            ]
+          },
+          "timestamp": "2026-08-21T17:49:17.477Z"
+        }
+      ],
+      "createdAt": "2026-08-21T17:49:17.475Z",
+      "updatedAt": "2026-08-21T17:49:17.477Z"
+    },
+    {
+      "sessionId": "CHAT-1787334557052-puxl2zydu",
+      "user": "650000000000000000000001",
+      "messages": [
+        {
+          "role": "user",
+          "content": "ধানের পাতায় হলুদ বা বাদামী ছোপ হলে কী স্প্রে করব?",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:49:17.270Z"
+        },
+        {
+          "role": "assistant",
+          "content": "North 24 Parganas অঞ্চলে এই মুহূর্তে নতুন কোনো তাজা সবজি বিক্রির লিস্টিং নিবন্ধিত নেই।",
+          "metadata": {
+            "model": "agrisathi-grounded-engine",
+            "executedTools": [
+              "getCurrentLocation",
+              "getFreshMarketListings"
+            ]
+          },
+          "timestamp": "2026-08-21T17:49:17.271Z"
+        }
+      ],
+      "createdAt": "2026-08-21T17:49:17.270Z",
+      "updatedAt": "2026-08-21T17:49:17.271Z"
+    },
+    {
+      "sessionId": "CHAT-1787334555568-n1b1ji0dv",
+      "user": "650000000000000000000001",
+      "messages": [
+        {
+          "role": "user",
+          "content": "আমার জমিতে এই মুহূর্তে কী কী সমস্যা হতে পারে এবং আগামী ৭ দিনে আমাকে কী কী করতে হবে?",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:49:17.037Z"
+        },
+        {
+          "role": "assistant",
+          "content": "North 24 Parganas অঞ্চলের রিয়েল-টাইম তথ্য অনুযায়ী আপনার প্রশ্ন \"আমার জমিতে এই মুহূর্তে কী কী সমস্যা হতে পারে এবং আগামী ৭ দিনে আমাকে কী কী করতে হবে?\"-এর সুনির্দিষ্ট কৃষি নির্দেশাবলী:\n\n১. আগামী ৭ দিনের আবহাওয়া: সর্বোচ্চ তাপমাত্রা 33°C এবং আর্দ্রতা স্বাভাবিক রয়েছে। বৃষ্টির পূর্বাভাস থাকলে অতিরিক্ত সেচ বন্ধ রাখুন।\n২. মাটির অবস্থা: বর্তমান মাটি pH 6.5 (সুষম)। সারের অপচয় রোধে নির্দিষ্ট মাত্রায় নাইট্রোজেন ও ফসফরাস দিন।\n৩. সেচ ও পরবর্তী ৭ দিনের কাজ: জমির নিকাশি নালা পরিষ্কার রাখুন এবং ফসলের গোড়ায় জল জমতে দেবেন না।",
+          "metadata": {
+            "model": "agrisathi-grounded-engine",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast",
+              "getSoilAnalysis",
+              "getIrrigationStatus"
+            ]
+          },
+          "timestamp": "2026-08-21T17:49:17.039Z"
+        }
+      ],
+      "createdAt": "2026-08-21T17:49:17.037Z",
+      "updatedAt": "2026-08-21T17:49:17.039Z"
+    },
+    {
+      "sessionId": "CHAT-1787334379907-hvefcu2v2",
+      "user": "650000000000000000000001",
+      "messages": [
+        {
+          "role": "user",
+          "content": "আগামী সাত দিন কি বৃষ্টি হবে",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:46:40.347Z"
+        },
+        {
+          "role": "assistant",
+          "content": "আপনার প্রশ্নের পূর্ণ বিশ্লেষণ সম্পন্ন করা হয়েছে। কোনো নির্দিষ্ট তথ্য জানার থাকলে জানান।",
+          "metadata": {
+            "model": "agrisathi-ai-agent",
+            "roundsCount": 2,
+            "executedTools": [
+              "getCurrentLocation",
+              "getFarmerProfile"
+            ]
+          },
+          "timestamp": "2026-08-21T17:46:40.349Z"
+        },
+        {
+          "role": "user",
+          "content": "বারাসাতের আবহাওয়া সম্বন্ধে বল",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:47:01.923Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর মাটির অবস্থা ও আগামী ৭ দিনের আবহাওয়ার রিয়েল-টাইম তথ্যানুযায়ী আপনার প্রশ্নের সুনির্দিষ্ট কৃষি পরামর্শ তৈরি করা হলো।",
+          "metadata": {
+            "model": "agrisathi-grounded-fallback",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast",
+              "getSoilAnalysis"
+            ]
+          },
+          "timestamp": "2026-08-21T17:47:01.927Z"
+        },
+        {
+          "role": "user",
+          "content": "হ্যাঁ আমাকে ওই কৃষি পরামর্শ দাও",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:47:13.722Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর মাটির অবস্থা ও আগামী ৭ দিনের আবহাওয়ার রিয়েল-টাইম তথ্যানুযায়ী আপনার প্রশ্নের সুনির্দিষ্ট কৃষি পরামর্শ তৈরি করা হলো।",
+          "metadata": {
+            "model": "agrisathi-grounded-fallback",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast",
+              "getSoilAnalysis"
+            ]
+          },
+          "timestamp": "2026-08-21T17:47:13.725Z"
+        },
+        {
+          "role": "user",
+          "content": "সরকারি ভর্তুকি",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:47:34.947Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর মাটির অবস্থা ও আগামী ৭ দিনের আবহাওয়ার রিয়েল-টাইম তথ্যানুযায়ী আপনার প্রশ্নের সুনির্দিষ্ট কৃষি পরামর্শ তৈরি করা হলো।",
+          "metadata": {
+            "model": "agrisathi-grounded-fallback",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast",
+              "getSoilAnalysis"
+            ]
+          },
+          "timestamp": "2026-08-21T17:47:34.952Z"
+        }
+      ],
+      "createdAt": "2026-08-21T17:46:40.347Z",
+      "updatedAt": "2026-08-21T17:47:34.952Z"
+    },
+    {
+      "sessionId": "CHAT-1787334260525-spxuhk9yz",
+      "user": "650000000000000000000001",
+      "messages": [
+        {
+          "role": "user",
+          "content": "আমার ধানের জমিতে কাল সেচ দেওয়া উচিত কি?",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:44:20.792Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর মাটির অবস্থা ও আগামী ৭ দিনের আবহাওয়ার রিয়েল-টাইম তথ্যানুযায়ী আপনার প্রশ্নের সুনির্দিষ্ট কৃষি পরামর্শ তৈরি করা হলো।",
+          "metadata": {
+            "model": "agrisathi-grounded-fallback",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast",
+              "getSoilAnalysis"
+            ]
+          },
+          "timestamp": "2026-08-21T17:44:20.796Z"
+        }
+      ],
+      "createdAt": "2026-08-21T17:44:20.792Z",
+      "updatedAt": "2026-08-21T17:44:20.796Z"
+    },
+    {
+      "sessionId": "CHAT-1787334258848-u66hpob90",
+      "user": "650000000000000000000001",
+      "messages": [
+        {
+          "role": "user",
+          "content": "আমার জমিতে এই মুহূর্তে কী কী সমস্যা হতে পারে এবং আগামী ৭ দিনে আমাকে কী কী করতে হবে?",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:44:20.512Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর মাটির অবস্থা ও আগামী ৭ দিনের আবহাওয়ার রিয়েল-টাইম তথ্যানুযায়ী আপনার প্রশ্নের সুনির্দিষ্ট কৃষি পরামর্শ তৈরি করা হলো।",
+          "metadata": {
+            "model": "agrisathi-grounded-fallback",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast",
+              "getSoilAnalysis"
+            ]
+          },
+          "timestamp": "2026-08-21T17:44:20.514Z"
+        }
+      ],
+      "createdAt": "2026-08-21T17:44:20.512Z",
+      "updatedAt": "2026-08-21T17:44:20.514Z"
+    },
+    {
+      "sessionId": "TRACE-UNSEEN-SESSION",
+      "user": "650000000000000000000001",
+      "messages": [
+        {
+          "role": "user",
+          "content": "আমার জমিতে এই মুহূর্তে কী কী সমস্যা হতে পারে এবং আগামী ৭ দিনে আমাকে কী কী করতে হবে?",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:40:28.823Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর মাটির অবস্থা ও আগামী ৭ দিনের আবহাওয়ার রিয়েল-টাইম তথ্যানুযায়ী আপনার প্রশ্নের সুনির্দিষ্ট কৃষি পরামর্শ তৈরি করা হলো।",
+          "metadata": {
+            "model": "agrisathi-grounded-fallback",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast",
+              "getSoilAnalysis"
+            ]
+          },
+          "timestamp": "2026-08-21T17:40:28.825Z"
+        }
+      ],
+      "createdAt": "2026-08-21T17:40:28.823Z",
+      "updatedAt": "2026-08-21T17:40:28.825Z"
+    },
+    {
+      "sessionId": "QA-LANG-1787332778136",
+      "user": "650000000000000000000001",
+      "messages": [
+        {
+          "role": "user",
+          "content": "mere khet mein paani kab dena chahiye?",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:19:38.586Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Based on real-time soil and weather data for paani kab, here is your custom agricultural advisory.",
+          "metadata": {
+            "model": "agrisathi-grounded-fallback",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast",
+              "getSoilAnalysis"
+            ]
+          },
+          "timestamp": "2026-08-21T17:19:38.588Z"
+        }
+      ],
+      "createdAt": "2026-08-21T17:19:38.586Z",
+      "updatedAt": "2026-08-21T17:19:38.588Z"
+    },
+    {
+      "sessionId": "QA-LANG-1787332777898",
+      "user": "650000000000000000000001",
+      "messages": [
+        {
+          "role": "user",
+          "content": "amar dhan e pani kobe debo?",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:19:38.132Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর মাটির অবস্থা ও আগামী ৭ দিনের আবহাওয়ার রিয়েল-টাইম তথ্যানুযায়ী আপনার প্রশ্নের সুনির্দিষ্ট কৃষি পরামর্শ তৈরি করা হলো।",
+          "metadata": {
+            "model": "agrisathi-grounded-fallback",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast",
+              "getSoilAnalysis"
+            ]
+          },
+          "timestamp": "2026-08-21T17:19:38.134Z"
+        }
+      ],
+      "createdAt": "2026-08-21T17:19:38.132Z",
+      "updatedAt": "2026-08-21T17:19:38.134Z"
+    },
+    {
+      "sessionId": "QA-LANG-1787332777632",
+      "user": "650000000000000000000001",
+      "messages": [
+        {
+          "role": "user",
+          "content": "kal bristi hobe?",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:19:37.893Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর মাটির অবস্থা ও আগামী ৭ দিনের আবহাওয়ার রিয়েল-টাইম তথ্যানুযায়ী আপনার প্রশ্নের সুনির্দিষ্ট কৃষি পরামর্শ তৈরি করা হলো।",
+          "metadata": {
+            "model": "agrisathi-grounded-fallback",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast",
+              "getSoilAnalysis"
+            ]
+          },
+          "timestamp": "2026-08-21T17:19:37.895Z"
+        }
+      ],
+      "createdAt": "2026-08-21T17:19:37.893Z",
+      "updatedAt": "2026-08-21T17:19:37.895Z"
+    },
+    {
+      "sessionId": "QA-SESSION-1787332777361",
+      "user": "650000000000000000000001",
+      "messages": [
+        {
+          "role": "user",
+          "content": "আমার এলাকায় এখন চাষের জন্য কী কী ঝুঁকি আছে?",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:19:37.630Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর মাটির অবস্থা ও আগামী ৭ দিনের আবহাওয়ার রিয়েল-টাইম তথ্যানুযায়ী আপনার প্রশ্নের সুনির্দিষ্ট কৃষি পরামর্শ তৈরি করা হলো।",
+          "metadata": {
+            "model": "agrisathi-grounded-fallback",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast",
+              "getSoilAnalysis"
+            ]
+          },
+          "timestamp": "2026-08-21T17:19:37.631Z"
+        }
+      ],
+      "createdAt": "2026-08-21T17:19:37.630Z",
+      "updatedAt": "2026-08-21T17:19:37.631Z"
+    },
+    {
+      "sessionId": "QA-SESSION-1787332777062",
+      "user": "650000000000000000000001",
+      "messages": [
+        {
+          "role": "user",
+          "content": "আমার crop-এর বর্তমান অবস্থায় আগামী এক সপ্তাহে কোন বিষয়গুলো সবচেয়ে বেশি নজরে রাখা উচিত?",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:19:37.358Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর মাটির অবস্থা ও আগামী ৭ দিনের আবহাওয়ার রিয়েল-টাইম তথ্যানুযায়ী আপনার প্রশ্নের সুনির্দিষ্ট কৃষি পরামর্শ তৈরি করা হলো।",
+          "metadata": {
+            "model": "agrisathi-grounded-fallback",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast",
+              "getSoilAnalysis"
+            ]
+          },
+          "timestamp": "2026-08-21T17:19:37.360Z"
+        }
+      ],
+      "createdAt": "2026-08-21T17:19:37.358Z",
+      "updatedAt": "2026-08-21T17:19:37.360Z"
+    },
+    {
+      "sessionId": "QA-SESSION-1787332776831",
+      "user": "650000000000000000000001",
+      "messages": [
+        {
+          "role": "user",
+          "content": "বৃষ্টি হলে আমার ধানের জমিতে irrigation schedule কীভাবে বদলাব?",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:19:37.060Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর মাটির অবস্থা ও আগামী ৭ দিনের আবহাওয়ার রিয়েল-টাইম তথ্যানুযায়ী আপনার প্রশ্নের সুনির্দিষ্ট কৃষি পরামর্শ তৈরি করা হলো।",
+          "metadata": {
+            "model": "agrisathi-grounded-fallback",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast",
+              "getSoilAnalysis"
+            ]
+          },
+          "timestamp": "2026-08-21T17:19:37.061Z"
+        }
+      ],
+      "createdAt": "2026-08-21T17:19:37.060Z",
+      "updatedAt": "2026-08-21T17:19:37.061Z"
+    },
+    {
+      "sessionId": "QA-SESSION-1787332775361",
+      "user": "650000000000000000000001",
+      "messages": [
+        {
+          "role": "user",
+          "content": "আমার জমির বর্তমান অবস্থা আর আগামী কয়েকদিনের আবহাওয়া দেখে কী কী সমস্যা হতে পারে?",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:19:36.826Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর মাটির অবস্থা ও আগামী ৭ দিনের আবহাওয়ার রিয়েল-টাইম তথ্যানুযায়ী আপনার প্রশ্নের সুনির্দিষ্ট কৃষি পরামর্শ তৈরি করা হলো।",
+          "metadata": {
+            "model": "agrisathi-grounded-fallback",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast",
+              "getSoilAnalysis"
+            ]
+          },
+          "timestamp": "2026-08-21T17:19:36.827Z"
+        }
+      ],
+      "createdAt": "2026-08-21T17:19:36.826Z",
+      "updatedAt": "2026-08-21T17:19:36.827Z"
+    },
+    {
+      "sessionId": "AUDIT-SESSION-D",
+      "user": "650000000000000000000001",
+      "messages": [
+        {
+          "role": "user",
+          "content": "আগামী ৭ দিনের আবহাওয়ার পূর্বাভাস দেখে ধান ক্ষেতে পানি দেওয়া উচিত কিনা বলো।",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:13:16.888Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর মাটির অবস্থা ও আগামী ৭ দিনের আবহাওয়ার রিয়েল-টাইম তথ্যানুযায়ী আপনার প্রশ্নের সুনির্দিষ্ট কৃষি পরামর্শ তৈরি করা হলো।",
+          "metadata": {
+            "model": "agrisathi-grounded-fallback",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast",
+              "getSoilAnalysis"
+            ]
+          },
+          "timestamp": "2026-08-21T17:13:16.889Z"
+        }
+      ],
+      "createdAt": "2026-08-21T17:13:16.888Z",
+      "updatedAt": "2026-08-21T17:13:16.889Z"
+    },
+    {
+      "sessionId": "AUDIT-SESSION-C",
+      "user": "650000000000000000000001",
+      "messages": [
+        {
+          "role": "user",
+          "content": "আমার বারাসাত এলাকায় এখন জ্যোতি আলুর দাম কত করে চলছে?",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:13:16.638Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর মাটির অবস্থা ও আগামী ৭ দিনের আবহাওয়ার রিয়েল-টাইম তথ্যানুযায়ী আপনার প্রশ্নের সুনির্দিষ্ট কৃষি পরামর্শ তৈরি করা হলো।",
+          "metadata": {
+            "model": "agrisathi-grounded-fallback",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast",
+              "getSoilAnalysis"
+            ]
+          },
+          "timestamp": "2026-08-21T17:13:16.639Z"
+        }
+      ],
+      "createdAt": "2026-08-21T17:13:16.638Z",
+      "updatedAt": "2026-08-21T17:13:16.639Z"
+    },
+    {
+      "sessionId": "AUDIT-SESSION-B",
+      "user": "650000000000000000000001",
+      "messages": [
+        {
+          "role": "user",
+          "content": "ধানের পাতায় বাদামী ছোপ ছোপ দাগ দেখা যাচ্ছে, এর কারণ এবং প্রতিকার কী?",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:13:16.348Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর মাটির অবস্থা ও আগামী ৭ দিনের আবহাওয়ার রিয়েল-টাইম তথ্যানুযায়ী আপনার প্রশ্নের সুনির্দিষ্ট কৃষি পরামর্শ তৈরি করা হলো।",
+          "metadata": {
+            "model": "agrisathi-grounded-fallback",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast",
+              "getSoilAnalysis"
+            ]
+          },
+          "timestamp": "2026-08-21T17:13:16.351Z"
+        }
+      ],
+      "createdAt": "2026-08-21T17:13:16.348Z",
+      "updatedAt": "2026-08-21T17:13:16.351Z"
+    },
+    {
+      "sessionId": "AUDIT-SESSION-A",
+      "user": "650000000000000000000001",
+      "messages": [
+        {
+          "role": "user",
+          "content": "আমার জন্য কোন সরকারি স্কিম এবং সাবসিডি রয়েছে এবং আবেদনের ওয়েবসাইট কোনটি?",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:13:16.094Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর মাটির অবস্থা ও আগামী ৭ দিনের আবহাওয়ার রিয়েল-টাইম তথ্যানুযায়ী আপনার প্রশ্নের সুনির্দিষ্ট কৃষি পরামর্শ তৈরি করা হলো।",
+          "metadata": {
+            "model": "agrisathi-grounded-fallback",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast",
+              "getSoilAnalysis"
+            ]
+          },
+          "timestamp": "2026-08-21T17:13:16.098Z"
+        }
+      ],
+      "createdAt": "2026-08-21T17:13:16.094Z",
+      "updatedAt": "2026-08-21T17:13:16.098Z"
+    },
+    {
+      "sessionId": "ACCEPTANCE-SESSION-MEMORY-1787332213766",
+      "user": "650000000000000000000001",
+      "messages": [
+        {
+          "role": "user",
+          "content": "My rice leaves are turning yellow.",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:10:13.991Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Based on real-time soil and weather data for Barasat, here is your custom agricultural advisory.",
+          "metadata": {
+            "model": "agrisathi-grounded-fallback",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast",
+              "getSoilAnalysis"
+            ]
+          },
+          "timestamp": "2026-08-21T17:10:13.992Z"
+        },
+        {
+          "role": "user",
+          "content": "What pesticide should I spray for this?",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:10:15.115Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Based on real-time soil and weather data for pesticide should, here is your custom agricultural advisory.",
+          "metadata": {
+            "model": "agrisathi-grounded-fallback",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast",
+              "getSoilAnalysis"
+            ]
+          },
+          "timestamp": "2026-08-21T17:10:15.117Z"
+        }
+      ],
+      "createdAt": "2026-08-21T17:10:13.991Z",
+      "updatedAt": "2026-08-21T17:10:15.117Z"
+    },
+    {
+      "sessionId": "ACCEPTANCE-SESSION-8",
+      "user": "650000000000000000000001",
+      "messages": [
+        {
+          "role": "user",
+          "content": "mere khet mein paani kab dena chahiye?",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:10:13.763Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Based on real-time soil and weather data for paani kab, here is your custom agricultural advisory.",
+          "metadata": {
+            "model": "agrisathi-grounded-fallback",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast",
+              "getSoilAnalysis"
+            ]
+          },
+          "timestamp": "2026-08-21T17:10:13.765Z"
+        }
+      ],
+      "createdAt": "2026-08-21T17:10:13.763Z",
+      "updatedAt": "2026-08-21T17:10:13.765Z"
+    },
+    {
+      "sessionId": "ACCEPTANCE-SESSION-7",
+      "user": "650000000000000000000001",
+      "messages": [
+        {
+          "role": "user",
+          "content": "kal bristi hobe ki? amar dhan er jonno ki kora uchit?",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:10:12.848Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর মাটির অবস্থা ও আগামী ৭ দিনের আবহাওয়ার রিয়েল-টাইম তথ্যানুযায়ী আপনার প্রশ্নের সুনির্দিষ্ট কৃষি পরামর্শ তৈরি করা হলো।",
+          "metadata": {
+            "model": "agrisathi-grounded-fallback",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast",
+              "getSoilAnalysis"
+            ]
+          },
+          "timestamp": "2026-08-21T17:10:12.851Z"
+        }
+      ],
+      "createdAt": "2026-08-21T17:10:12.848Z",
+      "updatedAt": "2026-08-21T17:10:12.851Z"
+    },
+    {
+      "sessionId": "ACCEPTANCE-SESSION-6",
+      "user": "650000000000000000000001",
+      "messages": [
+        {
+          "role": "user",
+          "content": "বেগুন গাছে ঢলে পড়া (wilt) রোগ দেখা দিলে এবং গোড়ায় জল জমলে কী প্রতিকার করব?",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:10:12.599Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর মাটির অবস্থা ও আগামী ৭ দিনের আবহাওয়ার রিয়েল-টাইম তথ্যানুযায়ী আপনার প্রশ্নের সুনির্দিষ্ট কৃষি পরামর্শ তৈরি করা হলো।",
+          "metadata": {
+            "model": "agrisathi-grounded-fallback",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast",
+              "getSoilAnalysis"
+            ]
+          },
+          "timestamp": "2026-08-21T17:10:12.601Z"
+        }
+      ],
+      "createdAt": "2026-08-21T17:10:12.599Z",
+      "updatedAt": "2026-08-21T17:10:12.601Z"
+    },
+    {
+      "sessionId": "ACCEPTANCE-SESSION-5",
+      "user": "650000000000000000000001",
+      "messages": [
+        {
+          "role": "user",
+          "content": "আমার এলাকায় এখন কোন fresh vegetables available?",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:10:12.309Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর মাটির অবস্থা ও আগামী ৭ দিনের আবহাওয়ার রিয়েল-টাইম তথ্যানুযায়ী আপনার প্রশ্নের সুনির্দিষ্ট কৃষি পরামর্শ তৈরি করা হলো।",
+          "metadata": {
+            "model": "agrisathi-grounded-fallback",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast",
+              "getSoilAnalysis"
+            ]
+          },
+          "timestamp": "2026-08-21T17:10:12.310Z"
+        }
+      ],
+      "createdAt": "2026-08-21T17:10:12.309Z",
+      "updatedAt": "2026-08-21T17:10:12.310Z"
+    },
+    {
+      "sessionId": "ACCEPTANCE-SESSION-4",
+      "user": "650000000000000000000001",
+      "messages": [
+        {
+          "role": "user",
+          "content": "আমার profile অনুযায়ী এখন কোন government subsidy আমার জন্য useful?",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:10:12.039Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর মাটির অবস্থা ও আগামী ৭ দিনের আবহাওয়ার রিয়েল-টাইম তথ্যানুযায়ী আপনার প্রশ্নের সুনির্দিষ্ট কৃষি পরামর্শ তৈরি করা হলো।",
+          "metadata": {
+            "model": "agrisathi-grounded-fallback",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast",
+              "getSoilAnalysis"
+            ]
+          },
+          "timestamp": "2026-08-21T17:10:12.040Z"
+        }
+      ],
+      "createdAt": "2026-08-21T17:10:12.039Z",
+      "updatedAt": "2026-08-21T17:10:12.040Z"
+    },
+    {
+      "sessionId": "ACCEPTANCE-SESSION-3",
+      "user": "650000000000000000000001",
+      "messages": [
+        {
+          "role": "user",
+          "content": "ধান কাটার আগে আগামী কয়েকদিনের আবহাওয়া দেখে কী কী প্রস্তুতি নেওয়া উচিত?",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:10:11.772Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর মাটির অবস্থা ও আগামী ৭ দিনের আবহাওয়ার রিয়েল-টাইম তথ্যানুযায়ী আপনার প্রশ্নের সুনির্দিষ্ট কৃষি পরামর্শ তৈরি করা হলো।",
+          "metadata": {
+            "model": "agrisathi-grounded-fallback",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast",
+              "getSoilAnalysis"
+            ]
+          },
+          "timestamp": "2026-08-21T17:10:11.774Z"
+        }
+      ],
+      "createdAt": "2026-08-21T17:10:11.772Z",
+      "updatedAt": "2026-08-21T17:10:11.774Z"
+    },
+    {
+      "sessionId": "ACCEPTANCE-SESSION-2",
+      "user": "650000000000000000000001",
+      "messages": [
+        {
+          "role": "user",
+          "content": "আজকে আমার ধানের জমিতে পানি দেওয়া ভালো হবে নাকি কাল দেওয়া ভালো?",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:10:11.495Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর মাটির অবস্থা ও আগামী ৭ দিনের আবহাওয়ার রিয়েল-টাইম তথ্যানুযায়ী আপনার প্রশ্নের সুনির্দিষ্ট কৃষি পরামর্শ তৈরি করা হলো।",
+          "metadata": {
+            "model": "agrisathi-grounded-fallback",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast",
+              "getSoilAnalysis"
+            ]
+          },
+          "timestamp": "2026-08-21T17:10:11.497Z"
+        }
+      ],
+      "createdAt": "2026-08-21T17:10:11.495Z",
+      "updatedAt": "2026-08-21T17:10:11.497Z"
+    },
+    {
+      "sessionId": "ACCEPTANCE-SESSION-1",
+      "user": "650000000000000000000001",
+      "messages": [
+        {
+          "role": "user",
+          "content": "আমার মাটির অবস্থা, আগামী ৭ দিনের আবহাওয়া এবং irrigation status দেখে বলো আগামী কয়েকদিনে আমার কী করা উচিত?",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:10:11.243Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর মাটির অবস্থা ও আগামী ৭ দিনের আবহাওয়ার রিয়েল-টাইম তথ্যানুযায়ী আপনার প্রশ্নের সুনির্দিষ্ট কৃষি পরামর্শ তৈরি করা হলো।",
+          "metadata": {
+            "model": "agrisathi-grounded-fallback",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast",
+              "getSoilAnalysis"
+            ]
+          },
+          "timestamp": "2026-08-21T17:10:11.245Z"
+        }
+      ],
+      "createdAt": "2026-08-21T17:10:11.243Z",
+      "updatedAt": "2026-08-21T17:10:11.245Z"
+    },
+    {
+      "sessionId": "TRACE-SESSION-1",
+      "user": "650000000000000000000001",
+      "messages": [
+        {
+          "role": "user",
+          "content": "আমার soil condition, আগামী ৭ দিনের weather, irrigation status এবং আমার crop stage একসাথে analyse করে বলো আগামী কয়েকদিনে আমার কী কী করা উচিত এবং কী কী risk আছে?",
+          "metadata": {},
+          "timestamp": "2026-08-21T16:55:52.650Z"
+        },
+        {
+          "role": "assistant",
+          "content": "সুদীপ ঘোষ মহাশয়, আপনার ৪.৫ একর জমির বর্তমান পরিস্থিতি, বারাসাত অঞ্চলের আবহাওয়া এবং আপনার ফসলের রূপরেখা বিশ্লেষণ করে আগামী কয়েকদিনের জন্য প্রয়োজনীয় নির্দেশাবলী ও সম্ভাব্য ঝুঁকি নিচে বিস্তারিতভাবে আলোচনা করা হলো।\n\n**১. মাটি সংক্রান্ত অবস্থা (Soil Condition Analysis):**\nআপনার প্রোফাইলে বর্তমানে নির্দিষ্ট কোনো মৃত্তিকা পরীক্ষার রেকর্ড সংরক্ষিত নেই। তবে উত্তর ২৪ পরগনার বারাসাত অঞ্চলের ভৌগোলিক বৈশিষ্ট্য অনুযায়ী এখানকার মাটি মূলত গাঙ্গেয় পলি ও এঁটেল-দোঁআশ প্রকৃতির, যার স্বাভাবিক pH মান ৬.০ থেকে ৭.২-এর মধ্যে থাকে। \n* পরমর্শ: জমিতে সারের অপচয় রোধ এবং সঠিক মাত্রায় রাসায়নিক ও জৈব সার প্রয়োগ নিশ্চিত করতে অবিলম্বে একটি মৃত্তিকা পরীক্ষা করিয়ে নিন।\n\n**২. আগামী ৭ দিনের আবহাওয়া ও সেচ ব্যবস্থাপনা (Weather & Irrigation Status):**\nআগামী দিনগুলোতে বারাসাতে দিনের সর্বোচ্চ তাপমাত্রা ৩২°C থেকে ৩৩°C এবং রাতের তাপমাত্রা ২৭°C থেকে ২৮°C-এর ঘরে থাকবে। বাতাসের আর্দ্রতা বেশি থাকার সম্ভাবনা রয়েছে।\n* ধান ক্ষেতের সেচ: আমন ধান বর্তমানে কুশি বের হওয়ার (Tillering) পর্যায়ে রয়েছে। এই সময়ে ধান ক্ষেতে ৩ থেকে ৫ সেন্টিমিটার জল ধরে রাখা প্রয়োজন। বৃষ্টির অতিরিক্ত জল জমলে তা বের করে দেওয়ার জন্য নিকাশি নালা তৈরি রাখুন।\n* সবজি ক্ষেতের সেচ: সবজির ক্ষেত্রে গোড়ায় জল জমলে শেঁকড় পচে যাওয়ার চরম ঝুঁকি থাকে। তাই জমিতে সেচ হালকা রাখুন এবং অতিরিক্ত জল দ্রুত নিষ্কাশনের ব্যবস্থা করুন।\n\n**৩. ফসলের বর্তমান পর্যায় অনুযায়ী করণীয় (Crop Stage Specific Actions):**\n* আমন ধান: কুশি আসার এই সময়টি অত্যন্ত গুরুত্বপূর্ণ। এই পর্যায়ে চাপান সার হিসেবে প্রতি একরে নির্ধারিত মাত্রায় ইউরিয়া এবং সুফলা বা পটাশ ব্যবহার করুন। সার প্রয়োগের সময় জমিতে সামান্য জল থাকা আবশ্যক।\n* সবজি চাষ: বর্ষাকালীন সবজিতে (যেমন বেগুন, ঢ্যাঁড়শ, পটল) গাছের বৃদ্ধি ও ফুল-ফল ধারণ বজায় রাখতে অনুখাদ্য (Micro-nutrients) স্প্রে করুন।\n\n**আগামী কয়েকদিনের প্রধান ঝুঁকি (Potential Risks):**\n\n১. **ছত্রাক ও ব্যাকটেরিয়াজনিত রোগ (Disease Risk):**\n৩২-৩৩ ডিগ্রি সেলসিয়াস তাপমাত্রা ও উচ্চ আর্দ্রতার মিলনে ধানের জমিতে শিথ ব্লাইট (Sheath Blight) এবং সবজিতে শেঁকড় পচা বা ধসা রোগের অনুকূল পরিবেশ তৈরি হয়।\n* প্রতিরোধ: ধান গাছের গোড়ায় কালো বা বাদামী ছোপ দেখলে হেক্সাকোনাজোল (Hexaconazole 5% EC) প্রতি লিটার জলে ২ মিলি মিশিয়ে স্প্রে করুন।\n\n২. **পোকার আক্রমণ (Pest Risk):**\nএই আবহাওয়ায় ধানের জমিতে মাজরা পোকা (Stem Borer) এবং সবজি ক্ষেতে শোষক পোকা (Thrips/Whitefly) ও মাছি পোকার উপদ্রব বাড়ে।\n* প্রতিরোধ: ধানের জমিতে প্রতি একরে ৪-৫টি ফেরোমন ট্র্যাপ (Pheromone Trap) বসান। মাজরা পোকার লক্ষণ (মরা ডিড) দেখলে কার্টাপ হাইড্রোক্লোরাইড (Cartap Hydrochloride) বা ক্লোরানট্রানিলিপ্রোল (Chlorantraniliprole) প্রয়োগ করুন।\n\n৩. **পুষ্টিহীনতা ও অতিরিক্ত জল আবদ্ধতা (Nutrient & Drainage Risk):**\nমাটিতে অতিরিক্ত জল জমে থাকলে গাছের শিকড় অক্সিজেন পায় না, ফলে গাছ হলুদ হয়ে যেতে পারে।\n\n**জরুরি কর্মপরিকল্পনা (Next Steps):**\n* আজই ধানের এবং সবজির জমির নিকাশি নালা পরিষ্কার করুন।\n* প্রতিদিন সকালে জমি পরিদর্শন করে পাতার নিচে পোকার ডিম বা রোগের লক্ষণ পর্যবেক্ষণ করুন।\n* নিকটস্থ কৃষি বিজ্ঞান কেন্দ্র বা মাটি পরীক্ষা কেন্দ্রে মাটির নমুনা জমা দিন।",
+          "metadata": {
+            "tokens": 757,
+            "model": "agrisathi-ai",
+            "processingTime": 38797,
+            "confidence": 0.99,
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T16:55:52.652Z"
+        },
+        {
+          "role": "user",
+          "content": "আমার soil condition, আগামী ৭ দিনের weather, irrigation status এবং আমার crop stage একসাথে analyse করে বলো আগামী কয়েকদিনে আমার কী কী করা উচিত এবং কী কী risk আছে?",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:05:56.630Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর মাটির অবস্থা ও আগামী ৭ দিনের আবহাওয়ার রিয়েল-টাইম তথ্যানুযায়ী আপনার প্রশ্নের সুনির্দিষ্ট কৃষি পরামর্শ তৈরি করা হলো।",
+          "metadata": {
+            "model": "agrisathi-grounded-fallback",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast",
+              "getSoilAnalysis"
+            ]
+          },
+          "timestamp": "2026-08-21T17:05:56.632Z"
+        },
+        {
+          "role": "user",
+          "content": "আমার soil condition, আগামী ৭ দিনের weather, irrigation status এবং আমার crop stage একসাথে analyse করে বলো আগামী কয়েকদিনে আমার কী কী করা উচিত এবং কী কী risk আছে?",
+          "metadata": {},
+          "timestamp": "2026-08-21T17:06:02.139Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর মাটির অবস্থা ও আগামী ৭ দিনের আবহাওয়ার রিয়েল-টাইম তথ্যানুযায়ী আপনার প্রশ্নের সুনির্দিষ্ট কৃষি পরামর্শ তৈরি করা হলো।",
+          "metadata": {
+            "model": "agrisathi-grounded-fallback",
+            "executedTools": [
+              "getCurrentLocation",
+              "getWeatherForecast",
+              "getSoilAnalysis"
+            ]
+          },
+          "timestamp": "2026-08-21T17:06:02.140Z"
+        }
+      ],
+      "createdAt": "2026-08-21T16:55:52.650Z",
+      "updatedAt": "2026-08-21T17:06:02.140Z"
+    },
+    {
+      "sessionId": "SESSION-UNSEEN-GROWTH",
+      "user": "test-user-unseen",
+      "messages": [
+        {
+          "role": "user",
+          "content": "আমার জমিতে গত কয়েকদিন ধরে গাছের বৃদ্ধি কমে গেছে, available data দেখে possible কারণগুলো বলো।",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:48:00.991Z"
+        },
+        {
+          "role": "assistant",
+          "content": "আপনার প্রশ্নের প্রতিক্রিয়া:\n\nআপনি যে বিষয়ে জানতে চেয়েছেন তা অত্যন্ত গুরুত্বপূর্ণ। কৃষি বিজ্ঞান, মাটির স্বাস্থ্য, সেচ ব্যবস্থা, শস্য উৎপাদন বৃদ্ধি এবং আধুনিক প্রযুক্তির বিষয়ে নির্ভুল পরামর্শ প্রদানের জন্য আমাদের সার্ভিস প্রস্তুত।\n\n[Source: AgriSathi Universal AI Assistant]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:48:00.992Z"
+        }
+      ],
+      "createdAt": "2026-08-21T14:48:00.991Z",
+      "updatedAt": "2026-08-21T14:48:00.992Z"
+    },
+    {
+      "sessionId": "SESSION-P2-6",
+      "user": "test-user-phase2",
+      "messages": [
+        {
+          "role": "user",
+          "content": "আমার আশেপাশে এখন কোন fresh vegetables available?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:47:50.329Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এ সরাসরি কৃষকদের উপলব্ধ ফসলসমূহ:\n\n1. Fresh Organic Minikit Paddy — ₹35/kg (উপলব্ধ: 100 kg)\n2. abcd — ₹31/kg (উপলব্ধ: 55 kg)\n3. Stored Jyoti Potato — ₹18/kg (উপলব্ধ: 500 kg)\n4. Paddy rice — ₹33/kg (উপলব্ধ: 55 kg)\n5. Fresh Paddy Rice — ₹35/kg (উপলব্ধ: 100 kg)\n\n[Source: AgriSathi Direct Farmer Marketplace]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:47:50.329Z"
+        },
+        {
+          "role": "user",
+          "content": "আমার আশেপাশে এখন কোন fresh vegetables available?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:52:18.390Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এ সরাসরি কৃষকদের উপলব্ধ ফসলসমূহ:\n\n1. Fresh Organic Minikit Paddy — ₹35/kg (উপলব্ধ: 100 kg)\n2. abcd — ₹31/kg (উপলব্ধ: 55 kg)\n3. Stored Jyoti Potato — ₹18/kg (উপলব্ধ: 500 kg)\n4. Paddy rice — ₹33/kg (উপলব্ধ: 55 kg)\n5. Fresh Paddy Rice — ₹35/kg (উপলব্ধ: 100 kg)\n\n[Source: AgriSathi Direct Farmer Marketplace]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:52:18.391Z"
+        },
+        {
+          "role": "user",
+          "content": "আমার আশেপাশে এখন কোন fresh vegetables available?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:52:39.766Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এ সরাসরি কৃষকদের উপলব্ধ ফসলসমূহ:\n\n1. Fresh Organic Minikit Paddy — ₹35/kg (উপলব্ধ: 100 kg)\n2. abcd — ₹31/kg (উপলব্ধ: 55 kg)\n3. Stored Jyoti Potato — ₹18/kg (উপলব্ধ: 500 kg)\n4. Paddy rice — ₹33/kg (উপলব্ধ: 55 kg)\n5. Fresh Paddy Rice — ₹35/kg (উপলব্ধ: 100 kg)\n\n[Source: AgriSathi Direct Farmer Marketplace]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:52:39.767Z"
+        },
+        {
+          "role": "user",
+          "content": "আমার আশেপাশে এখন কোন fresh vegetables available?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:53:05.744Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এ সরাসরি কৃষকদের উপলব্ধ ফসলসমূহ:\n\n1. Fresh Organic Minikit Paddy — ₹35/kg (উপলব্ধ: 100 kg)\n2. abcd — ₹31/kg (উপলব্ধ: 55 kg)\n3. Stored Jyoti Potato — ₹18/kg (উপলব্ধ: 500 kg)\n4. Paddy rice — ₹33/kg (উপলব্ধ: 55 kg)\n5. Fresh Paddy Rice — ₹35/kg (উপলব্ধ: 100 kg)\n\n[Source: AgriSathi Direct Farmer Marketplace]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:53:05.745Z"
+        },
+        {
+          "role": "user",
+          "content": "আমার আশেপাশে এখন কোন fresh vegetables available?",
+          "metadata": {},
+          "timestamp": "2026-08-21T15:00:37.368Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর তথ্যানুযায়ী আপনার প্রশ্নের উত্তর: বর্তমানে আবহাওয়া অনুকূল রয়েছে এবং মাটির গুণাগুণ সুষম। সঠিক পুষ্টি ও সেচ নিশ্চিত করে সময়মতো কাজ সম্পন্ন করুন।",
+          "metadata": {
+            "model": "agrisathi-direct-grounded-engine",
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T15:00:37.371Z"
+        },
+        {
+          "role": "user",
+          "content": "আমার আশেপাশে এখন কোন fresh vegetables available?",
+          "metadata": {},
+          "timestamp": "2026-08-21T16:43:32.433Z"
+        },
+        {
+          "role": "assistant",
+          "content": "আপনার বর্তমান অবস্থান বারাসাত (উত্তর ২৪ পরগনা) এবং এগ্রিসাথী (AgriSathi) প্ল্যাটফর্মের বর্তমান লাইভ ডাটা বিশ্লেষণ করে দেখা যাচ্ছে যে, আপনার আশেপাশে সরাসরি উপলব্ধ সবজির লিস্টিং নিম্নরূপ:\n\n**১. জ্যোতি আলু (Stored Jyoti Potato):**\n- **মূল্য:** ১৮ টাকা প্রতি কেজি (₹18/kg)\n- **লভ্য পরিমাণ:** ৫০০ কেজি (500 kg)\n\nবর্তমানে প্ল্যাটফর্মে তাজা সবজি ক্যাটাগরিতে প্রধানত **জ্যোতি আলু** বিক্রয়ের জন্য তালিকাভুক্ত রয়েছে। সবজি ছাড়া আপনার নিকটবর্তী অঞ্চলে বর্তমানে ধান ও চালের তাজা সরবরাহ লভ্য রয়েছে (যেমন: অর্গানিক মিনিকেট ধান ৩৫ টাকা/কেজি এবং ধান/চাল ৩৩ থেকে ৩৫ টাকা/কেজি)।\n\nবারাসাত ও উত্তর ২৪ পরগনা অঞ্চলের স্থানীয় কৃষিক্ষেত্রে এই মৌসুমে সাধারণত পটল, ঢ্যাঁড়শ, বেগুন, ঝিঙে, শসা ও কাঁচালঙ্কার মতো তাজা সবজির চাষ ও সরবরাহ থাকে। কোনো স্থানীয় কৃষক বা বিক্রেতা নতুন তাজা সবজির স্টক এগ্রিসাথী প্ল্যাটফর্মে যুক্ত করার সাথে সাথেই আপনি তা দেখতে পাবেন।",
+          "metadata": {
+            "tokens": 221,
+            "model": "gemini-3.6-flash",
+            "processingTime": 9933,
+            "confidence": 0.99,
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T16:43:32.436Z"
+        }
+      ],
+      "createdAt": "2026-08-21T14:47:50.329Z",
+      "updatedAt": "2026-08-21T16:43:32.436Z"
+    },
+    {
+      "sessionId": "SESSION-P2-5",
+      "user": "test-user-phase2",
+      "messages": [
+        {
+          "role": "user",
+          "content": "আমার profile অনুযায়ী কোন government scheme আমার জন্য useful?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:47:50.324Z"
+        },
+        {
+          "role": "assistant",
+          "content": "যাচাইকৃত সরকারি কৃষি প্রকল্প ও সাবসিডি:\n\n1. PM-Kisan Samman Nidhi (পিএম কিসান সম্মান নিধি / पीएम-किसान सम्मान निधि)\n   • সুবিধা: ₹6,000 per year transferred directly to bank account in 3 installments\n   • অফিসিয়াল পোর্টাল: https://pmkisan.gov.in\n\n2. Krishak Bandhu Scheme (কৃষক বন্ধু প্রকল্প)\n   • সুবিধা: Financial grant up to ₹10,000 per acre per year for West Bengal farmers\n   • অফিসিয়াল পোর্টাল: https://krishakbandhu.wb.gov.in\n\n3. Pradhan Mantri Fasal Bima Yojana (PMFBY / फसल बीमा)\n   • সুবিধা: Comprehensive crop insurance protection against flood, drought & storm\n   • অফিসিয়াল পোর্টাল: https://pmfby.gov.in\n\n4. Kisan Credit Card Scheme (KCC / किसान क्रेडिट कार्ड)\n   • সুবিধা: Subsidized short-term credit loan up to ₹3,00,000 at 4% interest rate\n   • অফিসিয়াল পোর্টাল: https://pmkisan.gov.in\n\n[Source: Official Government Scheme Database]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:47:50.326Z"
+        },
+        {
+          "role": "user",
+          "content": "আমার profile অনুযায়ী কোন government scheme আমার জন্য useful?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:52:18.086Z"
+        },
+        {
+          "role": "assistant",
+          "content": "যাচাইকৃত সরকারি কৃষি প্রকল্প ও সাবসিডি:\n\n1. PM-Kisan Samman Nidhi (পিএম কিসান সম্মান নিধি / पीएम-किसान सम्मान निधि)\n   • সুবিধা: ₹6,000 per year transferred directly to bank account in 3 installments\n   • অফিসিয়াল পোর্টাল: https://pmkisan.gov.in\n\n2. Krishak Bandhu Scheme (কৃষক বন্ধু প্রকল্প)\n   • সুবিধা: Financial grant up to ₹10,000 per acre per year for West Bengal farmers\n   • অফিসিয়াল পোর্টাল: https://krishakbandhu.wb.gov.in\n\n3. Pradhan Mantri Fasal Bima Yojana (PMFBY / फसल बीमा)\n   • সুবিধা: Comprehensive crop insurance protection against flood, drought & storm\n   • অফিসিয়াল পোর্টাল: https://pmfby.gov.in\n\n4. Kisan Credit Card Scheme (KCC / किसान क्रेडिट कार्ड)\n   • সুবিধা: Subsidized short-term credit loan up to ₹3,00,000 at 4% interest rate\n   • অফিসিয়াল পোর্টাল: https://pmkisan.gov.in\n\n[Source: Official Government Scheme Database]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:52:18.088Z"
+        },
+        {
+          "role": "user",
+          "content": "আমার profile অনুযায়ী কোন government scheme আমার জন্য useful?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:52:39.344Z"
+        },
+        {
+          "role": "assistant",
+          "content": "যাচাইকৃত সরকারি কৃষি প্রকল্প ও সাবসিডি:\n\n1. PM-Kisan Samman Nidhi (পিএম কিসান সম্মান নিধি / पीएम-किसान सम्मान निधि)\n   • সুবিধা: ₹6,000 per year transferred directly to bank account in 3 installments\n   • অফিসিয়াল পোর্টাল: https://pmkisan.gov.in\n\n2. Krishak Bandhu Scheme (কৃষক বন্ধু প্রকল্প)\n   • সুবিধা: Financial grant up to ₹10,000 per acre per year for West Bengal farmers\n   • অফিসিয়াল পোর্টাল: https://krishakbandhu.wb.gov.in\n\n3. Pradhan Mantri Fasal Bima Yojana (PMFBY / फसल बीमा)\n   • সুবিধা: Comprehensive crop insurance protection against flood, drought & storm\n   • অফিসিয়াল পোর্টাল: https://pmfby.gov.in\n\n4. Kisan Credit Card Scheme (KCC / किसान क्रेडिट कार्ड)\n   • সুবিধা: Subsidized short-term credit loan up to ₹3,00,000 at 4% interest rate\n   • অফিসিয়াল পোর্টাল: https://pmkisan.gov.in\n\n[Source: Official Government Scheme Database]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:52:39.345Z"
+        },
+        {
+          "role": "user",
+          "content": "আমার profile অনুযায়ী কোন government scheme আমার জন্য useful?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:53:04.525Z"
+        },
+        {
+          "role": "assistant",
+          "content": "যাচাইকৃত সরকারি কৃষি প্রকল্প ও সাবসিডি:\n\n1. PM-Kisan Samman Nidhi (পিএম কিসান সম্মান নিধি / पीएम-किसान सम्मान निधि)\n   • সুবিধা: ₹6,000 per year transferred directly to bank account in 3 installments\n   • অফিসিয়াল পোর্টাল: https://pmkisan.gov.in\n\n2. Krishak Bandhu Scheme (কৃষক বন্ধু প্রকল্প)\n   • সুবিধা: Financial grant up to ₹10,000 per acre per year for West Bengal farmers\n   • অফিসিয়াল পোর্টাল: https://krishakbandhu.wb.gov.in\n\n3. Pradhan Mantri Fasal Bima Yojana (PMFBY / फसल बीमा)\n   • সুবিধা: Comprehensive crop insurance protection against flood, drought & storm\n   • অফিসিয়াল পোর্টাল: https://pmfby.gov.in\n\n4. Kisan Credit Card Scheme (KCC / किसान क्रेडिट कार्ड)\n   • সুবিধা: Subsidized short-term credit loan up to ₹3,00,000 at 4% interest rate\n   • অফিসিয়াল পোর্টাল: https://pmkisan.gov.in\n\n[Source: Official Government Scheme Database]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:53:04.527Z"
+        },
+        {
+          "role": "user",
+          "content": "আমার profile অনুযায়ী কোন government scheme আমার জন্য useful?",
+          "metadata": {},
+          "timestamp": "2026-08-21T15:00:01.019Z"
+        },
+        {
+          "role": "assistant",
+          "content": "সুভদীপ বাবু, আপনার উত্তর ২৪ পরগনার বারাসাতে ৪.৫ একর জমি এবং ধান, গম, আলু ও শাকসবজি চাষের প্রোফাইল অনুযায়ী নিম্নলিখিত সরকারি প্রকল্পগুলি আপনার জন্য সবচেয়ে উপযোগী:\n\n১. কৃষক বন্ধু প্রকল্প (পশ্চিমবঙ্গ সরকার):\nযেহেতু আপনার ৪.৫ একর জমি রয়েছে এবং আপনি পশ্চিমবঙ্গের কৃষক, তাই এই প্রকল্পের অধীনে আপনি একর প্রতি বার্ষিক অনুদান হিসেবে বছরে সর্বোচ্চ ১০,০০০ টাকা পেতে পারেন। \nঅফিসিয়াল পোর্টাল: https://krishakbandhu.wb.gov.in\n\n২. পিএম কিসান সম্মান নিধি (PM-Kisan):\nক্ষুদ্র ও প্রান্তিক কৃষক হিসেবে আপনি এই প্রকল্পের মাধ্যমে বছরে ৩টি সমান কিস্তিতে মোট ৬,০০০ টাকা সরাসরি আপনার ব্যাংক অ্যাকাউন্টে পেতে পারেন।\nঅফিসিয়াল পোর্টাল: https://pmkisan.gov.in\n\n৩. কিষাণ ক্রেডিট কার্ড (KCC):\nধান, আলু ও সবজি চাষের জন্য প্রয়োজনীয় বীজ, সার ও সেচের খরচ চালাতে আপনি মাত্র ৪% কম সুদে ৩,০০,০০০ টাকা পর্যন্ত কৃষি ঋণ পেতে পারেন।\nঅফিসিয়াল পোর্টাল: https://pmkisan.gov.in\n\n৪. প্রধানমন্ত্রী ফসল বিমা যোজনা (PMFBY):\nআপনার আলু, ধান ও গমের মতো ফসলকে প্রাকৃতিক দুর্যোগ, বন্যা বা খরার ঝুঁকি থেকে রক্ষা করতে এই বিমা খুবই প্রয়োজনীয়।\nঅফিসিয়াল পোর্টাল: https://pmfby.gov.in\n\nআপনি এই পোর্টালগুলি বা আপনার ব্লকের কৃষি আধিকারিকের (ADA) অফিসে যোগাযোগ করে সরাসরি আবেদন করতে পারেন।",
+          "metadata": {
+            "tokens": 299,
+            "model": "gemini-3.6-flash",
+            "processingTime": 25614,
+            "confidence": 0.99,
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T15:00:01.021Z"
+        },
+        {
+          "role": "user",
+          "content": "আমার profile অনুযায়ী কোন government scheme আমার জন্য useful?",
+          "metadata": {},
+          "timestamp": "2026-08-21T16:43:22.488Z"
+        },
+        {
+          "role": "assistant",
+          "content": "আপনার নাম শুভদীপ ঘোষ, বাসস্থান বারাসাত (উত্তর ২৪ পরগনা) এবং আপনার ৪.৫ একর জমিতে ধান, গম, আলু ও বিভিন্ন শাকসবজি চাষের অভিজ্ঞতার ওপর ভিত্তি করে কেন্দ্র ও পশ্চিমবঙ্গ রাজ্য সরকারের নিম্নলিখিত সরকারি প্রকল্পগুলি আপনার জন্য সবচেয়ে বেশি উপযোগী এবং লাভজনক:\n\n১. কৃষক বন্ধু (নতুন) প্রকল্প (Krishak Bandhu Scheme)\n- প্রযোজ্যতা ও সুবিধা: পশ্চিমবঙ্গ রাজ্যের কৃষক হিসেবে ১ একর বা তার বেশি জমি থাকলে বছরে সর্বোচ্চ ১০,০০০ টাকা আর্থিক অনুদান পাওয়া যায়। এটি খরিফ ও রবি - এই দুই কিস্তিতে সরাসরি ব্যাংক অ্যাকাউন্টে পাঠানো হয়। আপনার জমির পরিমাণ ৪.৫ একর হওয়ায় আপনি এই প্রকল্পের পূর্ণ সুবিধা অর্থাৎ বছরে ১০,০০০ টাকা পাবেন।\n- অতিরিক্ত সুবিধা: ১৮ থেকে ৬০ বছর বয়সের মধ্যে কোনো কৃষকের স্বাভাবিক বা দুর্ঘটনাজনিত মৃত্যু হলে তাঁর পরিবার ২ লক্ষ টাকার এককালীন আর্থিক সহায়তা পায়।\n- অফিসিয়াল পোর্টাল: https://krishakbandhu.wb.gov.in\n\n২. পিএম-কিসান সম্মান নিধি (PM-Kisan Samman Nidhi)\n- প্রযোজ্যতা ও সুবিধা: যোগ্য কৃষক হিসেবে আপনি কেন্দ্র সরকারের এই প্রকল্পের অধীনে বছরে ৬,০০০ টাকা পাবেন। এই টাকা প্রতি ৪ মাস পর পর ২,০০০ টাকা করে ৩টি সমান কিস্তিতে সরাসরি ব্যাংক অ্যাকাউন্টে স্থানান্তর (DBT) করা হয়।\n- সুবিধা সমন্বয়: আপনি কৃষক বন্ধু এবং পিএম-কিসান দুটি প্রকল্পের সুবিধাই একসাথে গ্রহণ করতে পারবেন।\n- অফিসিয়াল পোর্টাল: https://pmkisan.gov.in\n\n৩. কিষাণ ক্রেডিট কার্ড (KCC - Kisan Credit Card Scheme)\n- প্রযোজ্যতা ও সুবিধা: ৪.৫ একর জমিতে ধান, গম, আলু এবং সবজি চাষের জন্য সার, বীজ, কীটনাশক ও সেচের পেছনে প্রচুর কার্যকরী মূলধনের প্রয়োজন হয়। KCC-এর মাধ্যমে আপনি বার্ষিক মাত্র ৪% সাশ্রয়ী সুদে (সময়মতো পরিশোধ সাপেক্ষে) ৩,০০,০০০ টাকা পর্যন্ত স্বল্পমেয়াদী কৃষি ঋণ পেতে পারেন।\n- আবেদন প্রক্রিয়া: নিকটস্থ ব্যাংক শাখা বা পিএম-কিসান পোর্টালের মাধ্যমে আবেদন করা যায়।\n\n৪. বাংলা শস্য বীমা (BSB) / প্রধানমন্ত্রী ফসল বীমা যোজনা (PMFBY)\n- প্রযোজ্যতা ও সুবিধা: উত্তর ২৪ পরগনা অঞ্চলে ঘূর্ণিঝড়, অসময়ের কালবৈশাখী বৃষ্টি বা বন্যার কারণে আলু ও ধান চাষে ক্ষতির ঝুঁকি থাকে। এই প্রকল্পের মাধ্যমে প্রাকৃতিক দুর্যোগ বা পোকার আক্রমণে ফসল নষ্ট হলে সম্পূর্ণ বিমা কভারেজ পাওয়া যায়।\n- বিশেষ ছাড়: পশ্চিমবঙ্গে বিজ্ঞাপিত প্রধান ফসলের জন্য বিমার প্রিমিয়ামের সম্পূর্ণ অংশ রাজ্য সরকার বহন করে, ফলে কৃষকদের কোনো অতিরিক্ত প্রিমিয়াম দিতে হয় না।\n- অফিসিয়াল পোর্টাল: https://pmfby.gov.in\n\nআপনার জমি ও চাষের ধরন অনুযায়ী কৌশলগত পরামর্শ:\nআপনি অবিলম্বে \"কৃষক বন্ধু\" ও \"পিএম-কিসান\" প্রকল্পে নথিবদ্ধ হয়ে বছরে মোট ১৬,০০০ টাকার সরাসরি অনুদান নিশ্চিত করুন। এর পাশাপাশি আলু ও সবজি চাষের প্রাথমিক খরচের জন্য KCC ঋণের সুযোগ নিন এবং প্রাকৃতিক দুর্যোগ থেকে ফসল রক্ষা করতে মরশুমের শুরুতেই বাংলা শস্য বীমায় আপনার জমি নিবন্ধিত করে রাখুন।",
+          "metadata": {
+            "tokens": 626,
+            "model": "gemini-3.6-flash",
+            "processingTime": 17264,
+            "confidence": 0.99,
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T16:43:22.491Z"
+        }
+      ],
+      "createdAt": "2026-08-21T14:47:50.324Z",
+      "updatedAt": "2026-08-21T16:43:22.491Z"
+    },
+    {
+      "sessionId": "SESSION-P2-4",
+      "user": "test-user-phase2",
+      "messages": [
+        {
+          "role": "user",
+          "content": "আমার এলাকার weather আর disease risk দেখে আমার crop-এর জন্য কী সাবধানতা নেওয়া উচিত?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:47:49.364Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর আবহাওয়া ও রোগের সতর্কতা সতর্কতা:\n\n• উচ্চ আর্দ্রতা ও বৃষ্টির পূর্বাভাসের কারণে ফসলে ফাঙ্গাল বা ব্যাকটেরিয়াল আক্রমণের ঝুঁকি রয়েছে।\n• সক্রিয় রোগ সতর্কতা (2টি পাওয়া গেছে):\n  - Rice Blast / Leaf Blight (ধানের ব্লাইট রোগ / धान का झुलसा) (ঝুঁকি: HIGH)\n  - Late Blight of Potato (আলুর নাবি ধসা / आलू का पछेती झुलसा) (ঝুঁকি: MODERATE)\n• সতর্কতা: জমিতে জল জমতে দেবেন না এবং শুষ্ক আবহাওয়ায় কপার অক্সিক্লোরাইড স্প্রে করুন।\n\n[Source: AgriSathi Integrated Weather & Disease Alert Engine]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:47:49.365Z"
+        },
+        {
+          "role": "user",
+          "content": "আমার এলাকার weather আর disease risk দেখে আমার crop-এর জন্য কী সাবধানতা নেওয়া উচিত?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:52:16.959Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর আবহাওয়া ও রোগের সতর্কতা সতর্কতা:\n\n• উচ্চ আর্দ্রতা ও বৃষ্টির পূর্বাভাসের কারণে ফসলে ফাঙ্গাল বা ব্যাকটেরিয়াল আক্রমণের ঝুঁকি রয়েছে।\n• সক্রিয় রোগ সতর্কতা (2টি পাওয়া গেছে):\n  - Rice Blast / Leaf Blight (ধানের ব্লাইট রোগ / धान का झुलसा) (ঝুঁকি: HIGH)\n  - Late Blight of Potato (আলুর নাবি ধসা / आलू का पछेती झुलसा) (ঝুঁকি: MODERATE)\n• সতর্কতা: জমিতে জল জমতে দেবেন না এবং শুষ্ক আবহাওয়ায় কপার অক্সিক্লোরাইড স্প্রে করুন।\n\n[Source: AgriSathi Integrated Weather & Disease Alert Engine]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:52:16.960Z"
+        },
+        {
+          "role": "user",
+          "content": "আমার এলাকার weather আর disease risk দেখে আমার crop-এর জন্য কী সাবধানতা নেওয়া উচিত?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:52:38.338Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর আবহাওয়া ও রোগের সতর্কতা সতর্কতা:\n\n• উচ্চ আর্দ্রতা ও বৃষ্টির পূর্বাভাসের কারণে ফসলে ফাঙ্গাল বা ব্যাকটেরিয়াল আক্রমণের ঝুঁকি রয়েছে।\n• সক্রিয় রোগ সতর্কতা (2টি পাওয়া গেছে):\n  - Rice Blast / Leaf Blight (ধানের ব্লাইট রোগ / धान का झुलसा) (ঝুঁকি: HIGH)\n  - Late Blight of Potato (আলুর নাবি ধসা / आलू का पछेती झुलसा) (ঝুঁকি: MODERATE)\n• সতর্কতা: জমিতে জল জমতে দেবেন না এবং শুষ্ক আবহাওয়ায় কপার অক্সিক্লোরাইড স্প্রে করুন।\n\n[Source: AgriSathi Integrated Weather & Disease Alert Engine]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:52:38.339Z"
+        },
+        {
+          "role": "user",
+          "content": "আমার এলাকার weather আর disease risk দেখে আমার crop-এর জন্য কী সাবধানতা নেওয়া উচিত?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:53:02.780Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর আবহাওয়া ও রোগের সতর্কতা সতর্কতা:\n\n• উচ্চ আর্দ্রতা ও বৃষ্টির পূর্বাভাসের কারণে ফসলে ফাঙ্গাল বা ব্যাকটেরিয়াল আক্রমণের ঝুঁকি রয়েছে।\n• সক্রিয় রোগ সতর্কতা (2টি পাওয়া গেছে):\n  - Rice Blast / Leaf Blight (ধানের ব্লাইট রোগ / धान का झुलसा) (ঝুঁকি: HIGH)\n  - Late Blight of Potato (আলুর নাবি ধসা / आलू का पछेती झुलसा) (ঝুঁকি: MODERATE)\n• সতর্কতা: জমিতে জল জমতে দেবেন না এবং শুষ্ক আবহাওয়ায় কপার অক্সিক্লোরাইড স্প্রে করুন।\n\n[Source: AgriSathi Integrated Weather & Disease Alert Engine]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:53:02.780Z"
+        },
+        {
+          "role": "user",
+          "content": "আমার এলাকার weather আর disease risk দেখে আমার crop-এর জন্য কী সাবধানতা নেওয়া উচিত?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:59:34.185Z"
+        },
+        {
+          "role": "assistant",
+          "content": "বারাসাত (উত্তর ২৪ পরগনা) এলাকার বর্তমান আবহাওয়া (উচ্চ আর্দ্রতা এবং সর্বোচ্চ তাপমাত্রা ৩২-৩৩ ডিগ্রি সেলসিয়াস) ও কৃষি দপ্তরের সতর্কবার্তা অনুযায়ী আপনার ফসলের জন্য নিচে উল্লেখিত সতর্কতাগুলি অনুসরণ করা প্রয়োজন:\n\n১. ধানের ব্লাইট ও ব্লাস্ট রোগ (উচ্চ ঝুঁকি):\n- কায়িক বা রাসায়নিক সার ব্যবহারের ক্ষেত্রে অতিরিক্ত নাইট্রোজেন বা ইউরিয়া ব্যবহার অবিলম্বে বন্ধ রাখুন, কারণ এতে ব্লাস্ট রোগের আক্রমণ দ্রুত ছড়িয়ে পড়ে।\n- জমিতে অতিরিক্ত জল জমে থাকতে দেবেন না, নিকাশি ব্যবস্থা পরিষ্কার রাখুন।\n- পাতায় দাগ বা ব্লাইটের লক্ষণ দেখা দিলে প্রতি লিটার জলে ০.৬ গ্রাম ট্রাইসাইক্ল্যাজল (Tricyclazole 75% WP) অথবা ট্রাইফ্লক্সিস্ট্রবিন + টেবুকোনাজল ভালো করে মিশিয়ে বিকেলে স্প্রে করুন।\n\n২. আলুর নাবি ধসা বা লেট ব্লাইট (মাঝারি ঝুঁকি):\n- আলু চাষের জমি স্যাঁতসেঁতে ও অতিরিক্ত ভেজা রাখবেন না।\n- সতর্কতামূলক ব্যবস্থা হিসেবে ম্যানকোজেব (Mancozeb) বা মেট্যালাক্সিল + ম্যানকোজেব জাতীয় ছত্রাকনাশক অনুমোদিত মাত্রায় স্প্রে করতে পারেন।\n\n৩. আবহাওয়াজনিত সাধারণ সতর্কতা:\n- আর্দ্র ও গরম আবহাওয়ায় ছত্রাক ও পোকার উপদ্রব বাড়ে, তাই প্রতিদিন সকালে বা বিকেলে ক্ষেত ভালোভাবে পর্যবেক্ষণ করুন।\n- যেকোনো ছত্রাকনাশক বা কীটনাশক স্প্রে করার আগে নিশ্চিত হয়ে নিন যে পরবর্তী কয়েক ঘণ্টা বৃষ্টিপাতের সম্ভাবনা নেই।",
+          "metadata": {
+            "tokens": 312,
+            "model": "gemini-3.6-flash",
+            "processingTime": 31205,
+            "confidence": 0.99,
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:59:34.187Z"
+        },
+        {
+          "role": "user",
+          "content": "আমার এলাকার weather আর disease risk দেখে আমার crop-এর জন্য কী সাবধানতা নেওয়া উচিত?",
+          "metadata": {},
+          "timestamp": "2026-08-21T16:43:04.302Z"
+        },
+        {
+          "role": "assistant",
+          "content": "উত্তর ২৪ পরগনার বারাসাত এলাকার বর্তমান আবহাওয়া (তাপমাত্রা ৩২-৩৩°সে এবং উচ্চ আর্দ্রতা) এবং কেভিকে (KVK) ও জেলা কৃষি দপ্তরের সাম্প্রতিক সতর্কবার্তা অনুযায়ী আপনার ফসলের সুরক্ষায় অবিলম্বে নিম্নলিখিত পদক্ষেপগুলো গ্রহণ করা উচিত:\n\n১. ধানের ব্লাইট ও ব্লাস্ট রোগ (ঝুঁকি: অত্যন্ত উচ্চ)\nবর্তমানে বারাসাত অঞ্চলে ধানের ব্লাস্ট এবং ব্যাকটেরিয়াল লিফ ব্লাইট রোগের ঝুঁকি সবচেয়ে বেশি।\n* সার প্রয়োগ বন্ধ রাখুন: জমিতে অতিরিক্ত ইউরিয়া বা নাইট্রোজেনজাতীয় সার দেওয়া অবিলম্বে বন্ধ করুন। অতিরিক্ত নাইট্রোজেন রোগের আক্রমণ দ্রুত বাড়িয়ে দেয়।\n* জল নিষ্কাশন ব্যবস্থা: জমিতে দীর্ঘদিন এক টানা জল জমিয়ে রাখবেন না। প্রয়োজনে জল বের করে দিয়ে জমি ২-৩ দিন হালকা শুকিয়ে নিয়ে আবার নতুন জল দিন।\n* ছত্রাকনাশক প্রয়োগ: \n  - ব্লাস্ট রোগের আক্রমণ প্রতিরোধ বা নিরাময়ের জন্য ট্রাইসাইক্লাজোল ৭৫% ডব্লিউপি (Tricyclazole 75% WP) প্রতি লিটার জলে ০.৬ গ্রাম অথবা ট্রাইফ্লক্সিস্ট্রবিন + টেবুকোনাজোল (Nativo) প্রতি লিটার জলে ০.৪ গ্রাম ভালোভাবে গুলে বিকেলে স্প্রে করুন।\n  - পাতা পোড়া বা ব্যাকটেরিয়াল ব্লাইটের লক্ষণ দেখলে কপার অক্সিক্লোরাইড ৫০% (২.৫ গ্রাম/লিটার) এবং স্ট্রিপ্টোসাইক্লিন (০.১৫ গ্রাম/লিটার) একসঙ্গে মিশিয়ে স্প্রে করুন।\n\n২. আলুর নাবি ধসা বা লেট ব্লাইট (ঝুঁকি: মাঝারি)\nবাতাসে অতিরিক্ত আর্দ্রতা ও মেঘলা আবহাওয়া আলুর নাবি ধসা রোগের অনুকূল পরিবেশ তৈরি করে।\n* প্রতিরোধমূলক স্প্রে: রোগ আসার আগেই সতর্কতামূলক ব্যবস্থা হিসেবে ম্যানকোজেব ৭৫% ডব্লিউপি (Mancozeb 75% WP) প্রতি লিটার জলে ২ গ্রাম হারে মিশিয়ে স্প্রে করুন।\n* নিরাময়মূলক ব্যবস্থা: যদি পাতায় ভিজা ভিজা দাগ বা ছত্রাকের আক্রমণ দেখা যায়, তবে মেটাল্যাক্সিল + ম্যানকোজেব (যেমন রিডোমিল গোল্ড) প্রতি লিটার জলে ২ গ্রাম হিসেব স্প্রে করতে হবে।\n* নিকাশি নালা পরিষ্কার: আলুর জমিতে যেন কোনোভাবেই জল না জমে, নিকাশি নালা পরিষ্কার রাখুন।\n\n৩. আবহাওয়া ভিত্তিক সাধারণ সতর্কতা\n* স্প্রে করার সময় নির্ধারণ: মেঘলা আবহাওয়া বা বৃষ্টির ঠিক আগে স্প্রে করবেন না। আকাশে রোদ থাকলে বা বৃষ্টি থেমে যাওয়ার পর গাছের পাতা শুকিয়ে গেলে ছত্রাকনাশক প্রয়োগ করুন। স্প্রে করার সলিউশনে গুড কোয়ালিটির 'স্টিকার' মিশিয়ে নিলে বৃষ্টির জলে ওষুধ ধুয়ে যাওয়ার সম্ভাবনা কমে।\n* গাছের রোগ প্রতিরোধ ক্ষমতা বৃদ্ধি: সুষম সার প্রয়োগ নিশ্চিত করুন। এই আবহাওয়ায় জমিতে মিউরেট অফ পটাশ (MOP) সঠিক মাত্রায় থাকলে গাছ প্রাকৃতিকভাবেই রোগ প্রতিরোধে সক্ষম হয়।\n* জমি ও আল পরিষ্কার রাখা: জমির আইল এবং চারপাশের আগাছা পরিষ্কার রাখুন, কারণ আগাছা থেকে রোগের জীবাণু ও ক্ষতিকর পোকা সহজে মূল ফসলে ছড়িয়ে পড়ে।",
+          "metadata": {
+            "tokens": 580,
+            "model": "gemini-3.6-flash",
+            "processingTime": 19297,
+            "confidence": 0.99,
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T16:43:04.304Z"
+        }
+      ],
+      "createdAt": "2026-08-21T14:47:49.364Z",
+      "updatedAt": "2026-08-21T16:43:04.304Z"
+    },
+    {
+      "sessionId": "SESSION-P2-3",
+      "user": "test-user-phase2",
+      "messages": [
+        {
+          "role": "user",
+          "content": "ধান কাটার আগে আগামী কয়েকদিনের weather দেখে আমার কী কী প্রস্তুতি নেওয়া উচিত?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:47:49.354Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর বর্তমান আবহাওয়া ও ৭ দিনের পূর্বাভাস:\n\n• বর্তমান তাপমাত্রা: 29°C (Overcast)\n• আর্দ্রতা: 89%\n• বৃষ্টিপাত: 2 mm\n• কৃষি পরামর্শ: বাতাসে উচ্চ আর্দ্রতা ফাঙ্গাল স্পোরের ঝুঁকি বাড়ায়। স্প্রে করার পূর্বে বৃষ্টির পূর্বাভাস দেখে নিন।\n\n[Source: AgriSathi Live Weather Service]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:47:49.356Z"
+        },
+        {
+          "role": "user",
+          "content": "ধান কাটার আগে আগামী কয়েকদিনের weather দেখে আমার কী কী প্রস্তুতি নেওয়া উচিত?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:52:16.720Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর বর্তমান আবহাওয়া ও ৭ দিনের পূর্বাভাস:\n\n• বর্তমান তাপমাত্রা: 29°C (Overcast)\n• আর্দ্রতা: 89%\n• বৃষ্টিপাত: 2 mm\n• কৃষি পরামর্শ: বাতাসে উচ্চ আর্দ্রতা ফাঙ্গাল স্পোরের ঝুঁকি বাড়ায়। স্প্রে করার পূর্বে বৃষ্টির পূর্বাভাস দেখে নিন।\n\n[Source: AgriSathi Live Weather Service]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:52:16.721Z"
+        },
+        {
+          "role": "user",
+          "content": "ধান কাটার আগে আগামী কয়েকদিনের weather দেখে আমার কী কী প্রস্তুতি নেওয়া উচিত?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:52:38.120Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর বর্তমান আবহাওয়া ও ৭ দিনের পূর্বাভাস:\n\n• বর্তমান তাপমাত্রা: 29°C (Overcast)\n• আর্দ্রতা: 89%\n• বৃষ্টিপাত: 2 mm\n• কৃষি পরামর্শ: বাতাসে উচ্চ আর্দ্রতা ফাঙ্গাল স্পোরের ঝুঁকি বাড়ায়। স্প্রে করার পূর্বে বৃষ্টির পূর্বাভাস দেখে নিন।\n\n[Source: AgriSathi Live Weather Service]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:52:38.122Z"
+        },
+        {
+          "role": "user",
+          "content": "ধান কাটার আগে আগামী কয়েকদিনের weather দেখে আমার কী কী প্রস্তুতি নেওয়া উচিত?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:53:01.682Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর বর্তমান আবহাওয়া ও ৭ দিনের পূর্বাভাস:\n\n• বর্তমান তাপমাত্রা: 29°C (Overcast)\n• আর্দ্রতা: 89%\n• বৃষ্টিপাত: 2 mm\n• কৃষি পরামর্শ: বাতাসে উচ্চ আর্দ্রতা ফাঙ্গাল স্পোরের ঝুঁকি বাড়ায়। স্প্রে করার পূর্বে বৃষ্টির পূর্বাভাস দেখে নিন।\n\n[Source: AgriSathi Live Weather Service]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:53:01.683Z"
+        },
+        {
+          "role": "user",
+          "content": "ধান কাটার আগে আগামী কয়েকদিনের weather দেখে আমার কী কী প্রস্তুতি নেওয়া উচিত?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:59:02.843Z"
+        },
+        {
+          "role": "assistant",
+          "content": "বারাসাত ও আশেপাশের অঞ্চলে বর্তমানে মেঘলা আকাশ, ৮৯% উচ্চ আর্দ্রতা এবং হালকা বৃষ্টির পরিবেশ রয়েছে। আগামী কয়েকদিন সর্বোচ্চ তাপমাত্রা ৩২°সে থেকে ৩৩°সে-এর মধ্যে থাকলেও আর্দ্রতাজনিত স্যাঁতসেঁতে ভাব বজায় থাকতে পারে। ধান কাটার আগে এই আবহাওয়া বিবেচনায় রেখে আপনার নিম্নলিখিত প্রস্তুতিগুলো নেওয়া উচিত:\n\n১. **জমি থেকে জল নিষ্কাশন:** জমিতে যদি জল জমে থাকে, তবে নিকাশি নালাগুলো অবিলম্বে পরিষ্কার করে জল বের করে দিন। স্যাঁতসেঁতে মাটিতে পাকা ধান গাছ নুয়ে পড়লে ধানের গুণমান নষ্ট হতে পারে।\n\n২. **ধান কাটার উপযুক্ত সময়:** আকাশ সম্পূর্ণ মেঘমুক্ত না হওয়া পর্যন্ত ধান কাটা ১-২ দিন স্থগিত রাখাই ভালো। বৃষ্টির পূর্বাভাস থাকলে বা আকাশ মেঘলা থাকলে ধান কাটা এড়িয়ে চলুন। রোদ উঠলে এবং সকালের শিশির শুকিয়ে যাওয়ার পর ধান কাটা শুরু করুন।\n\n৩. **তিরপাল বা পলিথিন শিট প্রস্তুত রাখা:** ধান কাটার পর মাঠ থেকে তোলার আগে হঠাৎ বৃষ্টি এলে তা দ্রুত ঢেকে রাখার জন্য পর্যাপ্ত পরিমাণ তিরপাল বা প্লাস্টিক শিট মাঠে প্রস্তুত রাখুন।\n\n৪. **খামার ও মাড়াইয়ের স্থান প্রস্তুত করা:** ধান কাটার পর তা ভেজা মাটিতে ফেলে না রেখে দ্রুত মাড়াইয়ের ব্যবস্থা করুন। মাড়াইয়ের খামারটি শুকনো, উঁচু ও আবৃত স্থানে রাখা নিশ্চিত করুন।\n\n৫. **শুকানো ও সংরক্ষণের পরিকল্পনা:** আর্দ্রতা বেশি থাকায় ধান শুকাতে সময় বেশি লাগতে পারে। তাই মাড়াইয়ের পর রোদ পাওয়ার সাথে সাথে ধান ভালোভাবে শুকিয়ে নিন। ধানের আর্দ্রতা ১২% থেকে ১৪%-এ না নামা পর্যন্ত গুদামজাত করবেন না, অন্যথায় ভেজা ধানে ছত্রাক বা পচন ধরতে পারে।",
+          "metadata": {
+            "tokens": 349,
+            "model": "gemini-3.6-flash",
+            "processingTime": 15631,
+            "confidence": 0.99,
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:59:02.848Z"
+        },
+        {
+          "role": "user",
+          "content": "ধান কাটার আগে আগামী কয়েকদিনের weather দেখে আমার কী কী প্রস্তুতি নেওয়া উচিত?",
+          "metadata": {},
+          "timestamp": "2026-08-21T16:42:44.856Z"
+        },
+        {
+          "role": "assistant",
+          "content": "উত্তর ২৪ পরগনার বারাসাত ও সংলগ্ন অঞ্চলে বর্তমানে বাতাসের আর্দ্রতা অত্যন্ত বেশি (৯১%) এবং আকাশ মেঘলা থাকার পাশাপাশি হালকা বৃষ্টির পূর্বাভাস রয়েছে। ধান কাটার সময়ে এই ধরণের আবহাওয়া ধানের গুণমান নষ্ট করা, দানায় ছাতা পড়া (Fungal attack) এবং অংকুরোদগমের ঝুঁকি বাড়িয়ে দেয়। এই আবহাওয়ায় ধান কাটার আগে ও কাটার সময় নিম্নলিখিত জরুরি প্রস্তুতিগুলি গ্রহণ করুন:\n\n১. ফসল কাটার সময় পুনর্মূল্যায়ন:\n- ধান যদি ৮০-৮৫% সোনালী বর্ণ ধারণ করে থাকে কিন্তু আকাশ মেঘলা বা বৃষ্টিভাব থাকে, তবে বৃষ্টি না থামা পর্যন্ত কাটাই কিছুটা স্থগিত রাখুন। \n- আকাশ পরিষ্কার না হওয়া পর্যন্ত কাদা জমিতে ধান কাটলে মাড়াই ও শুকানোর কাজে বড় সমস্যা তৈরি হবে।\n\n২. জমি থেকে জল নিষ্কাশন (Drainage):\n- জমির চারপাশের জল বের হওয়ার নালাগুলি অবিলম্বে পরিষ্কার করে দিন। জমিতে যেন কোনোভাবেই জল জমে না থাকে।\n- ভিজা মাটিতে ধানের ছড়া গড়িয়ে পড়লে দানায় পচন ধরবে এবং চারা গজিয়ে (pre-harvest sprouting) ধানের বাজারদর কমে যাবে।\n\n৩. কাটার সঠিক সময় ও যন্ত্রের ব্যবহার:\n- সকালে অতিরিক্ত শিশির ও আর্দ্রতা থাকা অবস্থায় ধান কাটবেন না। রোদ উঠলে বা দুপুরের দিকে যখন আর্দ্রতা কিছুটা কম থাকে, তখন ধান কাটুন।\n- কাটার পর ধান বেশিক্ষণ জমিতে ফেলে না রেখে দ্রুত মাড়াইয়ের ব্যবস্থা করুন।\n\n৪. ত্রিপল ও সুরক্ষার ব্যবস্থা:\n- মাড়াই করা ধান বা আটি বেঁধে রাখা ধান দ্রুত ঢাকার জন্য পর্যাপ্ত প্লাস্টিক বা পলিমারের ত্রিপল প্রস্তুত রাখুন।\n- হঠাৎ বৃষ্টি শুরু হলে ধান যাতে নিচে থেকে জল না টানে, সেজন্য উঁচু বা ঢালু স্থানে ধানের গাদা দিন এবং নিচে বাঁশ বা কাঠ বিছিয়ে তার ওপর ত্রিপল দিন।\n\n৫. শুকাতে দেওয়ার বিশেষ কৌশল (Post-Harvest Drying):\n- আর্দ্রতা বেশি থাকায় রোদ ছাড়া স্বাভাবিক বাতাসে ধান শুকাতে সময় লাগবে। তাই মাড়াই করা ধান খামারে বা বারান্দায় এক জায়গায় না জমিয়ে পাতলা করে ছড়িয়ে রাখুন।\n- সম্ভব হলে ফ্যান চালিয়ে হাওয়া দেওয়ার ব্যবস্থা করুন যাতে দানার গায়ের আর্দ্রতা দ্রুত কমে। \n- ধানের আর্দ্রতা ১২-১৪% না নামা পর্যন্ত ধান বস্তাবন্দী করবেন না। স্যাঁতসেঁতে অবস্থায় বস্তাবন্দী করলে ছত্রাকের আক্রমণের কারণে ধানের রঙ কালো হয়ে যাবে (Grain Discoloration)।",
+          "metadata": {
+            "tokens": 482,
+            "model": "gemini-3.6-flash",
+            "processingTime": 17753,
+            "confidence": 0.99,
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T16:42:44.861Z"
+        }
+      ],
+      "createdAt": "2026-08-21T14:47:49.354Z",
+      "updatedAt": "2026-08-21T16:42:44.861Z"
+    },
+    {
+      "sessionId": "SESSION-P2-2",
+      "user": "test-user-phase2",
+      "messages": [
+        {
+          "role": "user",
+          "content": "আজকে আমার ধানের জমিতে পানি দিলে ঠিক হবে তো?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:47:49.343Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর জন্য সেচ সিদ্ধান্ত পরামর্শ:\n\n• মাটির আর্দ্রতা: 52%\n• আগামীকালের বৃষ্টিপাতের সম্ভাবনা: 0% (0 mm)\n• সেচ সিদ্ধান্ত: না, বর্তমানে সেচের প্রয়োজন নেই। মাটির আর্দ্রতা পর্যাপ্ত এবং বৃষ্টির সম্ভাবনা রয়েছে।\n• ড্রিপ সেচ ব্যবহারকারীদের ড্রেন সুবিধা উন্মুক্ত রাখতে পরামর্শ দেওয়া হচ্ছে।\n\n[Source: AgriSathi Smart Irrigation Engine & Open-Meteo Weather]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:47:49.344Z"
+        },
+        {
+          "role": "user",
+          "content": "আজকে আমার ধানের জমিতে পানি দিলে ঠিক হবে তো?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:52:16.417Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর জন্য সেচ সিদ্ধান্ত পরামর্শ:\n\n• মাটির আর্দ্রতা: 52%\n• আগামীকালের বৃষ্টিপাতের সম্ভাবনা: 0% (0 mm)\n• সেচ সিদ্ধান্ত: না, বর্তমানে সেচের প্রয়োজন নেই। মাটির আর্দ্রতা পর্যাপ্ত এবং বৃষ্টির সম্ভাবনা রয়েছে।\n• ড্রিপ সেচ ব্যবহারকারীদের ড্রেন সুবিধা উন্মুক্ত রাখতে পরামর্শ দেওয়া হচ্ছে।\n\n[Source: AgriSathi Smart Irrigation Engine & Open-Meteo Weather]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:52:16.418Z"
+        },
+        {
+          "role": "user",
+          "content": "আজকে আমার ধানের জমিতে পানি দিলে ঠিক হবে তো?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:52:37.822Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর জন্য সেচ সিদ্ধান্ত পরামর্শ:\n\n• মাটির আর্দ্রতা: 52%\n• আগামীকালের বৃষ্টিপাতের সম্ভাবনা: 0% (0 mm)\n• সেচ সিদ্ধান্ত: না, বর্তমানে সেচের প্রয়োজন নেই। মাটির আর্দ্রতা পর্যাপ্ত এবং বৃষ্টির সম্ভাবনা রয়েছে।\n• ড্রিপ সেচ ব্যবহারকারীদের ড্রেন সুবিধা উন্মুক্ত রাখতে পরামর্শ দেওয়া হচ্ছে।\n\n[Source: AgriSathi Smart Irrigation Engine & Open-Meteo Weather]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:52:37.824Z"
+        },
+        {
+          "role": "user",
+          "content": "আজকে আমার ধানের জমিতে পানি দিলে ঠিক হবে তো?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:53:00.465Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর জন্য সেচ সিদ্ধান্ত পরামর্শ:\n\n• মাটির আর্দ্রতা: 52%\n• আগামীকালের বৃষ্টিপাতের সম্ভাবনা: 0% (0 mm)\n• সেচ সিদ্ধান্ত: না, বর্তমানে সেচের প্রয়োজন নেই। মাটির আর্দ্রতা পর্যাপ্ত এবং বৃষ্টির সম্ভাবনা রয়েছে।\n• ড্রিপ সেচ ব্যবহারকারীদের ড্রেন সুবিধা উন্মুক্ত রাখতে পরামর্শ দেওয়া হচ্ছে।\n\n[Source: AgriSathi Smart Irrigation Engine & Open-Meteo Weather]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:53:00.466Z"
+        },
+        {
+          "role": "user",
+          "content": "আজকে আমার ধানের জমিতে পানি দিলে ঠিক হবে তো?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:58:47.055Z"
+        },
+        {
+          "role": "assistant",
+          "content": "না, আজ আপনার ধানের জমিতে সেচ বা অতিরিক্ত পানি দেওয়ার কোনো প্রয়োজন নেই। \n\nআপনার জমির বর্তমান মাটির আর্দ্রতা ৫২%, যা ধানের জন্য একদম উপযুক্ত ও আদর্শ অবস্থায় রয়েছে (সেচের প্রয়োজন নেই)। যেহেতু মাটিতে পর্যাপ্ত পরিমাণে রস রয়েছে, তাই এই মুহূর্তে আবার পানি দিলে গাছের শিকড়ের ক্ষতি হতে পারে এবং পানির অপচয় হবে। পরবর্তীতে মাটির আর্দ্রতা কমে গেলে আপনাকে সেচ দেওয়ার পরামর্শ দেওয়া হবে।",
+          "metadata": {
+            "tokens": 107,
+            "model": "gemini-3.6-flash",
+            "processingTime": 7771,
+            "confidence": 0.99,
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:58:47.062Z"
+        },
+        {
+          "role": "user",
+          "content": "আজকে আমার ধানের জমিতে পানি দিলে ঠিক হবে তো?",
+          "metadata": {},
+          "timestamp": "2026-08-21T16:42:27.055Z"
+        },
+        {
+          "role": "assistant",
+          "content": "না, আজকে আপনার ধানের জমিতে সেচ বা পানি দেওয়ার কোনো প্রয়োজন নেই। \n\nআপনার বারাসাতের জমির বর্তমান মাটির আর্দ্রতা (Soil Moisture) হলো ৫২%, যা ধান গাছের জন্য একদম উপযুক্ত বা আদর্শ মাত্রায় রয়েছে। এই মুহূর্তে জমিতে সেচ না দেওয়ার প্রধান কারণগুলো নিচে দেওয়া হলো:\n\n১. **মাটিতে পর্যাপ্ত আর্দ্রতা:** আপনার খেতের মাটিতে বর্তমানে ধান গাছের জন্য প্রয়োজনীয় আর্দ্রতা বজায় রয়েছে। অতিরিক্ত পানি দিলে মাটির কার্যক্ষমতা এবং শিকড়ের বাতাস চলাচলের পথ বন্ধ হয়ে যেতে পারে।\n\n২. **রোগবালাই ও ক্ষতির ঝুঁকি:** মাটিতে পর্যাপ্ত পানি থাকা সত্ত্বেও আবার পানি দিলে গাছের শিকড় পচে যাওয়া (Root Rot) এবং বিভিন্ন ছত্রাকজনিত রোগের (যেমন শথ ব্লাইট বা পচন রোগ) আক্রমণ বাড়তে পারে। এছাড়া অতিরিক্ত পানিতে নাইট্রোজেনসহ অন্যান্য সার ধুয়ে নিচে নেমে যায় (Nutrient Leaching)।\n\n৩. **সেচ নিয়ন্ত্রণ:** আর্দ্রতা আদর্শ সীমার মধ্যে থাকায় এখন সেচ না দিলে আপনার বিদ্যুৎ/জ্বালানি খরচ সাশ্রয় হবে এবং পানির অপচয় রোধ হবে।\n\n**পরবর্তী করণীয়:**\n* আজকে সেচ সম্পূর্ণরূপে বন্ধ রাখুন।\n* আগামী ২-৩ দিন মাটির আর্দ্রতা পর্যবেক্ষণ করুন। মাটির আর্দ্রতা ৪০% থেকে ৪৫%-এর নিচে নেমে গেলে অথবা ধান গাছের পাতার ডগা সামান্য ঢলে পড়তে দেখলে তখন হালকা সেচ দিতে পারেন।\n* জমিতে পানি নিষ্কাশনের উপযুক্ত ব্যবস্থা রাখুন, যাতে হঠাৎ বৃষ্টি হলে জমে থাকা অতিরিক্ত পানি সহজে বের হয়ে যেতে পারে।",
+          "metadata": {
+            "tokens": 311,
+            "model": "gemini-3.6-flash",
+            "processingTime": 14642,
+            "confidence": 0.99,
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T16:42:27.057Z"
+        }
+      ],
+      "createdAt": "2026-08-21T14:47:49.343Z",
+      "updatedAt": "2026-08-21T16:42:27.057Z"
+    },
+    {
+      "sessionId": "SESSION-P2-1",
+      "user": "test-user-phase2",
+      "messages": [
+        {
+          "role": "user",
+          "content": "আমার soil আর আগামী ৭ দিনের weather দেখে বলো কোন crop চাষ করা ভালো হবে।",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:47:49.318Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর মাটির অবস্থা ও আগামী ৭ দিনের আবহাওয়া বিশ্লেষণ:\n\n• মাটির পিএইচ (pH): ৬.৫ (সুষম) (OPTIMAL)\n• আগামী ৭ দিনের মোট সম্ভাব্য বৃষ্টিপাত: 0.0 mm\n• ফসল বপন সুপারিস: আর্দ্রতা ও আবহাওয়া উপযোগী ধান, গম ও ডাল জাতীয় ফসল চাষের জন্য সবচেয়ে আদর্শ। সারের সুষম প্রয়োগের মাধ্যমে সর্বোচ্চ ফলন সম্ভব।\n\n[Source: AgriSathi Integrated Soil & 7-Day Weather Engine]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:47:49.319Z"
+        },
+        {
+          "role": "user",
+          "content": "আমার soil আর আগামী ৭ দিনের weather দেখে বলো কোন crop চাষ করা ভালো হবে।",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:52:16.116Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর মাটির অবস্থা ও আগামী ৭ দিনের আবহাওয়া বিশ্লেষণ:\n\n• মাটির পিএইচ (pH): ৬.৫ (সুষম) (OPTIMAL)\n• আগামী ৭ দিনের মোট সম্ভাব্য বৃষ্টিপাত: 0.0 mm\n• ফসল বপন সুপারিস: আর্দ্রতা ও আবহাওয়া উপযোগী ধান, গম ও ডাল জাতীয় ফসল চাষের জন্য সবচেয়ে আদর্শ। সারের সুষম প্রয়োগের মাধ্যমে সর্বোচ্চ ফলন সম্ভব।\n\n[Source: AgriSathi Integrated Soil & 7-Day Weather Engine]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:52:16.117Z"
+        },
+        {
+          "role": "user",
+          "content": "আমার soil আর আগামী ৭ দিনের weather দেখে বলো কোন crop চাষ করা ভালো হবে।",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:52:37.441Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর মাটির অবস্থা ও আগামী ৭ দিনের আবহাওয়া বিশ্লেষণ:\n\n• মাটির পিএইচ (pH): ৬.৫ (সুষম) (OPTIMAL)\n• আগামী ৭ দিনের মোট সম্ভাব্য বৃষ্টিপাত: 0.0 mm\n• ফসল বপন সুপারিস: আর্দ্রতা ও আবহাওয়া উপযোগী ধান, গম ও ডাল জাতীয় ফসল চাষের জন্য সবচেয়ে আদর্শ। সারের সুষম প্রয়োগের মাধ্যমে সর্বোচ্চ ফলন সম্ভব।\n\n[Source: AgriSathi Integrated Soil & 7-Day Weather Engine]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:52:37.442Z"
+        },
+        {
+          "role": "user",
+          "content": "আমার soil আর আগামী ৭ দিনের weather দেখে বলো কোন crop চাষ করা ভালো হবে।",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:52:59.221Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর মাটির অবস্থা ও আগামী ৭ দিনের আবহাওয়া বিশ্লেষণ:\n\n• মাটির পিএইচ (pH): ৬.৫ (সুষম) (OPTIMAL)\n• আগামী ৭ দিনের মোট সম্ভাব্য বৃষ্টিপাত: 0.0 mm\n• ফসল বপন সুপারিস: আর্দ্রতা ও আবহাওয়া উপযোগী ধান, গম ও ডাল জাতীয় ফসল চাষের জন্য সবচেয়ে আদর্শ। সারের সুষম প্রয়োগের মাধ্যমে সর্বোচ্চ ফলন সম্ভব।\n\n[Source: AgriSathi Integrated Soil & 7-Day Weather Engine]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:52:59.222Z"
+        },
+        {
+          "role": "user",
+          "content": "আমার soil আর আগামী ৭ দিনের weather দেখে বলো কোন crop চাষ করা ভালো হবে।",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:58:39.211Z"
+        },
+        {
+          "role": "assistant",
+          "content": "আপনার অ্যাকাউন্টে বর্তমানে কোনো মাটির পরীক্ষার রেকর্ড (Soil Record) যুক্ত করা নেই। ফলে আপনার জমির মাটির নির্দিষ্ট গুণাগুণ, pH বা NPK-র মাত্রা বিবেচনা করে সুনির্দিষ্ট সুপারিশ করা সম্ভব হচ্ছে না। \n\nতবে বারাসাত অঞ্চলের বর্তমান আবহাওয়া (তাপমাত্রা ৩২°-৩৩° সেলসিয়াস) এবং খরিফ মরশুম বিবেচনা করে এই সময়ে নিচের ফসলগুলো চাষ করা ভালো হবে:\n\n১. আমন ধান: এই সময় বারাসাত ও উত্তর ২৪ পরগনা অঞ্চলে আমন ধানের চারা রোপণ করার জন্য সবচেয়ে উপযুক্ত আবহাওয়া।\n২. বর্ষাকালীন সবজি: জমিতে যদি জল নিষ্কাশনের ভালো ব্যবস্থা থাকে, তবে ঢ্যাঁড়শ, বেগুন, ঝিঙে, করলা, শসা, পটোল এবং লঙ্কা চাষ করা লাভজনক হবে।\n\nমাটির উপদান অনুযায়ী সঠিক সার ও নির্দিষ্ট জাত নির্বাচনের জন্য অনুগ্রহ করে নিকটস্থ কৃষি সম্প্রসারণ কেন্দ্র থেকে মাটি পরীক্ষা করিয়ে আপনার অ্যাকাউন্টে সয়েল রেকর্ড যুক্ত করুন।",
+          "metadata": {
+            "tokens": 205,
+            "model": "gemini-3.6-flash",
+            "processingTime": 56207,
+            "confidence": 0.99,
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:58:39.213Z"
+        },
+        {
+          "role": "user",
+          "content": "আমার soil আর আগামী ৭ দিনের weather দেখে বলো কোন crop চাষ করা ভালো হবে।",
+          "metadata": {},
+          "timestamp": "2026-08-21T16:42:12.338Z"
+        },
+        {
+          "role": "assistant",
+          "content": "আপনার AgriSathi প্রোফাইলে বর্তমানে মাটি পরীক্ষার (Soil Test) কোনো সংরক্ষিত তথ্য পাওয়া যায়নি। তবে বারাসাত (উত্তর ২৪ পরগনা) অঞ্চলের সাধারণ ভৌগোলিক গঠন অনুযায়ী এখানকার মাটি প্রধানত উর্বর গাঙ্গেয় পলি মাটি, যা দোআঁশ ও এঁটেল-দোআঁশ প্রকৃতির। \n\nআগামী ৭ দিনের আবহাওয়ার পূর্বাভাস অনুযায়ী বারাসাতের তাপমাত্রা সর্বোচ্চ ৩২°সে থেকে ৩৩°সে এবং সর্বনিম্ন ২৭°সে থেকে ২৮°সে-এর মধ্যে থাকবে। আগস্ট মাসের এই উষ্ণ ও আর্দ্র আবহাওয়া এবং আঞ্চলিক মাটির ধরন বিবেচনা করে আপনার ৪.৫ একর জমির জন্য নিম্নলিখিত ফসলগুলি চাষ করা সবচেয়ে লাভজনক ও উপযুক্ত হবে:\n\n১. আমন ধান (Aman Paddy)\n- উপযোগিতা: আগস্ট মাসের বৃষ্টিপাত ও আর্দ্র আবহাওয়া আমন ধানের চারা রোপণ ও প্রাথমিক বৃদ্ধির জন্য আদর্শ। বারাসাতের নিচু ও মাঝারি দোআঁশ মাটিতে জল ধারণ ক্ষমতা ভালো থাকায় ধান চাষে চমৎকার ফলন পাওয়া যাবে।\n- উপযুক্ত জাত: স্বর্ণা (MTU 7029), শতাব্দী (IET 4786), রঞ্জিত বা সাব-১ জাতের ধান।\n\n২. বর্ষাকালীন সবজি (Monsoon Vegetables)\n- উপযোগিতা: আপনার জমিতে যদি উঁচু ও মাঝারি উঁচু অংশ থাকে, তবে সেখানে বর্ষাকালীন সবজি চাষ দ্রুত ভালো মুনাফা দেবে। ৩৩°সে তাপমাত্রার সাথে আর্দ্রতা বর্ষাকালীন সবজির দ্রুত বৃদ্ধিতে সহায়তা করে।\n- উপযুক্ত ফসল: ঢ্যাঁড়শ, ঝিঙে, করলা, শসা, চিচিঙ্গা এবং পুঁইশাক।\n- সতর্কতা: জমিতে যেন অতিরিক্ত জল জমে না থাকে, তার জন্য সঠিক জল নিষ্কাশন (Drainage) নালা তৈরি করে মাচা পদ্ধতিতে চাষ করা আবশ্যক।\n\n৩. মাসকলাই বা অলটারনেটিভ ক্রপ (Pulses)\n- উপযোগিতা: ধান চাষের পাশাপাশি অতিরিক্ত উঁচু জমিতে স্বল্পমেয়াদের মাসকলাই (Black Gram) বা মুগ ডাল বোনা যেতে পারে। এতে মাটির উর্বরতা ও নাইট্রোজেনের পরিমাণ বৃদ্ধি পাবে।\n\n৪. রবি মৌসুমের আলু ও গমের আগাম প্রস্তুতি\n- আপনার প্রোফাইল অনুযায়ী আপনি আলু ও গম চাষে অভিজ্ঞ। বর্তমান আর্দ্র আবহাওয়া কেটে গেলে (অক্টোবর-নভেম্বর মাসে) আলু ও গমের জন্য জমি তৈরি করতে হবে। তাই এখন থেকেই জৈব সার বা গোবর সার জমিতে ফেলে মাটি প্রস্তুতের পরিকল্পনা রাখুন।\n\nপরামর্শ:\nমাটির সঠিক pH, জৈব কার্বন, নাইট্রোজেন, ফসফরাস ও পটাসিয়ামের মাত্রা জেনে সুষম সার প্রয়োগের জন্য কাছের কৃষি প্রযুক্তি কেন্দ্রে যোগাযোগ করে আপনার জমির মাটি পরীক্ষা (Soil Testing) করিয়ে নিন এবং AgriSathi অ্যাকাউন্টে তথ্য আপডেট করুন।",
+          "metadata": {
+            "tokens": 510,
+            "model": "gemini-3.6-flash",
+            "processingTime": 35332,
+            "confidence": 0.99,
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T16:42:12.341Z"
+        }
+      ],
+      "createdAt": "2026-08-21T14:47:49.318Z",
+      "updatedAt": "2026-08-21T16:42:12.341Z"
+    },
+    {
+      "sessionId": "UNSEEN-5",
+      "user": "test-user-1",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is photosynthesis?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:37:56.022Z"
+        },
+        {
+          "role": "assistant",
+          "content": "No saved soil test record was found for your farmer account. You can perform a soil test under the Soil Health section. Standard baseline: Maintain pH 6.5 and balanced N-P-K fertilizer application.\n\n[Source: AgriSathi Soil Analysis Laboratory]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "english"
+          },
+          "timestamp": "2026-08-21T14:37:56.023Z"
+        },
+        {
+          "role": "user",
+          "content": "What is photosynthesis?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:38:17.239Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Photosynthesis is the biochemical process by which green plants and certain organisms transform light energy into chemical energy, converting water, carbon dioxide, and sunlight into glucose and oxygen.\n\n[Source: AgriSathi General Science Knowledge]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "english"
+          },
+          "timestamp": "2026-08-21T14:38:17.239Z"
+        },
+        {
+          "role": "user",
+          "content": "What is photosynthesis?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:44:16.029Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Photosynthesis is the biochemical process by which green plants and certain organisms transform light energy into chemical energy, converting water, carbon dioxide, and sunlight into glucose and oxygen.\n\n[Source: AgriSathi General Science Knowledge]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "english"
+          },
+          "timestamp": "2026-08-21T14:44:16.030Z"
+        }
+      ],
+      "createdAt": "2026-08-21T14:37:56.022Z",
+      "updatedAt": "2026-08-21T14:44:16.030Z"
+    },
+    {
+      "sessionId": "UNSEEN-4",
+      "user": "test-user-1",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Who is the current agriculture minister of India?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:37:56.012Z"
+        },
+        {
+          "role": "assistant",
+          "content": "The current Union Minister of Agriculture and Farmers Welfare of India is Shivraj Singh Chouhan. The Agriculture Minister of West Bengal is Sobhandeb Chattopadhyay.\n\n[Source: Official Union & State Ministry Records]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "english"
+          },
+          "timestamp": "2026-08-21T14:37:56.013Z"
+        },
+        {
+          "role": "user",
+          "content": "Who is the current agriculture minister of India?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:38:17.146Z"
+        },
+        {
+          "role": "assistant",
+          "content": "The current Union Minister of Agriculture and Farmers Welfare of India is Shivraj Singh Chouhan. The Agriculture Minister of West Bengal is Sobhandeb Chattopadhyay.\n\n[Source: Official Union & State Ministry Records]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "english"
+          },
+          "timestamp": "2026-08-21T14:38:17.147Z"
+        },
+        {
+          "role": "user",
+          "content": "Who is the current agriculture minister of India?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:44:15.939Z"
+        },
+        {
+          "role": "assistant",
+          "content": "The current Union Minister of Agriculture and Farmers Welfare of India is Shivraj Singh Chouhan. The Agriculture Minister of West Bengal is Sobhandeb Chattopadhyay.\n\n[Source: Official Union & State Ministry Records]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "english"
+          },
+          "timestamp": "2026-08-21T14:44:15.939Z"
+        }
+      ],
+      "createdAt": "2026-08-21T14:37:56.012Z",
+      "updatedAt": "2026-08-21T14:44:15.939Z"
+    },
+    {
+      "sessionId": "UNSEEN-3",
+      "user": "test-user-1",
+      "messages": [
+        {
+          "role": "user",
+          "content": "আমার profile আর location অনুযায়ী কোন government scheme আমার জন্য relevant?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:37:55.232Z"
+        },
+        {
+          "role": "assistant",
+          "content": "যাচাইকৃত সরকারি কৃষি প্রকল্প ও সাবসিডি:\n\n1. PM-Kisan Samman Nidhi (পিএম কিসান সম্মান নিধি / पीएम-किसान सम्मान निधि)\n   • সুবিধা: ₹6,000 per year transferred directly to bank account in 3 installments\n   • অফিসিয়াল পোর্টাল: https://pmkisan.gov.in\n\n2. Krishak Bandhu Scheme (কৃষক বন্ধু প্রকল্প)\n   • সুবিধা: Financial grant up to ₹10,000 per acre per year for West Bengal farmers\n   • অফিসিয়াল পোর্টাল: https://krishakbandhu.wb.gov.in\n\n3. Pradhan Mantri Fasal Bima Yojana (PMFBY / फसल बीमा)\n   • সুবিধা: Comprehensive crop insurance protection against flood, drought & storm\n   • অফিসিয়াল পোর্টাল: https://pmfby.gov.in\n\n4. Kisan Credit Card Scheme (KCC / किसान क्रेडिट कार्ड)\n   • সুবিধা: Subsidized short-term credit loan up to ₹3,00,000 at 4% interest rate\n   • অফিসিয়াল পোর্টাল: https://pmkisan.gov.in\n\n[Source: Official Government Scheme Database]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:37:55.233Z"
+        },
+        {
+          "role": "user",
+          "content": "আমার profile আর location অনুযায়ী কোন government scheme আমার জন্য relevant?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:38:16.328Z"
+        },
+        {
+          "role": "assistant",
+          "content": "যাচাইকৃত সরকারি কৃষি প্রকল্প ও সাবসিডি:\n\n1. PM-Kisan Samman Nidhi (পিএম কিসান সম্মান নিধি / पीएम-किसान सम्मान निधि)\n   • সুবিধা: ₹6,000 per year transferred directly to bank account in 3 installments\n   • অফিসিয়াল পোর্টাল: https://pmkisan.gov.in\n\n2. Krishak Bandhu Scheme (কৃষক বন্ধু প্রকল্প)\n   • সুবিধা: Financial grant up to ₹10,000 per acre per year for West Bengal farmers\n   • অফিসিয়াল পোর্টাল: https://krishakbandhu.wb.gov.in\n\n3. Pradhan Mantri Fasal Bima Yojana (PMFBY / फसल बीमा)\n   • সুবিধা: Comprehensive crop insurance protection against flood, drought & storm\n   • অফিসিয়াল পোর্টাল: https://pmfby.gov.in\n\n4. Kisan Credit Card Scheme (KCC / किसान क्रेडिट कार्ड)\n   • সুবিধা: Subsidized short-term credit loan up to ₹3,00,000 at 4% interest rate\n   • অফিসিয়াল পোর্টাল: https://pmkisan.gov.in\n\n[Source: Official Government Scheme Database]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:38:16.329Z"
+        },
+        {
+          "role": "user",
+          "content": "আমার profile আর location অনুযায়ী কোন government scheme আমার জন্য relevant?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:44:15.208Z"
+        },
+        {
+          "role": "assistant",
+          "content": "যাচাইকৃত সরকারি কৃষি প্রকল্প ও সাবসিডি:\n\n1. PM-Kisan Samman Nidhi (পিএম কিসান সম্মান নিধি / पीएम-किसान सम्मान निधि)\n   • সুবিধা: ₹6,000 per year transferred directly to bank account in 3 installments\n   • অফিসিয়াল পোর্টাল: https://pmkisan.gov.in\n\n2. Krishak Bandhu Scheme (কৃষক বন্ধু প্রকল্প)\n   • সুবিধা: Financial grant up to ₹10,000 per acre per year for West Bengal farmers\n   • অফিসিয়াল পোর্টাল: https://krishakbandhu.wb.gov.in\n\n3. Pradhan Mantri Fasal Bima Yojana (PMFBY / फसल बीमा)\n   • সুবিধা: Comprehensive crop insurance protection against flood, drought & storm\n   • অফিসিয়াল পোর্টাল: https://pmfby.gov.in\n\n4. Kisan Credit Card Scheme (KCC / किसान क्रेडिट कार्ड)\n   • সুবিধা: Subsidized short-term credit loan up to ₹3,00,000 at 4% interest rate\n   • অফিসিয়াল পোর্টাল: https://pmkisan.gov.in\n\n[Source: Official Government Scheme Database]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:44:15.209Z"
+        }
+      ],
+      "createdAt": "2026-08-21T14:37:55.232Z",
+      "updatedAt": "2026-08-21T14:44:15.209Z"
+    },
+    {
+      "sessionId": "UNSEEN-2",
+      "user": "test-user-1",
+      "messages": [
+        {
+          "role": "user",
+          "content": "আমার এলাকায় আগামী কয়েকদিনের weather আর disease alert দেখে কী কী সাবধানতা নেওয়া উচিত?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:37:54.326Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর আবহাওয়া ও রোগের সতর্কতা সতর্কতা:\n\n• উচ্চ আর্দ্রতা ও বৃষ্টির পূর্বাভাসের কারণে ফসলে ফাঙ্গাল বা ব্যাকটেরিয়াল আক্রমণের ঝুঁকি রয়েছে।\n• সক্রিয় রোগ সতর্কতা (2টি পাওয়া গেছে):\n  - Rice Blast / Leaf Blight (ধানের ব্লাইট রোগ / धान का झुलसा) (ঝুঁকি: HIGH)\n  - Late Blight of Potato (আলুর নাবি ধসা / आलू का पछेती झुलसा) (ঝুঁকি: MODERATE)\n• সতর্কতা: জমিতে জল জমতে দেবেন না এবং শুষ্ক আবহাওয়ায় কপার অক্সিক্লোরাইড স্প্রে করুন।\n\n[Source: AgriSathi Integrated Weather & Disease Alert Engine]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:37:54.326Z"
+        },
+        {
+          "role": "user",
+          "content": "আমার এলাকায় আগামী কয়েকদিনের weather আর disease alert দেখে কী কী সাবধানতা নেওয়া উচিত?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:38:15.524Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর আবহাওয়া ও রোগের সতর্কতা সতর্কতা:\n\n• উচ্চ আর্দ্রতা ও বৃষ্টির পূর্বাভাসের কারণে ফসলে ফাঙ্গাল বা ব্যাকটেরিয়াল আক্রমণের ঝুঁকি রয়েছে।\n• সক্রিয় রোগ সতর্কতা (2টি পাওয়া গেছে):\n  - Rice Blast / Leaf Blight (ধানের ব্লাইট রোগ / धान का झुलसा) (ঝুঁকি: HIGH)\n  - Late Blight of Potato (আলুর নাবি ধসা / आलू का पछेती झुलसा) (ঝুঁকি: MODERATE)\n• সতর্কতা: জমিতে জল জমতে দেবেন না এবং শুষ্ক আবহাওয়ায় কপার অক্সিক্লোরাইড স্প্রে করুন।\n\n[Source: AgriSathi Integrated Weather & Disease Alert Engine]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:38:15.524Z"
+        },
+        {
+          "role": "user",
+          "content": "আমার এলাকায় আগামী কয়েকদিনের weather আর disease alert দেখে কী কী সাবধানতা নেওয়া উচিত?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:44:14.022Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর আবহাওয়া ও রোগের সতর্কতা সতর্কতা:\n\n• উচ্চ আর্দ্রতা ও বৃষ্টির পূর্বাভাসের কারণে ফসলে ফাঙ্গাল বা ব্যাকটেরিয়াল আক্রমণের ঝুঁকি রয়েছে।\n• সক্রিয় রোগ সতর্কতা (2টি পাওয়া গেছে):\n  - Rice Blast / Leaf Blight (ধানের ব্লাইট রোগ / धान का झुलसा) (ঝুঁকি: HIGH)\n  - Late Blight of Potato (আলুর নাবি ধসা / आलू का पछेती झुलसा) (ঝুঁকি: MODERATE)\n• সতর্কতা: জমিতে জল জমতে দেবেন না এবং শুষ্ক আবহাওয়ায় কপার অক্সিক্লোরাইড স্প্রে করুন।\n\n[Source: AgriSathi Integrated Weather & Disease Alert Engine]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:44:14.022Z"
+        }
+      ],
+      "createdAt": "2026-08-21T14:37:54.326Z",
+      "updatedAt": "2026-08-21T14:44:14.022Z"
+    },
+    {
+      "sessionId": "UNSEEN-1",
+      "user": "test-user-1",
+      "messages": [
+        {
+          "role": "user",
+          "content": "আমার soil আর আগামী ৭ দিনের weather দেখে বলো কোন crop আমার জন্য সবচেয়ে ভালো হতে পারে।",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:37:54.314Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর মাটির অবস্থা ও আগামী ৭ দিনের আবহাওয়া বিশ্লেষণ:\n\n• মাটির পিএইচ (pH): ৬.৫ (সুষম) (OPTIMAL)\n• আগামী ৭ দিনের মোট সম্ভাব্য বৃষ্টিপাত: 0.0 mm\n• ফসল বপন সুপারিস: আর্দ্রতা ও আবহাওয়া উপযোগী ধান, গম ও ডাল জাতীয় ফসল চাষের জন্য সবচেয়ে আদর্শ। সারের সুষম প্রয়োগের মাধ্যমে সর্বোচ্চ ফলন সম্ভব।\n\n[Source: AgriSathi Integrated Soil & 7-Day Weather Engine]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:37:54.314Z"
+        },
+        {
+          "role": "user",
+          "content": "আমার soil আর আগামী ৭ দিনের weather দেখে বলো কোন crop আমার জন্য সবচেয়ে ভালো হতে পারে।",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:38:15.513Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর মাটির অবস্থা ও আগামী ৭ দিনের আবহাওয়া বিশ্লেষণ:\n\n• মাটির পিএইচ (pH): ৬.৫ (সুষম) (OPTIMAL)\n• আগামী ৭ দিনের মোট সম্ভাব্য বৃষ্টিপাত: 0.0 mm\n• ফসল বপন সুপারিস: আর্দ্রতা ও আবহাওয়া উপযোগী ধান, গম ও ডাল জাতীয় ফসল চাষের জন্য সবচেয়ে আদর্শ। সারের সুষম প্রয়োগের মাধ্যমে সর্বোচ্চ ফলন সম্ভব।\n\n[Source: AgriSathi Integrated Soil & 7-Day Weather Engine]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:38:15.514Z"
+        },
+        {
+          "role": "user",
+          "content": "আমার soil আর আগামী ৭ দিনের weather দেখে বলো কোন crop আমার জন্য সবচেয়ে ভালো হতে পারে।",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:44:14.005Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর মাটির অবস্থা ও আগামী ৭ দিনের আবহাওয়া বিশ্লেষণ:\n\n• মাটির পিএইচ (pH): ৬.৫ (সুষম) (OPTIMAL)\n• আগামী ৭ দিনের মোট সম্ভাব্য বৃষ্টিপাত: 0.0 mm\n• ফসল বপন সুপারিস: আর্দ্রতা ও আবহাওয়া উপযোগী ধান, গম ও ডাল জাতীয় ফসল চাষের জন্য সবচেয়ে আদর্শ। সারের সুষম প্রয়োগের মাধ্যমে সর্বোচ্চ ফলন সম্ভব।\n\n[Source: AgriSathi Integrated Soil & 7-Day Weather Engine]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:44:14.006Z"
+        }
+      ],
+      "createdAt": "2026-08-21T14:37:54.314Z",
+      "updatedAt": "2026-08-21T14:44:14.006Z"
+    },
+    {
+      "sessionId": "SESSION-G",
+      "user": "test-user-1",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What disease is affecting my crop?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:25:59.053Z"
+        },
+        {
+          "role": "assistant",
+          "content": "To accurately identify the crop disease, please upload a clear photo of the affected leaf or crop using the camera icon, or describe the specific visual symptoms (such as spot color, leaf yellowing, or wilting). Accurately diagnosing a disease requires visual evidence or symptom description.",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "english"
+          },
+          "timestamp": "2026-08-21T14:25:59.054Z"
+        },
+        {
+          "role": "user",
+          "content": "What disease is affecting my crop?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:26:16.868Z"
+        },
+        {
+          "role": "assistant",
+          "content": "To accurately identify the crop disease, please upload a clear photo of the affected leaf or crop using the camera icon, or describe the specific visual symptoms (such as spot color, leaf yellowing, or wilting). Accurately diagnosing a disease requires visual evidence or symptom description.",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "english"
+          },
+          "timestamp": "2026-08-21T14:26:16.869Z"
+        }
+      ],
+      "createdAt": "2026-08-21T14:25:59.053Z",
+      "updatedAt": "2026-08-21T14:26:16.869Z"
+    },
+    {
+      "sessionId": "SESSION-F",
+      "user": "test-user-1",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Are there any tomatoes for sale in Ladakh?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:25:59.052Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Agricultural Specialist Advisory:\n\n1. Crop & Seed Selection: Choose certified high-yield seeds suited to climate conditions.\n2. Nutrient Management: Apply balanced NPK fertilizers alongside organic compost.\n3. Crop Protection: Upload leaf photo for instant AI diagnosis.\n\n[Source: AgriSathi Agricultural Expert Knowledge System]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "english"
+          },
+          "timestamp": "2026-08-21T14:25:59.052Z"
+        },
+        {
+          "role": "user",
+          "content": "Are there any tomatoes for sale in Ladakh?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:26:16.867Z"
+        },
+        {
+          "role": "assistant",
+          "content": "No matching produce listings are currently available in the AgriSathi Marketplace for sale in at this moment. Sellers can list new harvests using Seller Mode.\n\n[Source: AgriSathi Direct Farmer Marketplace]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "english"
+          },
+          "timestamp": "2026-08-21T14:26:16.867Z"
+        }
+      ],
+      "createdAt": "2026-08-21T14:25:59.052Z",
+      "updatedAt": "2026-08-21T14:26:16.867Z"
+    },
+    {
+      "sessionId": "SESSION-E",
+      "user": "test-user-1",
+      "messages": [
+        {
+          "role": "user",
+          "content": "Bankura-তে এখন কোন সবজি newly arrived আছে?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:25:59.050Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Bankura-এর জন্য এগ্রিসাথী মার্কেটপ্লেসে এই মুহূর্তে কোনো সরাসরি ফসল তালিকা পাওয়া যায়নি। আপনি বিক্রেতা মোড ব্যবহার করে প্রথম ফসল বিক্রি তালিকা প্রকাশ করতে পারেন।\n\n[Source: AgriSathi Direct Farmer Marketplace]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:25:59.050Z"
+        },
+        {
+          "role": "user",
+          "content": "Bankura-তে এখন কোন সবজি newly arrived আছে?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:26:16.864Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Bankura-এর জন্য এগ্রিসাথী মার্কেটপ্লেসে এই মুহূর্তে কোনো সরাসরি ফসল তালিকা পাওয়া যায়নি। আপনি বিক্রেতা মোড ব্যবহার করে প্রথম ফসল বিক্রি তালিকা প্রকাশ করতে পারেন।\n\n[Source: AgriSathi Direct Farmer Marketplace]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:26:16.865Z"
+        }
+      ],
+      "createdAt": "2026-08-21T14:25:59.050Z",
+      "updatedAt": "2026-08-21T14:26:16.865Z"
+    },
+    {
+      "sessionId": "SESSION-D",
+      "user": "test-user-1",
+      "messages": [
+        {
+          "role": "user",
+          "content": "আমার জন্য কোন সরকারি subsidy আছে?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:25:59.046Z"
+        },
+        {
+          "role": "assistant",
+          "content": "যাচাইকৃত সরকারি কৃষি প্রকল্প ও সাবসিডি:\n\n1. PM-Kisan Samman Nidhi (পিএম কিসান সম্মান নিধি / पीएम-किसान सम्मान निधि)\n   • সুবিধা: ₹6,000 per year transferred directly to bank account in 3 installments\n   • অফিসিয়াল পোর্টাল: https://pmkisan.gov.in\n\n2. Krishak Bandhu Scheme (কৃষক বন্ধু প্রকল্প)\n   • সুবিধা: Financial grant up to ₹10,000 per acre per year for West Bengal farmers\n   • অফিসিয়াল পোর্টাল: https://krishakbandhu.wb.gov.in\n\n3. Pradhan Mantri Fasal Bima Yojana (PMFBY / फसल बीमा)\n   • সুবিধা: Comprehensive crop insurance protection against flood, drought & storm\n   • অফিসিয়াল পোর্টাল: https://pmfby.gov.in\n\n4. Kisan Credit Card Scheme (KCC / किसान क्रेडिट कार्ड)\n   • সুবিধা: Subsidized short-term credit loan up to ₹3,00,000 at 4% interest rate\n   • অফিসিয়াল পোর্টাল: https://pmkisan.gov.in\n\n[Source: Official Government Scheme Database]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:25:59.046Z"
+        },
+        {
+          "role": "user",
+          "content": "আমার জন্য কোন সরকারি subsidy আছে?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:26:16.861Z"
+        },
+        {
+          "role": "assistant",
+          "content": "যাচাইকৃত সরকারি কৃষি প্রকল্প ও সাবসিডি:\n\n1. PM-Kisan Samman Nidhi (পিএম কিসান সম্মান নিধি / पीएम-किसान सम्मान निधि)\n   • সুবিধা: ₹6,000 per year transferred directly to bank account in 3 installments\n   • অফিসিয়াল পোর্টাল: https://pmkisan.gov.in\n\n2. Krishak Bandhu Scheme (কৃষক বন্ধু প্রকল্প)\n   • সুবিধা: Financial grant up to ₹10,000 per acre per year for West Bengal farmers\n   • অফিসিয়াল পোর্টাল: https://krishakbandhu.wb.gov.in\n\n3. Pradhan Mantri Fasal Bima Yojana (PMFBY / फसल बीमा)\n   • সুবিধা: Comprehensive crop insurance protection against flood, drought & storm\n   • অফিসিয়াল পোর্টাল: https://pmfby.gov.in\n\n4. Kisan Credit Card Scheme (KCC / किसान क्रेडिट कार्ड)\n   • সুবিধা: Subsidized short-term credit loan up to ₹3,00,000 at 4% interest rate\n   • অফিসিয়াল পোর্টাল: https://pmkisan.gov.in\n\n[Source: Official Government Scheme Database]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:26:16.862Z"
+        }
+      ],
+      "createdAt": "2026-08-21T14:25:59.046Z",
+      "updatedAt": "2026-08-21T14:26:16.862Z"
+    },
+    {
+      "sessionId": "SESSION-C",
+      "user": "test-user-1",
+      "messages": [
+        {
+          "role": "user",
+          "content": "What is wrong with this leaf?",
+          "metadata": {
+            "hasImage": true
+          },
+          "timestamp": "2026-08-21T14:25:59.044Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Plant Photo Computer Vision Disease Analysis:\n\n• Visual Symptom Analysis: Image metrics detected foliage chlorosis and necrotic spot patterns.\n• Diagnosis: Leaf Blight / Brown Spot Disease (Paddy/Wheat)\n• Observed Symptoms: Straw-colored necrotic lesions, leaf tip drying.\n• Management & Treatment:\n  1. Spray Copper Oxychloride 50% WP (2.5g/L water) or Kasugamycin in early morning.\n  2. Bio-fungicide option: Root drenching with Trichoderma viride (10g/L water).\n  3. Regulate Nitrogen/Urea dosage and maintain proper field drainage.\n\n[Source: AgriSathi Multimodal Computer Vision Diagnostic Engine]",
+          "metadata": {
+            "tokens": 158,
+            "model": "agrisathi-computer-vision-engine",
+            "processingTime": 0,
+            "confidence": 0.95,
+            "hasImage": true,
+            "detectedLanguage": "english"
+          },
+          "timestamp": "2026-08-21T14:25:59.045Z"
+        },
+        {
+          "role": "user",
+          "content": "What is wrong with this leaf?",
+          "metadata": {
+            "hasImage": true
+          },
+          "timestamp": "2026-08-21T14:26:16.859Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Plant Photo Computer Vision Disease Analysis:\n\n• Visual Symptom Analysis: Image metrics detected foliage chlorosis and necrotic spot patterns.\n• Diagnosis: Leaf Blight / Brown Spot Disease (Paddy/Wheat)\n• Observed Symptoms: Straw-colored necrotic lesions, leaf tip drying.\n• Management & Treatment:\n  1. Spray Copper Oxychloride 50% WP (2.5g/L water) or Kasugamycin in early morning.\n  2. Bio-fungicide option: Root drenching with Trichoderma viride (10g/L water).\n  3. Regulate Nitrogen/Urea dosage and maintain proper field drainage.\n\n[Source: AgriSathi Multimodal Computer Vision Diagnostic Engine]",
+          "metadata": {
+            "tokens": 158,
+            "model": "agrisathi-computer-vision-engine",
+            "processingTime": 0,
+            "confidence": 0.95,
+            "hasImage": true,
+            "detectedLanguage": "english"
+          },
+          "timestamp": "2026-08-21T14:26:16.860Z"
+        }
+      ],
+      "createdAt": "2026-08-21T14:25:59.044Z",
+      "updatedAt": "2026-08-21T14:26:16.860Z"
+    },
+    {
+      "sessionId": "SESSION-B",
+      "user": "test-user-1",
+      "messages": [
+        {
+          "role": "user",
+          "content": "क्या मुझे कल अपनी धान की फसल में पानी देना चाहिए?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:25:57.528Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat के लिए सिंचाई निर्णय सलाह:\n\n• मिट्टी में नमी: 52%\n• कल बारिश की संभावना: 0% (0 mm)\n• सिंचाई निर्णय: नहीं, वर्तमान में सिंचाई की आवश्यकता नहीं है। मिट्टी में पर्याप्त नमी है और बारिश की संभावना है।\n• जल जमाव से बचने के लिए जल निकासी व्यवस्था खुली रखें।\n\n[Source: AgriSathi Smart Irrigation Engine & Open-Meteo Weather]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "hindi"
+          },
+          "timestamp": "2026-08-21T14:25:57.529Z"
+        },
+        {
+          "role": "user",
+          "content": "क्या मुझे कल अपनी धान की फसल में पानी देना चाहिए?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:26:16.675Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat के लिए सिंचाई निर्णय सलाह:\n\n• मिट्टी में नमी: 52%\n• कल बारिश की संभावना: 0% (0 mm)\n• सिंचाई निर्णय: नहीं, वर्तमान में सिंचाई की आवश्यकता नहीं है। मिट्टी में पर्याप्त नमी है और बारिश की संभावना है।\n• जल जमाव से बचने के लिए जल निकासी व्यवस्था खुली रखें।\n\n[Source: AgriSathi Smart Irrigation Engine & Open-Meteo Weather]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "hindi"
+          },
+          "timestamp": "2026-08-21T14:26:16.676Z"
+        }
+      ],
+      "createdAt": "2026-08-21T14:25:57.528Z",
+      "updatedAt": "2026-08-21T14:26:16.676Z"
+    },
+    {
+      "sessionId": "SESSION-A",
+      "user": "test-user-1",
+      "messages": [
+        {
+          "role": "user",
+          "content": "আগামীকাল আমার জমিতে সেচ দিতে হবে কি?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:25:57.516Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর জন্য সেচ সিদ্ধান্ত পরামর্শ:\n\n• মাটির আর্দ্রতা: 52%\n• আগামীকালের বৃষ্টিপাতের সম্ভাবনা: 0% (0 mm)\n• সেচ সিদ্ধান্ত: না, বর্তমানে সেচের প্রয়োজন নেই। মাটির আর্দ্রতা পর্যাপ্ত এবং বৃষ্টির সম্ভাবনা রয়েছে।\n• ড্রিপ সেচ ব্যবহারকারীদের ড্রেন সুবিধা উন্মুক্ত রাখতে পরামর্শ দেওয়া হচ্ছে।\n\n[Source: AgriSathi Smart Irrigation Engine & Open-Meteo Weather]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:25:57.517Z"
+        },
+        {
+          "role": "user",
+          "content": "আগামীকাল আমার জমিতে সেচ দিতে হবে কি?",
+          "metadata": {},
+          "timestamp": "2026-08-21T14:26:16.663Z"
+        },
+        {
+          "role": "assistant",
+          "content": "Barasat-এর জন্য সেচ সিদ্ধান্ত পরামর্শ:\n\n• মাটির আর্দ্রতা: 52%\n• আগামীকালের বৃষ্টিপাতের সম্ভাবনা: 0% (0 mm)\n• সেচ সিদ্ধান্ত: না, বর্তমানে সেচের প্রয়োজন নেই। মাটির আর্দ্রতা পর্যাপ্ত এবং বৃষ্টির সম্ভাবনা রয়েছে।\n• ড্রিপ সেচ ব্যবহারকারীদের ড্রেন সুবিধা উন্মুক্ত রাখতে পরামর্শ দেওয়া হচ্ছে।\n\n[Source: AgriSathi Smart Irrigation Engine & Open-Meteo Weather]",
+          "metadata": {
+            "model": "agrisathi-expert-grounded-engine",
+            "detectedLanguage": "bengali"
+          },
+          "timestamp": "2026-08-21T14:26:16.664Z"
+        }
+      ],
+      "createdAt": "2026-08-21T14:25:57.516Z",
+      "updatedAt": "2026-08-21T14:26:16.664Z"
+    }
+  ]
+}

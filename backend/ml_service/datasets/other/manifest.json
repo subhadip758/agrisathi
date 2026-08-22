@@ -1,0 +1,939 @@
+{
+  "train": [
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_020.jpg",
+      "label": "Powdery Mildew",
+      "hash": "4dd210e6ad84105e69e7d24f7cba7eeb"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_043.jpg",
+      "label": "Powdery Mildew",
+      "hash": "c9f049df110e4d8e71f259160216fe55"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_032.jpg",
+      "label": "Healthy Plant",
+      "hash": "f14a386136512bac09d1e09b481801cd"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_047.jpg",
+      "label": "Foliar Spot",
+      "hash": "296a1a11dd1f02ea8f4153e3c8129edf"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_024.jpg",
+      "label": "Healthy Plant",
+      "hash": "f27114d693282aa8ed562ce74b71d6ac"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_016.jpg",
+      "label": "Powdery Mildew",
+      "hash": "d4ca3b16cec12d073498ebfdfd06bd56"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_025.jpg",
+      "label": "Powdery Mildew",
+      "hash": "292abc1e1237c4c706daf9ac94f2ff59"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_004.jpg",
+      "label": "Foliar Spot",
+      "hash": "35bc371c6eca98df6e2786c52ef08eaf"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_053.jpg",
+      "label": "Foliar Spot",
+      "hash": "1294a9cbba0af30804bb0807db24ad0a"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_034.jpg",
+      "label": "Foliar Spot",
+      "hash": "ce0418d743b96fa3a59f2614f6b312c7"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_033.jpg",
+      "label": "Foliar Spot",
+      "hash": "c97ca5f927d8cb4a06641b1eb05ec330"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_039.jpg",
+      "label": "Healthy Plant",
+      "hash": "a1386a26586cbb94631e5a7a8f2a0f06"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_005.jpg",
+      "label": "Foliar Spot",
+      "hash": "ce2b3a92bd688dd4fa760c4be372a8aa"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_051.jpg",
+      "label": "Healthy Plant",
+      "hash": "6b955f3e7f4353dffe2f2db9bf9ab298"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_046.jpg",
+      "label": "Powdery Mildew",
+      "hash": "5858f516091caaecbeb1b19fabdafa62"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_017.jpg",
+      "label": "Powdery Mildew",
+      "hash": "2e6dde9b53f3dfd1781655f465e40121"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_052.jpg",
+      "label": "Powdery Mildew",
+      "hash": "75282ac0964b405848039edec43c2afd"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_036.jpg",
+      "label": "Powdery Mildew",
+      "hash": "c8b2e5fbc1de87241a2cb8083db1113f"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_018.jpg",
+      "label": "Foliar Spot",
+      "hash": "e06cf53c14ebcbcbf7b1c4951b09b699"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_057.jpg",
+      "label": "Powdery Mildew",
+      "hash": "e50deb6128106146726e33bf94f1bad2"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_041.jpg",
+      "label": "Healthy Plant",
+      "hash": "59fa52a509b55aa15ddf49f1c3920f94"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_060.jpg",
+      "label": "Foliar Spot",
+      "hash": "d8ed8c9453ff1006e17af36db85d057c"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_022.jpg",
+      "label": "Healthy Plant",
+      "hash": "1061ce38eb1785dc46506c467155b867"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_031.jpg",
+      "label": "Powdery Mildew",
+      "hash": "81083037768b2fefb3c1e9ac21fa82f6"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_010.jpg",
+      "label": "Powdery Mildew",
+      "hash": "304a3ad563feaa6a6e3343f81afcbd3e"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_002.jpg",
+      "label": "Healthy Plant",
+      "hash": "98ec8b150a2b6152b940d2e4262df55f"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Leaf_Rust\\other_leaf_rust_001.jpg",
+      "label": "Leaf Rust",
+      "hash": "7a6345c1341171c3247e83c023c5906c"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_019.jpg",
+      "label": "Powdery Mildew",
+      "hash": "ee5a32bc402517dc0951300cdb8f2a11"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_046.jpg",
+      "label": "Healthy Plant",
+      "hash": "244abb7fb4a61b70ab9ac59463d4b46d"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_049.jpg",
+      "label": "Foliar Spot",
+      "hash": "68496ad219be945421dd2ed02fd25fee"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_011.jpg",
+      "label": "Foliar Spot",
+      "hash": "e9da4db5d7af4cd1d3bc13387e05c728"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_056.jpg",
+      "label": "Powdery Mildew",
+      "hash": "7f6e92a650549e549f8f77d190885fd3"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_055.jpg",
+      "label": "Foliar Spot",
+      "hash": "5927d88aaa2dd01b104c7872065592c6"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_011.jpg",
+      "label": "Healthy Plant",
+      "hash": "4c1f137c17ce4c688d487af6527e99b9"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_002.jpg",
+      "label": "Foliar Spot",
+      "hash": "458d9054cf49175c7879939715064c77"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_030.jpg",
+      "label": "Powdery Mildew",
+      "hash": "90e26b7efb58f606b813e4a65cac355a"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_052.jpg",
+      "label": "Healthy Plant",
+      "hash": "5b770242750a65e35f945407e8e54587"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_001.jpg",
+      "label": "Foliar Spot",
+      "hash": "b9b87935064c26ebb19d08338ceb4e5f"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_003.jpg",
+      "label": "Foliar Spot",
+      "hash": "f3ff656043451eff8ae1418a9bcb74da"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_032.jpg",
+      "label": "Powdery Mildew",
+      "hash": "ee11ea30ff39ad39f2f73e8529c33b52"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_013.jpg",
+      "label": "Powdery Mildew",
+      "hash": "2d448871a5e754077f9595edd66a3e39"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_042.jpg",
+      "label": "Powdery Mildew",
+      "hash": "e24c5bfacc9c239203142cbf61735050"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_012.jpg",
+      "label": "Healthy Plant",
+      "hash": "995c7e83712468247ef04e13bfef9dcc"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_026.jpg",
+      "label": "Foliar Spot",
+      "hash": "7affd3a664c15fc5c6357eda206cb1d7"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_023.jpg",
+      "label": "Healthy Plant",
+      "hash": "e0bd64ad6f966e2949cf34649594b4a4"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_040.jpg",
+      "label": "Foliar Spot",
+      "hash": "79dc65a38cd91df75820cf78888f8493"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_045.jpg",
+      "label": "Foliar Spot",
+      "hash": "eb0efc0dba674a220904b7b46af263c0"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_039.jpg",
+      "label": "Powdery Mildew",
+      "hash": "19925b8ee2988a0bdc21a58fd539cdf0"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_056.jpg",
+      "label": "Foliar Spot",
+      "hash": "8bfec450a8548988d40a6c0b94953395"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_032.jpg",
+      "label": "Foliar Spot",
+      "hash": "fe8ad2f39aec3ab1fbf016fe4b4544ac"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_012.jpg",
+      "label": "Foliar Spot",
+      "hash": "0a8fcfddadcc6cabb838e6a5f9f0d5b4"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_035.jpg",
+      "label": "Healthy Plant",
+      "hash": "bab9deff85e0cf0db36463a540ae8c8f"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_003.jpg",
+      "label": "Powdery Mildew",
+      "hash": "3c798a17b7724c11abe95a4f3a42e8a4"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_009.jpg",
+      "label": "Healthy Plant",
+      "hash": "3abca2a9fda29c462d9244084d540ea2"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_047.jpg",
+      "label": "Powdery Mildew",
+      "hash": "e0d4d74bd50d58a1e5cb0b4a9c9e9850"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_049.jpg",
+      "label": "Healthy Plant",
+      "hash": "8dcd3033c1917e0b6e68e1a07d90b19a"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_031.jpg",
+      "label": "Healthy Plant",
+      "hash": "c0bbd49f02948b75057a629b56315cb6"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_021.jpg",
+      "label": "Foliar Spot",
+      "hash": "16614f5c548ef2a023eb612433b96759"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_026.jpg",
+      "label": "Healthy Plant",
+      "hash": "fbcf6523f7e751bfdc71f6b2931662b5"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_027.jpg",
+      "label": "Powdery Mildew",
+      "hash": "eefe373e06f227c942f14d214237937e"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_034.jpg",
+      "label": "Healthy Plant",
+      "hash": "964118d51716f32c8b53cb46094bbc2e"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_053.jpg",
+      "label": "Healthy Plant",
+      "hash": "caec174e5b7700e27d562a784fff5fd9"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_051.jpg",
+      "label": "Foliar Spot",
+      "hash": "c00f37dac3a4cadd8e388290a88fefc3"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_014.jpg",
+      "label": "Foliar Spot",
+      "hash": "60b83c21eb41a34c915b169fc6f0f7aa"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_037.jpg",
+      "label": "Powdery Mildew",
+      "hash": "bb642fdaaad7ac8e6fbc364ab32de6e7"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_004.jpg",
+      "label": "Healthy Plant",
+      "hash": "eb4202127c900c7c888209fe0b9af9e6"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_023.jpg",
+      "label": "Powdery Mildew",
+      "hash": "5868329211321bcce7869b3312bde4eb"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_044.jpg",
+      "label": "Foliar Spot",
+      "hash": "029812fc5efd2919e733d78342f6310e"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_058.jpg",
+      "label": "Foliar Spot",
+      "hash": "4b36951c78eb76cec40a2998e4f98f78"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_050.jpg",
+      "label": "Foliar Spot",
+      "hash": "7cffc835f4764c16b98656d7e8ed3941"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_012.jpg",
+      "label": "Powdery Mildew",
+      "hash": "4d0b8d32d2ca1ba397876500f06e2317"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_056.jpg",
+      "label": "Healthy Plant",
+      "hash": "d96285f54dd7459aca45b825b4c56789"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_021.jpg",
+      "label": "Healthy Plant",
+      "hash": "406d0c9d9e33fa06fec8f61d99d975ea"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_007.jpg",
+      "label": "Powdery Mildew",
+      "hash": "0be540f2ef5d389c788cb295b0110c85"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_028.jpg",
+      "label": "Powdery Mildew",
+      "hash": "e9ad3041ef198b696813b189468f74ac"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_029.jpg",
+      "label": "Foliar Spot",
+      "hash": "2487b9a3be9d0073f4c5bd6a995a5dd8"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_005.jpg",
+      "label": "Powdery Mildew",
+      "hash": "d90e80d13f3b9dbe52dc34c6639e0780"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_033.jpg",
+      "label": "Powdery Mildew",
+      "hash": "55638b19768f9b347934d1f588d9352b"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_036.jpg",
+      "label": "Foliar Spot",
+      "hash": "c379cc83be8ac46a03b4479cc4e8ea21"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_019.jpg",
+      "label": "Healthy Plant",
+      "hash": "be7000d4e2c3f2310eb5476d1564b69e"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_037.jpg",
+      "label": "Foliar Spot",
+      "hash": "771eaf1e261231b8fac6f82066a0072e"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_044.jpg",
+      "label": "Healthy Plant",
+      "hash": "a3d826a5acfd01541293f996f7177a43"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_011.jpg",
+      "label": "Powdery Mildew",
+      "hash": "763e7377cdf783880658206e5dc2e5bf"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_054.jpg",
+      "label": "Foliar Spot",
+      "hash": "d83a2b5d1c011ee358c832dfb149cd5f"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_008.jpg",
+      "label": "Healthy Plant",
+      "hash": "1178e70be882b8eb7c38a8e9c5e87d62"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_001.jpg",
+      "label": "Powdery Mildew",
+      "hash": "f6f5310367e05b3f3da19b3054517376"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_015.jpg",
+      "label": "Healthy Plant",
+      "hash": "920f2893832661e825ff41dee635d89f"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_006.jpg",
+      "label": "Foliar Spot",
+      "hash": "e0cdea613c8932aab014303b851ed462"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_031.jpg",
+      "label": "Foliar Spot",
+      "hash": "5c75dc492d9e18f4f552553d8bda86c3"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Leaf_Rust\\other_leaf_rust_005.jpg",
+      "label": "Leaf Rust",
+      "hash": "7973cb330e571ff1b2ed43b476db98ec"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_045.jpg",
+      "label": "Powdery Mildew",
+      "hash": "c4708407088b054368159c4d2348f843"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_028.jpg",
+      "label": "Healthy Plant",
+      "hash": "cab5318375ecd01ecef042601d7f693f"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_029.jpg",
+      "label": "Powdery Mildew",
+      "hash": "e2767833143840b92bf7844f443b5c35"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_041.jpg",
+      "label": "Powdery Mildew",
+      "hash": "8920f9667e6a8d29c2bd679a30011a47"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_017.jpg",
+      "label": "Healthy Plant",
+      "hash": "42339e3929dccb837d045199af8e9f61"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_018.jpg",
+      "label": "Healthy Plant",
+      "hash": "8333d8e8b1fac230b078a2fe53a7b017"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_026.jpg",
+      "label": "Powdery Mildew",
+      "hash": "c0ce25e1cb88bd8d22c188f84a060139"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_024.jpg",
+      "label": "Powdery Mildew",
+      "hash": "26c6821834ec7b9b1771ea8631cea3d7"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_013.jpg",
+      "label": "Healthy Plant",
+      "hash": "53c3350d58567c48bdea1cebe3f0206b"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_017.jpg",
+      "label": "Foliar Spot",
+      "hash": "aaab6ca4b186a6b9fc1998e2bb40347e"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_015.jpg",
+      "label": "Foliar Spot",
+      "hash": "758013a4692639cac910c3b1bbd9d226"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_020.jpg",
+      "label": "Foliar Spot",
+      "hash": "519f17f6fe350371ad657098c76abcad"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_040.jpg",
+      "label": "Powdery Mildew",
+      "hash": "f47d4386f96dd3e2f6223c6486ad184e"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_048.jpg",
+      "label": "Foliar Spot",
+      "hash": "ce50a0585be9a60b24e763ecc53a0324"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_022.jpg",
+      "label": "Foliar Spot",
+      "hash": "0d632e85980da34fdcaedfa40fcd1c36"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_013.jpg",
+      "label": "Foliar Spot",
+      "hash": "764c1721fe121c7c8fa36549b98e3bc7"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_059.jpg",
+      "label": "Healthy Plant",
+      "hash": "cc43c9f9e42a6142c5bf96cc18e94ea1"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_030.jpg",
+      "label": "Healthy Plant",
+      "hash": "01e0595560f71af6405f2234e35d54ae"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_048.jpg",
+      "label": "Powdery Mildew",
+      "hash": "2306003f79f4f7676d3ef09285b4a5a0"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_030.jpg",
+      "label": "Foliar Spot",
+      "hash": "3a75a175bab2c56f5b2747ae2c38db9c"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_016.jpg",
+      "label": "Healthy Plant",
+      "hash": "9a59581b47ca77d42413292618d63e96"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_048.jpg",
+      "label": "Healthy Plant",
+      "hash": "ddda536e4ca4738c201bb69e763d5ce0"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Leaf_Rust\\other_leaf_rust_002.jpg",
+      "label": "Leaf Rust",
+      "hash": "87c05ac2fec13476e2f2fa28c97347ce"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_009.jpg",
+      "label": "Foliar Spot",
+      "hash": "66141f9534757fe15c3bf561cc20bc46"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_034.jpg",
+      "label": "Powdery Mildew",
+      "hash": "36f7a14a941866ddb5ed3e27a9b89023"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_044.jpg",
+      "label": "Powdery Mildew",
+      "hash": "db46a1ceccf817ed920dd34e61f3e6be"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_014.jpg",
+      "label": "Healthy Plant",
+      "hash": "c780b0566437bef1a75881454cd4492d"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_020.jpg",
+      "label": "Healthy Plant",
+      "hash": "472a2e73030243dab4fb494263c79a44"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Leaf_Rust\\other_leaf_rust_003.jpg",
+      "label": "Leaf Rust",
+      "hash": "12670223b677ef30ed9392685e4ab1e9"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_058.jpg",
+      "label": "Healthy Plant",
+      "hash": "b4baa1aabec405b8eaf1e740ecf1209f"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_059.jpg",
+      "label": "Foliar Spot",
+      "hash": "02b76028010570e8467b27da3f669e7d"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_003.jpg",
+      "label": "Healthy Plant",
+      "hash": "3171c3bdd9fc57c0a12f3d6b942b6867"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_041.jpg",
+      "label": "Foliar Spot",
+      "hash": "a3e9c0815bbda8e105fe7ad88e865b64"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_054.jpg",
+      "label": "Powdery Mildew",
+      "hash": "82faa1f973a475471e53e81cd7c053d4"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_006.jpg",
+      "label": "Powdery Mildew",
+      "hash": "86e39e263338beafeb6f8f8003974b17"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_001.jpg",
+      "label": "Healthy Plant",
+      "hash": "c0ccebcc66ba7164ac12878c54296e50"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_042.jpg",
+      "label": "Healthy Plant",
+      "hash": "c66afa1668b6a478cf533d789f46ec7d"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_004.jpg",
+      "label": "Powdery Mildew",
+      "hash": "ed7473d0f7991b2f86a14fa24ec4e3f9"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_047.jpg",
+      "label": "Healthy Plant",
+      "hash": "5afc2ccd9bbc7ea65964e9f985084f26"
+    }
+  ],
+  "val": [
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_050.jpg",
+      "label": "Powdery Mildew",
+      "hash": "8d776cbb81a36721f0633ad94a363684"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_016.jpg",
+      "label": "Foliar Spot",
+      "hash": "126f7e20ecb9b166c8664d29aacacdfb"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_035.jpg",
+      "label": "Powdery Mildew",
+      "hash": "6eeae57e55629d0564301890badb7d5d"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_008.jpg",
+      "label": "Powdery Mildew",
+      "hash": "256eef437df8b2f1c730806bb6c8f753"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_046.jpg",
+      "label": "Foliar Spot",
+      "hash": "e10aa9359cafd4981eab877faa16e397"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_027.jpg",
+      "label": "Foliar Spot",
+      "hash": "3387e26ac5ef0d333721cb46a3dfaed6"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_019.jpg",
+      "label": "Foliar Spot",
+      "hash": "571347eae582e51c0dafb67418be4667"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_038.jpg",
+      "label": "Healthy Plant",
+      "hash": "2cc474ca8b18f95643318606a1396e51"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_043.jpg",
+      "label": "Healthy Plant",
+      "hash": "5950bc15e4189bdffbdc320b8749daed"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_025.jpg",
+      "label": "Foliar Spot",
+      "hash": "100e94f99496cb8df1cf4e46d2114619"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_009.jpg",
+      "label": "Powdery Mildew",
+      "hash": "9f5d0355f15a8ba0ed079ed412e7c67d"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_014.jpg",
+      "label": "Powdery Mildew",
+      "hash": "f69a4c0993b21d9332cb9c115ea691f1"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_060.jpg",
+      "label": "Powdery Mildew",
+      "hash": "969275d410e5c8829bad58df81dae1fc"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_040.jpg",
+      "label": "Healthy Plant",
+      "hash": "2480f731abcec0fba6073da2632a643f"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_007.jpg",
+      "label": "Healthy Plant",
+      "hash": "1db90eb5d6d2832f48b59790c0dbbeb1"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_018.jpg",
+      "label": "Powdery Mildew",
+      "hash": "6b8b23d61502841264174b6f9751777c"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_008.jpg",
+      "label": "Foliar Spot",
+      "hash": "463d60c08d9a58bbc9214ca7f52b6950"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_037.jpg",
+      "label": "Healthy Plant",
+      "hash": "5c776220042337dd6308419e8b2a1604"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_010.jpg",
+      "label": "Healthy Plant",
+      "hash": "54cb3c7fc6319a64f74eef32457c5ec2"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_029.jpg",
+      "label": "Healthy Plant",
+      "hash": "6dac4fb0a48a99d377e6df0d4c7c5c5a"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_045.jpg",
+      "label": "Healthy Plant",
+      "hash": "c62cb8f2d1fa8e98817a093ff8a1852e"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Leaf_Rust\\other_leaf_rust_004.jpg",
+      "label": "Leaf Rust",
+      "hash": "62a0a46e5bf58b3e7bd4d0720e4af486"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_055.jpg",
+      "label": "Powdery Mildew",
+      "hash": "667d58ea279cddfedf5b6dd852158d0d"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_043.jpg",
+      "label": "Foliar Spot",
+      "hash": "88bc8b4438b6469930799a90f1c8837c"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_051.jpg",
+      "label": "Powdery Mildew",
+      "hash": "db5f35a38b90adb21c061d3c502eb15d"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_057.jpg",
+      "label": "Healthy Plant",
+      "hash": "0e1b70318ae545fbf3413a224af32144"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_059.jpg",
+      "label": "Powdery Mildew",
+      "hash": "ee1a119eb0a4e19bdaca413e377f1bc0"
+    }
+  ],
+  "test": [
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_049.jpg",
+      "label": "Powdery Mildew",
+      "hash": "bd21a28265d0f73b53e8da7c77c77124"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_024.jpg",
+      "label": "Foliar Spot",
+      "hash": "1296e49b423d4b7abd3896a922fadb1c"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_022.jpg",
+      "label": "Powdery Mildew",
+      "hash": "3993d658792acf726b94d25511020beb"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_058.jpg",
+      "label": "Powdery Mildew",
+      "hash": "cb5afd2baab3916e3285d27105a60f22"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_036.jpg",
+      "label": "Healthy Plant",
+      "hash": "ae1f6d4c31b12c8b374b9804cf724807"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_054.jpg",
+      "label": "Healthy Plant",
+      "hash": "797c26ea1e74afd3f622639e36a705e8"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_005.jpg",
+      "label": "Healthy Plant",
+      "hash": "8de4fb5bee7ac89ee0a3e66cafa125b2"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_038.jpg",
+      "label": "Powdery Mildew",
+      "hash": "78d6059b48739fa78b57a30e90182e6b"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_033.jpg",
+      "label": "Healthy Plant",
+      "hash": "84b1ec31ed1ffecf5d0f0a38007b7e59"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_050.jpg",
+      "label": "Healthy Plant",
+      "hash": "50dcc6b6dfd586e8eeed41a6c21cf7fe"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_002.jpg",
+      "label": "Powdery Mildew",
+      "hash": "ff9e5fb4316654ce63f240e9dd4667db"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_053.jpg",
+      "label": "Powdery Mildew",
+      "hash": "2974cbd80a80dcad1caa19341c3844d7"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_025.jpg",
+      "label": "Healthy Plant",
+      "hash": "eddddab3d3bb3383236e76d9f9eef780"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_006.jpg",
+      "label": "Healthy Plant",
+      "hash": "7402b4985c79427499afbdb55291f3f2"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_027.jpg",
+      "label": "Healthy Plant",
+      "hash": "d82061e7205f6e7942f6d7d706a49b17"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_039.jpg",
+      "label": "Foliar Spot",
+      "hash": "c2b2a4126fd050e0568aa567657f8004"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_035.jpg",
+      "label": "Foliar Spot",
+      "hash": "aa95f267faf919dcb8209fbed96ad1dd"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_052.jpg",
+      "label": "Foliar Spot",
+      "hash": "0af867b83ce93dc05e68bcde0fbc112f"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_023.jpg",
+      "label": "Foliar Spot",
+      "hash": "22c415f37640f3c8064f1713b66b7d05"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_010.jpg",
+      "label": "Foliar Spot",
+      "hash": "4d88c49232293e6743f86c07fb302811"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_057.jpg",
+      "label": "Foliar Spot",
+      "hash": "0781e32ca185c89f30f426c1a33ad787"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_060.jpg",
+      "label": "Healthy Plant",
+      "hash": "2bb9b733cf14e78dbe23cb29e9866597"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_021.jpg",
+      "label": "Powdery Mildew",
+      "hash": "21d9ed3f2cf5846d52765123f0980d21"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_007.jpg",
+      "label": "Foliar Spot",
+      "hash": "fb724b860fe3ce11cd4b022ec3143dd5"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_042.jpg",
+      "label": "Foliar Spot",
+      "hash": "52da56c09e43d6765b3e76f5a1e901bd"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Powdery_Mildew\\other_powdery_mildew_015.jpg",
+      "label": "Powdery Mildew",
+      "hash": "7e32bc03b3c74f671ad3a665a560559e"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_028.jpg",
+      "label": "Foliar Spot",
+      "hash": "04e5b98ce52f901fb196d9257be0dad6"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Healthy_Plant\\other_healthy_plant_055.jpg",
+      "label": "Healthy Plant",
+      "hash": "3ced9761548f064f760b420679f821d6"
+    },
+    {
+      "path": "C:\\Users\\Subhadip\\Downloads\\Agrisathi-V3-main\\Agrisathi-V3-main\\backend\\ml_service\\datasets\\other\\Foliar_Spot\\other_foliar_spot_038.jpg",
+      "label": "Foliar Spot",
+      "hash": "9faadbd3991c8bb5836715881857cd9c"
+    }
+  ],
+  "classes": [
+    "Powdery Mildew",
+    "Leaf Rust",
+    "Foliar Spot",
+    "Healthy Plant"
+  ]
+}

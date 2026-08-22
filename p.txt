@@ -1,0 +1,374 @@
+urban-farming-platform/
+│
+├── backend/
+│   ├── src/
+│   │   ├── config/
+│   │   │   ├── database.js
+│   │   │   ├── jwt.js
+│   │   │   └── multer.js
+│   │   │
+│   │   ├── models/
+│   │   │   ├── User.js
+│   │   │   ├── CropRecommendation.js
+│   │   │   ├── Product.js
+│   │   │   ├── RuleBasedIrrigation.js
+│   │   │   ├── SoilAnalysis.js
+│   │   │   ├── WaterSource.js
+│   │   │   ├── CommunityPost.js
+│   │   │   ├── IrrigationSchedule.js
+│   │   │   ├── DiseaseDetection.js
+│   │   │   ├── FertilizerSchedule.js
+│   │   │   ├── WaterUsage.js
+│   │   │   ├── YieldPrediction.js
+│   │   │   └── ChatHistory.js
+│   │   │
+│   │   ├── controllers/
+│   │   │   ├── authController.js
+│   │   │   ├── cropRecommendationController.js
+│   │   │   ├── soilAnalysisController.js
+│   │   │   ├── weatherAdvisoryController.js
+│   │   │   ├── irrigationController.js
+│   │   │   ├── diseaseDetectionController.js
+│   │   │   ├── fertilizerController.js
+│   │   │   ├── waterAdvisoryController.js
+│   │   │   ├── communityController.js
+│   │   │   ├── analyticsController.js
+│   │   │   ├── marketplaceController.js
+│   │   │   ├── ruleBasedIrrigationController.js
+│   │   │   ├── watersourceController.js
+│   │   │   ├── yieldPredictionController.js
+│   │   │   └── chatbotController.js
+│   │   │
+│   │   ├── services/
+│   │   │   ├── mlService.js
+│   │   │   ├── weatherService.js
+│   │   │   ├── waterSourceService.js
+│   │   │   ├── waterAdvisoryService.js
+│   │   │   ├── soilRules.js
+│   │   │   ├── ruleBasedIrrigationService.js
+│   │   │   ├── fertilizerService.js
+│   │   │   ├── chatbotService.js
+│   │   │   └── analyticsService.js
+│   │   │
+│   │   ├── routes/
+│   │   │   ├── authRoutes.js
+│   │   │   ├── cropRoutes.js
+│   │   │   ├── waterSourceRoutes.js
+│   │   │   ├── weatherRoutes.js
+│   │   │   ├── irrigationRoutes.js
+│   │   │   ├── diseaseRoutes.js
+│   │   │   ├── fertilizerRoutes.js
+│   │   │   ├── waterRoutes.js
+│   │   │   ├── communityRoutes.js
+│   │   │   ├── yieldRoutes.js
+│   │   │   ├── analyticsRoutes.js
+│   │   │   ├── marketplaceRoutes.js
+│   │   │   ├── soilObservationRoutes.js
+│   │   │   └── chatbotRoutes.js
+│   │   │
+│   │   ├── middleware/
+│   │   │   ├── authMiddleware.js
+│   │   │   ├── errorHandler.js
+│   │   │   ├── rateLimiter.js
+│   │   │   └── validateRequest.js
+│   │   │
+│   │   ├── utils/
+│   │   │   ├── logger.js
+│   │   │   ├── cropNutrientDatabase.js
+│   │   │   ├── cropWaterDatabase.js
+│   │   │   ├── helpers.js
+│   │   │   ├── irrigationRules.js
+│   │   │   ├── symptomMappings.js
+│   │   │   ├── yieldFertilizerIntergration.js
+│   │   │   ├── yieldCalculator.js
+│   │   │   └── validators.js
+│   │   │
+│   │   ├── validators/
+│   │   │   └── farmerModeValidator.js
+│   │   │
+│   │   └── server.js
+│   │
+│   ├── uploads/
+│   │   └── disease-images/
+│   │
+│   ├── .env.example
+│   ├── .gitignore
+│   ├── package.json
+│   └── README.md
+│
+├── ml-services/
+│   ├── models/
+│   │   ├── crop_recommendation/
+│   │   │   ├── model.py
+│   │   │   ├── train.py
+│   │   │   ├── predict.py
+│   │   │   └── crop_model.h5
+│   │   │
+│   │   ├── soil_prediction/
+│   │   │   ├── model.py
+│   │   │   ├── train.py
+│   │   │   ├── predict.py
+│   │   │   └── soil_model.h5
+│   │   │
+│   │   ├── disease_detection/
+│   │   │   ├── model.py
+│   │   │   ├── train.py
+│   │   │   ├── predict.py
+│   │   │   ├── disease_model.h5
+│   │   │   └── class_labels.json
+│   │   │
+│   │   ├── yield_prediction/
+│   │   │   ├── model.py
+│   │   │   ├── train.py
+│   │   │   ├── predict.py
+│   │   │   └── yield_model.h5
+│   │   │
+│   │   └── irrigation_optimizer/
+│   │       ├── model.py
+│   │       ├── train.py
+│   │       ├── predict.py
+│   │       └── irrigation_model.h5
+│   │
+│   ├── api/
+│   │   ├── routes/
+│   │   │   ├── __init__.py
+│   │   │   ├── crop_routes.py
+│   │   │   ├── dependencies.py
+│   │   │   ├── fertilizer_routes.py
+│   │   │   ├── model_info_routes.py
+│   │   │   ├── price_routes.py
+│   │   │   ├── soil_routes.py
+│   │   │   ├── yield_routes.py
+│   │   │   └── irrigation_routes.py
+│   │   │   
+│   │   ├── app.py
+│   │   ├── routes.py
+│   │   └── utils.py
+│   │
+│   ├── datasets/
+│   │   └── README.md
+│   │
+│   ├── requirements.txt
+│   ├── Dockerfile
+│   └── README.md
+│
+├── frontend/
+│   ├── public/
+│   │   ├── index.html
+│   │   ├── favicon.ico
+│   │   └── assets/
+│   │       └── images/
+│   │
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── common/
+│   │   │   │   ├── Navbar.jsx
+│   │   │   │   ├── Sidebar.jsx
+│   │   │   │   ├── Footer.jsx
+│   │   │   │   ├── Loader.jsx
+│   │   │   │   ├── ErrorBoundary.jsx
+│   │   │   │   ├── ErrorBoundarywrapper.jsx
+│   │   │   │   └── Card.jsx
+│   │   │   │
+│   │   │   ├── auth/
+│   │   │   │   ├── LoginForm.jsx
+│   │   │   │   ├── SignupForm.jsx
+│   │   │   │   └── PrivateRoute.jsx
+│   │   │   │
+│   │   │   ├── dashboard/
+│   │   │   │   ├── DashboardStats.jsx
+│   │   │   │   ├── RecentActivity.jsx
+│   │   │   │   └── QuickActions.jsx
+│   │   │   │
+│   │   │   ├── crop/
+│   │   │   │   ├── CropRecommendationForm.jsx
+│   │   │   │   └── CropResultCard.jsx
+│   │   │   │
+│   │   │   ├── soil/
+│   │   │   │   ├── SoilAnalysisForm.jsx
+│   │   │   │   └── SoilResultCard.jsx
+│   │   │   │
+│   │   │   ├── Water/
+│   │   │   │   ├── WaterAdvisoryDashboard.jsx
+│   │   │   │   └── WaterSourceDashboard.jsx
+│   │   │   │
+│   │   │   ├── weather/
+│   │   │   │   ├── WeatherWidget.jsx
+│   │   │   │   └── WeatherAdvisoryCard.jsx
+│   │   │   │
+│   │   │   ├── irrigation/
+│   │   │   │   ├── IrrigationForm.jsx
+│   │   │   │   ├── IrrigationRecommendationCard.jsx
+│   │   │   │   ├── RuleBasedPlanner.jsx
+│   │   │   │   ├── SimplifiedIrrigationForm.jsx
+│   │   │   │   ├── WeeklyScheduleCalander.jsx
+│   │   │   │   └── IrrigationSchedule.jsx
+│   │   │   │
+│   │   │   ├── disease/
+│   │   │   │   ├── DiseaseUploadForm.jsx
+│   │   │   │   ├── DiseaseResultCard.jsx
+│   │   │   │   └── ImagePreview.jsx
+│   │   │   │
+│   │   │   ├── fertilizer/
+│   │   │   │   ├── FertilizerForm.jsx
+│   │   │   │   ├── FarmerModeForm.jsx
+│   │   │   │   ├── FertilizerComparisonCard.jsx
+│   │   │   │   ├── SymptomSelector.jsx
+│   │   │   │   ├── ModeToggle.jsx
+│   │   │   │   └── FertilizerScheduleCard.jsx
+│   │   │   │
+│   │   │   ├── analytics/
+│   │   │   │   ├── WaterUsageChart.jsx
+│   │   │   │   ├── StatisticsCard.jsx
+│   │   │   │   └── TrendChart.jsx
+│   │   │   │
+│   │   │   ├── yield/
+│   │   │   │   ├── FarmerFriendlyForm.jsx
+│   │   │   │   ├── ModeSwitcher.jsx
+│   │   │   │   ├── YieldMethodSelector.jsx
+│   │   │   │   ├── YieldPredictionForm.jsx
+│   │   │   │   └── YieldResultCard.jsx
+│   │   │   │
+│   │   │   ├── market/
+│   │   │   │   ├── BuyerBrowse.jsx
+│   │   │   │   ├── SellerBrowse.jsx
+│   │   │   │   └── RoleSelection.jsx
+│   │   │   │
+│   │   │   └── chatbot/
+│   │   │       ├── ChatWindow.jsx
+│   │   │       ├── ChatMessage.jsx
+│   │   │       ├── Floatingchatbutton.jsx
+│   │   │       └── ChatInput.jsx
+│   │   │
+│   │   ├── pages/
+│   │   │   ├── offline/
+│   │   │   │    ├── Calculator.jsx
+│   │   │   │    ├── ChatBot.jsx
+│   │   │   │    ├── CropCalender.jsx
+│   │   │   │    ├── DiagnosisTree.jsx
+│   │   │   │    └── EmergencyGuide.jsx
+│   │   │   │
+│   │   │   ├── Login.jsx
+│   │   │   ├── Signup.jsx
+│   │   │   ├── Dashboard.jsx
+│   │   │   ├── CropRecommendation.jsx
+│   │   │   ├── SoilAnalysis.jsx
+│   │   │   ├── WeatherAdvisory.jsx
+│   │   │   ├── IrrigationPlanner.jsx
+│   │   │   ├── DiseaseDetection.jsx
+│   │   │   ├── FertilizerScheduler.jsx
+│   │   │   ├── WaterAnalytics.jsx
+│   │   │   ├── YieldPrediction.jsx
+│   │   │   ├── MarketPrice.jsx
+│   │   │   ├── Offline.jsx
+│   │   │   ├── LearningHub.jsx
+│   │   │   ├── Community.jsx
+│   │   │   ├── PrivacyPolicy.jsx
+│   │   │   ├── Termsandcondition.jsx
+│   │   │   ├── Profile.jsx
+│   │   │   ├── SubsidyScheme.jsx
+│   │   │   └── Helpdesk.jsx
+│   │   │
+│   │   ├── services/
+│   │   │   ├── api.js
+│   │   │   ├── authService.js
+│   │   │   ├── analyticsService.js
+│   │   │   ├── healthCheck.js
+│   │   │   ├── index.js
+│   │   │   ├── learningService.js
+│   │   │   ├── ruleBasedIrrigationService.js
+│   │   │   ├── subsidyService.js
+│   │   │   ├── waterSourceService.js
+│   │   │   ├── cropService.js
+│   │   │   ├── soilService.js
+│   │   │   ├── weatherService.js
+│   │   │   ├── irrigationService.js
+│   │   │   ├── communityService.js
+│   │   │   ├── diseaseService.js
+│   │   │   ├── fertilizerService.js
+│   │   │   ├── waterService.js
+│   │   │   ├── yieldService.js
+│   │   │   ├── marketplaceService.js
+│   │   │   └── chatbotService.js
+│   │   │
+│   │   ├── context/
+│   │   │   ├── AuthContext.jsx
+│   │   │   ├── LanguageContext.jsx
+│   │   │   └── ThemeContext.jsx
+│   │   │
+│   │   ├── data/
+│   │   │   ├── offlineKnowledge.js
+│   │   │   └── schemes.js
+│   │   │
+│   │   ├── hooks/
+│   │   │   ├── useAuth.js
+│   │   │   ├── useApi.js
+│   │   │   ├── useTransilation.js
+│   │   │   └── useDebounce.js
+│   │   │
+│   │   ├── utils/
+│   │   │   ├── constants.js
+│   │   │   ├── helpers.js
+│   │   │   └── validators.js
+│   │   │
+│   │   ├── i18n/
+│   │   │
+│   │   ├── App.jsx
+│   │   ├── index.jsx
+│   │   └── index.css
+│   │
+│   ├── .env.example
+│   ├── .gitignore
+│   ├── package.json
+│   ├── tailwind.config.js
+│   ├── postcss.config.js
+│   └── README.md
+│
+├── docker-compose.yml
+├── .dockerignore
+├── .gitignore
+└── README.md
+
+open -a "Google Chrome" http://localhost:3000
+
+\
+
+
+
+
+
+
+
+🔍 IDENTIFIED
+Disease: Early Blight (Alternaria solani)
+Type: Fungal
+Typically strikes: Early-to-mid fruiting stage, especially after warm humid spells
+
+🌦️ CAUSE
+Weather-driven: YES
+Why: Humidity has been 88% for 3 days with recent rainfall in your area — 
+conditions strongly favor fungal spread right now.
+
+🛠️ WHAT TO DO
+
+Immediate action (do this today):
+- Remove and destroy affected lower leaves — don't compost them
+- Improve airflow between plants if crowded
+- Avoid overhead watering until humidity drops
+
+Herbal/organic (try first):
+- Neem oil spray (5ml/litre), every 5-7 days
+- Copper-based organic fungicide if neem isn't controlling spread
+
+Chemical (only if severity is high):
+- [gated out here — severity is MEDIUM, so this section stays hidden]
+
+Prevention going forward:
+- Rotate crops — don't plant tomato/potato in same spot next season
+- Mulch to reduce soil splash onto lower leaves
+- Space plants wider for airflow
+
+⚠️ SEASONAL HEADS-UP
+Given it's [current month] in your region, also watch for:
+- Late Blight (higher risk if rain continues)
+- Leaf Curl Virus (whitefly-driven, common this time of year)

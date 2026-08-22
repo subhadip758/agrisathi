@@ -1,0 +1,31 @@
+{
+  "crop": "other",
+  "dataset_name": "AgriSathi General Crop Disease Dataset",
+  "selected_model": "MobileNetV2",
+  "classes": [
+    "Powdery Mildew",
+    "Leaf Rust",
+    "Foliar Spot",
+    "Healthy Plant"
+  ],
+  "confidence_threshold": 0.6,
+  "quantized_sizes": {
+    "fp32_mb": 9.08,
+    "fp16_mb": 4.57,
+    "int8_mb": 2.55
+  },
+  "metrics": {
+    "crop": "other",
+    "model_name": "Baseline SVM",
+    "accuracy": 1.0,
+    "macro_f1": 1.0,
+    "weighted_f1": 1.0,
+    "precision": 1.0,
+    "recall": 1.0,
+    "latency_ms": 0.01,
+    "size_mb": 0.15,
+    "status": "PASSED"
+  },
+  "model_version": "other-v1.0.0",
+  "timestamp": "2026-08-22T16:35:29Z"
+}

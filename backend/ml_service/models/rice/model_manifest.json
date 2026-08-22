@@ -1,0 +1,31 @@
+{
+  "crop": "rice",
+  "dataset_name": "AgriSathi Rice Leaf Disease Dataset",
+  "selected_model": "MobileNetV2",
+  "classes": [
+    "Bacterial Leaf Blight",
+    "Brown Spot",
+    "Rice Blast",
+    "Healthy Rice"
+  ],
+  "confidence_threshold": 0.65,
+  "quantized_sizes": {
+    "fp32_mb": 9.08,
+    "fp16_mb": 4.57,
+    "int8_mb": 2.55
+  },
+  "metrics": {
+    "crop": "rice",
+    "model_name": "Baseline SVM",
+    "accuracy": 0.9524,
+    "macro_f1": 0.641,
+    "weighted_f1": 0.9304,
+    "precision": 0.619,
+    "recall": 0.6667,
+    "latency_ms": 0.01,
+    "size_mb": 0.15,
+    "status": "PASSED"
+  },
+  "model_version": "rice-v1.0.0",
+  "timestamp": "2026-08-22T16:29:24Z"
+}

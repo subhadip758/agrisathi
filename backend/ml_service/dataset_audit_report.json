@@ -1,0 +1,100 @@
+{
+  "rice": {
+    "crop": "rice",
+    "dataset_name": "AgriSathi Rice Leaf Disease Dataset",
+    "status": "PASSED",
+    "total_images": 131,
+    "classes": {
+      "Bacterial Leaf Blight": 60,
+      "Brown Spot": 11,
+      "Rice Blast": 0,
+      "Healthy Rice": 60
+    },
+    "corrupted_files": 0,
+    "duplicates_found": 109,
+    "dimensions": [
+      "224x224"
+    ],
+    "formats": [
+      "JPEG"
+    ],
+    "train_count": 91,
+    "val_count": 19,
+    "test_count": 21,
+    "imbalance_ratio": 1.0
+  },
+  "wheat": {
+    "crop": "wheat",
+    "dataset_name": "AgriSathi Wheat Disease Dataset",
+    "status": "PASSED",
+    "total_images": 240,
+    "classes": {
+      "Common Bunt": 60,
+      "Loose Smut": 60,
+      "Septoria Blight": 60,
+      "Wheat Rust": 0,
+      "Healthy Wheat": 60
+    },
+    "corrupted_files": 0,
+    "duplicates_found": 60,
+    "dimensions": [
+      "224x224"
+    ],
+    "formats": [
+      "JPEG"
+    ],
+    "train_count": 168,
+    "val_count": 36,
+    "test_count": 36,
+    "imbalance_ratio": 1.0
+  },
+  "tomato": {
+    "crop": "tomato",
+    "dataset_name": "AgriSathi Tomato Leaf Disease Dataset",
+    "status": "PASSED",
+    "total_images": 182,
+    "classes": {
+      "Early Blight": 60,
+      "Late Blight": 1,
+      "Septoria Spot": 1,
+      "Yellow Leaf Curl": 60,
+      "Healthy Tomato": 60
+    },
+    "corrupted_files": 0,
+    "duplicates_found": 118,
+    "dimensions": [
+      "224x224"
+    ],
+    "formats": [
+      "JPEG"
+    ],
+    "train_count": 127,
+    "val_count": 27,
+    "test_count": 28,
+    "imbalance_ratio": 60.0
+  },
+  "other": {
+    "crop": "other",
+    "dataset_name": "AgriSathi General Crop Disease Dataset",
+    "status": "PASSED",
+    "total_images": 185,
+    "classes": {
+      "Powdery Mildew": 60,
+      "Leaf Rust": 5,
+      "Foliar Spot": 60,
+      "Healthy Plant": 60
+    },
+    "corrupted_files": 0,
+    "duplicates_found": 55,
+    "dimensions": [
+      "224x224"
+    ],
+    "formats": [
+      "JPEG"
+    ],
+    "train_count": 129,
+    "val_count": 27,
+    "test_count": 29,
+    "imbalance_ratio": 12.0
+  }
+}
