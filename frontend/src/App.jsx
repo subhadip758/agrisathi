@@ -74,18 +74,9 @@ class OfflineErrorBoundary extends React.Component {
   }
 }
 
-const BACKEND_URL = process.env.REACT_APP_API_URL || 'http://localhost:5180';
-const HEALTH_CHECK_INTERVAL = 3_000;
-const HEALTH_TIMEOUT        = 4_000;
-
-const HEALTH_URL = (() => {
-  try {
-    const u = new URL(BACKEND_URL);
-    return `${u.protocol}//${u.host}/health`;
-  } catch {
-    return 'http://localhost:5180/health';
-  }
-})();
+const HEALTH_CHECK_INTERVAL = 3000;
+const HEALTH_TIMEOUT = 4000;
+const HEALTH_URL = process.env.REACT_APP_API_URL ? `${process.env.REACT_APP_API_URL.replace(/\/api\/v1\/?$/, '')}/health` : '/health';
 
 async function pingBackend() {
   if (typeof navigator !== 'undefined' && navigator.onLine === false) {
