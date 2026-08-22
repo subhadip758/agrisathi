@@ -25,7 +25,7 @@ export const mlApi = axios.create({
 // Request interceptor to add token
 api.interceptors.request.use(
   (config) => {
-    const token = localStorage.getItem('token');
+    const token = localStorage.getItem('token') || localStorage.getItem('agrisathi_token');
     if (token) {
       config.headers.Authorization = `Bearer ${token}`;
     }
@@ -45,13 +45,11 @@ api.interceptors.response.use(
     if (error.response) {
       const { status, data } = error.response;
 
-      // Handle specific error codes
       switch (status) {
         case 401:
-          // Unauthorized - token expired or invalid
+          // Unauthorized - clean expired token without hard breaking UI
           localStorage.removeItem('token');
-          window.location.href = '/login';
-          toast.error('Session expired. Please login again.');
+          localStorage.removeItem('agrisathi_token');
           break;
 
         case 403:
