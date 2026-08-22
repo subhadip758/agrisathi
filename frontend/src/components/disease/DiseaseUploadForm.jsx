@@ -305,22 +305,6 @@ const DiseaseUploadForm = ({ onSubmit, loading }) => {
             className={inputClass}
           />
         </div>
-
-        {/* Gemini API Key */}
-        <div className="col-span-1 md:col-span-2">
-          <label className={labelClass} htmlFor="geminiApiKey">
-            🔑 Gemini API Key <span className="text-gray-400 font-normal">(Optional — For Direct Google AI Vision Power)</span>
-          </label>
-          <input
-            id="geminiApiKey"
-            name="geminiApiKey"
-            type="password"
-            value={cropDetails.geminiApiKey || ''}
-            onChange={handleChange}
-            placeholder="Enter Google AI Studio Key (AIzaSy...)"
-            className={inputClass}
-          />
-        </div>
       </div>
 
       {/* Advanced Soil, Water & Sensor Panel Toggle */}

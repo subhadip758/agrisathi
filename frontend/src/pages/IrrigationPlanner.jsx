@@ -47,6 +47,9 @@ const IrrigationPlanner = () => {
 
   useEffect(() => {
     loadHistory();
+    const handleUpdate = () => loadHistory();
+    window.addEventListener('agrisathi_irrigation_updated', handleUpdate);
+    return () => window.removeEventListener('agrisathi_irrigation_updated', handleUpdate);
   }, [activeTab]);
 
   const handleScheduleReceived = (data) => {
