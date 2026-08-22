@@ -10,32 +10,10 @@
     {
       "source": "/health",
       "destination": "https://fruity-towns-sink.loca.lt/health"
-    }
-  ],
-  "routes": [
-    {
-      "src": "/api/v1/(.*)",
-      "dest": "https://fruity-towns-sink.loca.lt/api/v1/$1"
     },
     {
-      "src": "/health",
-      "dest": "https://fruity-towns-sink.loca.lt/health"
-    },
-    {
-      "src": "/static/(.*)",
-      "dest": "/static/$1"
-    },
-    {
-      "src": "/favicon.ico",
-      "dest": "/favicon.ico"
-    },
-    {
-      "src": "/manifest.json",
-      "dest": "/manifest.json"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
