@@ -124,18 +124,20 @@
     <div id="root"></div>
     
     <script>
-      // Remove loading screen when app is ready
-      window.addEventListener('load', function() {
-        setTimeout(function() {
-          const loadingScreen = document.getElementById('loading-screen');
-          if (loadingScreen) {
-            loadingScreen.classList.add('fade-out');
-            setTimeout(function() {
-              loadingScreen.style.display = 'none';
-            }, 500);
-          }
-        }, 500);
-      });
+      function hideLoadingScreen() {
+        const el = document.getElementById('loading-screen');
+        if (el) {
+          el.style.opacity = '0';
+          setTimeout(function() { if (el && el.parentNode) el.parentNode.removeChild(el); }, 400);
+        }
+      }
+      if (document.readyState === 'complete') {
+        setTimeout(hideLoadingScreen, 200);
+      } else {
+        window.addEventListener('load', function() { setTimeout(hideLoadingScreen, 200); });
+        setTimeout(hideLoadingScreen, 1200);
+      }
+    </script>
       
       // Service Worker Registration (for PWA)
       if ('serviceWorker' in navigator) {

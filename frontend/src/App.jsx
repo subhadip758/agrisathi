@@ -102,7 +102,7 @@ async function pingBackend() {
 }
 
 function App() {
-  const [isOnline, setIsOnline]     = useState(null);
+  const [isOnline, setIsOnline]     = useState(typeof navigator !== 'undefined' ? navigator.onLine : true);
   const [isRetrying, setIsRetrying] = useState(false);
   const [backOnline, setBackOnline] = useState(false);
 
