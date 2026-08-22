@@ -96,18 +96,24 @@ async function pingBackend() {
     const timer = setTimeout(() => controller.abort(), HEALTH_TIMEOUT);
     const res = await fetch(HEALTH_URL, {
       method: 'GET',
+      headers: {
+        'Bypass-Tunnel-Reminder': 'true',
+        'localtunnel-bypass-https': 'true',
+        'ngrok-skip-browser-warning': 'true'
+      },
       signal: controller.signal,
       cache: 'no-store'
     });
     clearTimeout(timer);
-    return res.ok;
+    if (res.ok) return true;
   } catch {
-    return false;
+    // Fallthrough to browser online state when backend health check times out
   }
+  return typeof navigator !== 'undefined' ? navigator.onLine : true;
 }
 
 function App() {
-  const [isOnline, setIsOnline]     = useState(null);
+  const [isOnline, setIsOnline]     = useState(typeof navigator !== 'undefined' ? navigator.onLine : true);
   const [isRetrying, setIsRetrying] = useState(false);
   const [backOnline, setBackOnline] = useState(false);
 

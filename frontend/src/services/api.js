@@ -3,10 +3,13 @@ import { toast } from 'react-toastify';
 
 // Create axios instance for backend API
 const api = axios.create({
-  baseURL: process.env.REACT_APP_API_URL || 'http://localhost:5180/api/v1',
+  baseURL: process.env.REACT_APP_API_URL || 'https://fruity-towns-sink.loca.lt/api/v1',
   timeout: 120000, 
   headers: {
     'Content-Type': 'application/json',
+    'Bypass-Tunnel-Reminder': 'true',
+    'localtunnel-bypass-https': 'true',
+    'ngrok-skip-browser-warning': 'true'
   },
 });
 
